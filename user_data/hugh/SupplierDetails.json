@@ -1,0 +1,377 @@
+[
+  {
+    "Name": "In House",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR",
+            ">4mm": "S275"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251",
+          "7075"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304"
+        ]
+      }
+    ],
+    "Process": [
+      "Plasma",
+      {
+        "Hole_Thk_Ratio": 40
+      },
+      {
+        "Max Sheet Length": "3m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      }
+    ],
+    "3D Fold": "True",
+    "Folding": "True",
+    "Etch": "True",
+    "Tap": "True"
+  },
+  {
+    "Name": "LGM",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR",
+            ">4mm": "S275"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251",
+          "7075"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304"
+        ]
+      }
+    ],
+    "Process": [
+      "Laser",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "3m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      }
+    ],
+    "3D Fold": "True",
+    "Folding": "True",
+    "Etch": "True",
+    "Tap": "True"
+  },
+  {
+    "Name": "SORB",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR4",
+            ">4mm": "HR"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251(NS4)"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304 2B"
+        ]
+      }
+    ],
+    "Process": [
+      "Laser",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "3m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      }
+    ],
+    "3D Fold": "True",
+    "Folding": "True",
+    "Etch": "True",
+    "Tap": "True"
+  },
+  {
+    "Name": "DMS",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR",
+            ">4mm": "S275"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251(NS4)"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304 2B"
+        ]
+      }
+    ],
+    "Process": [
+      "Laser",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "3m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      }
+    ],
+    "3D Fold": "True",
+    "Folding": "True",
+    "Etch": "True",
+    "Tap": "True"
+  },
+  {
+    "Name": "LASERSHAPE",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR",
+            ">4mm": "S275"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251(NS4)"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304 2B"
+        ]
+      }
+    ],
+    "Process": [
+      "Laser",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "4m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      },
+      "Waterjet",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "4m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "150mm"
+      }
+    ],
+    "3D Fold": "True",
+    "Folding": "True",
+    "Etch": "True",
+    "Tap": "True"
+  },
+  {
+    "Name": "BGI",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR",
+            ">4mm": "S275"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251(NS4)"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304 2B"
+        ]
+      }
+    ],
+    "Process": [
+      "Laser",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "3m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      }
+    ],
+    "3D Fold": "False",
+    "Folding": "True",
+    "Etch": "True",
+    "Tap": "True"
+  },
+  {
+    "Name": "LONDON WATERJET",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR",
+            ">4mm": "S275"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251(NS4)"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304 2B"
+        ]
+      }
+    ],
+    "Process": [
+      "Waterjet",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "3m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      }
+    ],
+    "3D Fold": "False",
+    "Folding": "False",
+    "Etch": "False",
+    "Tap": "False"
+  },
+  {
+    "Name": "CUSTOM WATERJET",
+    "Materials": [
+      {
+        "Name": "Steel",
+        "Grades": [
+          {
+            "<4mm": "CR",
+            ">4mm": "S275"
+          }
+        ]
+      },
+      {
+        "Name": "Aluminium",
+        "Grades": [
+          "5251(NS4)"
+        ]
+      },
+      {
+        "Name": "Stainless Steel",
+        "Grades": [
+          "304 2B"
+        ]
+      }
+    ],
+    "Process": [
+      "Waterjet",
+      {
+        "Hole_Thk_Ratio": 1
+      },
+      {
+        "Max Sheet Length": "3m"
+      },
+      {
+        "Max Sheet Width": "2m"
+      },
+      {
+        "Max thickness": "25mm"
+      }
+    ],
+    "3D Fold": "False",
+    "Folding": "False",
+    "Etch": "False",
+    "Tap": "False"
+  }
+]
