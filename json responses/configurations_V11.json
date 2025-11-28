@@ -1,0 +1,193 @@
+{
+  "btType": "BTConfigurationResponse-2019",
+  "rejectMicroversionSkew": false,
+  "microversionSkew": false,
+  "currentConfiguration": [],
+  "configurationParameters": [
+    {
+      "btType": "BTMConfigurationParameterEnum-105",
+      "parameterId": "List_YnplrZu90sjZkj",
+      "enumName": "List_YnplrZu90sjZkj_conf",
+      "enumOptionVisibilityConditions": {
+        "btType": "BTEnumOptionVisibilityConditionList-2936",
+        "visibilityConditions": []
+      },
+      "isCosmetic": false,
+      "defaultValue": "Default",
+      "namespace": "",
+      "options": [
+        {
+          "btType": "BTMEnumOption-592",
+          "optionName": "Default",
+          "option": "Default",
+          "nodeId": "MOMzZvmPsYb2DvP7E"
+        },
+        {
+          "btType": "BTMEnumOption-592",
+          "optionName": "List 2 - V1",
+          "option": "List_2___V1",
+          "nodeId": "MqOU7868X7aWaT6Gv"
+        },
+        {
+          "btType": "BTMEnumOption-592",
+          "optionName": "List 2 - V2",
+          "option": "List_2___V2",
+          "nodeId": "M+hCD8TZ6Jcs2JMp5"
+        },
+        {
+          "btType": "BTMEnumOption-592",
+          "optionName": "List 2 - V3",
+          "option": "List_2___V3",
+          "nodeId": "MmcSCX3yaRgB8VAGy"
+        }
+      ],
+      "nodeId": "MinnYnN7Sry2AYyl+",
+      "parameterName": "List Input 2",
+      "visibilityCondition": {
+        "btType": "BTParameterVisibilityCondition-177"
+      }
+    },
+    {
+      "btType": "BTMConfigurationParameterBoolean-2550",
+      "parameterId": "Boolean1",
+      "isCosmetic": false,
+      "defaultValue": true,
+      "nodeId": "MxZSFXwGNH71/xWpl",
+      "parameterName": "Boolean1",
+      "visibilityCondition": {
+        "btType": "BTParameterVisibilityCondition-177"
+      }
+    },
+    {
+      "btType": "BTMConfigurationParameterBoolean-2550",
+      "parameterId": "Boolean_2",
+      "isCosmetic": false,
+      "defaultValue": true,
+      "nodeId": "Mf2hZPV/iiPhkNCDZ",
+      "parameterName": "Boolean 2",
+      "visibilityCondition": {
+        "btType": "BTParameterVisibilityCondition-177"
+      }
+    },
+    {
+      "btType": "BTMConfigurationParameterEnum-105",
+      "parameterId": "List_yKnxHvjluSiK8J",
+      "enumName": "List_yKnxHvjluSiK8J_conf",
+      "enumOptionVisibilityConditions": {
+        "btType": "BTEnumOptionVisibilityConditionList-2936",
+        "visibilityConditions": []
+      },
+      "isCosmetic": false,
+      "defaultValue": "Default",
+      "namespace": "",
+      "options": [
+        {
+          "btType": "BTMEnumOption-592",
+          "optionName": "Default",
+          "option": "Default",
+          "nodeId": "MXRa8fWHr5xj0AJtv"
+        },
+        {
+          "btType": "BTMEnumOption-592",
+          "optionName": "List 1 - V4",
+          "option": "List_1___V4",
+          "nodeId": "MnH19EAe7r5cIAmph"
+        },
+        {
+          "btType": "BTMEnumOption-592",
+          "optionName": "List 1 - V5",
+          "option": "List_1___V5",
+          "nodeId": "MPjhUByS6KA2sdxm2"
+        }
+      ],
+      "nodeId": "MSHfTa5XreZi1YaTQ",
+      "parameterName": "List input 1",
+      "visibilityCondition": {
+        "btType": "BTParameterVisibilityCondition-177"
+      }
+    },
+    {
+      "btType": "BTMConfigurationParameterQuantity-1826",
+      "isCosmetic": false,
+      "rangeAndDefault": {
+        "btType": "BTQuantityRange-181",
+        "defaultValue": 1,
+        "minValue": 0,
+        "maxValue": 100000,
+        "location": {
+          "btType": "BTLocationInfo-226",
+          "line": 0,
+          "endColumn": 0,
+          "languageVersion": 0,
+          "character": 0,
+          "parseNodeId": "",
+          "endCharacter": 0,
+          "column": 0,
+          "moduleIds": {
+            "btType": "BTDocumentVersionElementIds-1897",
+            "documentId": "",
+            "elementId": "",
+            "versionId": ""
+          },
+          "endLine": 0,
+          "version": "",
+          "document": "",
+          "elementMicroversion": "",
+          "nodeId": "E9067bE1mt++6Aso",
+          "topLevel": ""
+        },
+        "units": "millimeter"
+      },
+      "nodeId": "MX+A3oi7chSiy61/D",
+      "parameterId": "Var1",
+      "quantityType": "LENGTH",
+      "parameterName": "Var1",
+      "visibilityCondition": {
+        "btType": "BTParameterVisibilityCondition-177"
+      }
+    },
+    {
+      "btType": "BTMConfigurationParameterQuantity-1826",
+      "isCosmetic": false,
+      "rangeAndDefault": {
+        "btType": "BTQuantityRange-181",
+        "defaultValue": 1,
+        "minValue": 0,
+        "maxValue": 100000,
+        "location": {
+          "btType": "BTLocationInfo-226",
+          "line": 0,
+          "endColumn": 0,
+          "languageVersion": 0,
+          "character": 0,
+          "parseNodeId": "",
+          "endCharacter": 0,
+          "column": 0,
+          "moduleIds": {
+            "btType": "BTDocumentVersionElementIds-1897",
+            "documentId": "",
+            "elementId": "",
+            "versionId": ""
+          },
+          "endLine": 0,
+          "version": "",
+          "document": "",
+          "elementMicroversion": "",
+          "nodeId": "In6yZiWtcflQZ86c",
+          "topLevel": ""
+        },
+        "units": "millimeter"
+      },
+      "nodeId": "MzkGoLTTY14EvtDxJ",
+      "parameterId": "Var2",
+      "quantityType": "LENGTH",
+      "parameterName": "Var2",
+      "visibilityCondition": {
+        "btType": "BTParameterVisibilityCondition-177"
+      }
+    }
+  ],
+  "libraryVersion": 2695,
+  "serializationVersion": "1.2.11",
+  "sourceMicroversion": "936dc38e5a2dce99dcf2dc86"
+}

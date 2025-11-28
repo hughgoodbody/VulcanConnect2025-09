@@ -1,0 +1,743 @@
+{
+  "rows": [
+    {
+      "itemSource": {
+        "sourceElementMicroversionId": "ea3b8a2bc2252f10d0b8cd24",
+        "fullConfiguration": "default",
+        "viewHref": "https://cad.onshape.com/documents/b86b36176abab19222a08b65/w/eff05c25870425deb186d6fc/e/bd29fbb9ec9c7aaf7d44b2f7?configuration=default",
+        "configuration": "default",
+        "documentId": "b86b36176abab19222a08b65",
+        "elementId": "bd29fbb9ec9c7aaf7d44b2f7",
+        "partId": "J1D",
+        "wvmType": "w",
+        "wvmId": "eff05c25870425deb186d6fc",
+        "isStandardContent": false
+      },
+      "rowId": "ff1c6e82d53351be8b99c44a",
+      "relatedOccurrences": [
+        "MMyF7C1rIANZ7chql"
+      ],
+      "indentLevel": 0,
+      "headerIdToValue": {
+        "5cb087518b508716ef66a773": "N/A",
+        "57f3fb8efa3416c06701d628": null,
+        "57f3fb8efa3416c06701d61e": false,
+        "57f3fb8efa3416c06701d61d": false,
+        "5f3e123793474711f1a244eb": null,
+        "5f40b4801b7a3c14ed01c59b": false,
+        "66c89285f1a5944e7ccc65ac": null,
+        "57f3fb8efa3416c06701d615": null,
+        "57f3fb8efa3416c06701d613": null,
+        "5ace84d3c046ad611c65a0dd": 1,
+        "57f3fb8efa3416c06701d611": "In progress",
+        "57f3fb8efa3416c06701d633": "N/A",
+        "57f3fb8efa3416c06701d610": null,
+        "5cb0870bbd9fb41783fdeac8": null,
+        "66c2ec3bf7a696613af37f7c": null,
+        "57f3fb8efa3416c06701d60d": "Composite part 1",
+        "57f3fb8efa3416c06701d60e": null,
+        "57f3fb8efa3416c06701d60c": {
+          "opacity": 255,
+          "isGenerated": true,
+          "color": {
+            "green": 165,
+            "blue": 165,
+            "red": 165
+          }
+        },
+        "604b11eda7f8f214f5850372": false,
+        "66c2ec9fbd44901870681756": null,
+        "66c4bcdaf7a696613a47dfa5": null,
+        "57f3fb8efa3416c06701d60f": "COMPOSITE PN",
+        "5ace8269c046ad612c65a0ba": "1",
+        "57f3fb8efa3416c06701d626": null,
+        "57f3fb8efa3416c06701d627": null,
+        "5ace8269c046ad612c65a0bb": "Auto",
+        "5f3e85aa9cfead14fbe96d40": null,
+        "57f3fb8efa3416c06701d625": [
+          {
+            "memberCategoryIds": [
+              "5877a03ebe4c21163b49dce2"
+            ],
+            "memberCategories": [
+              {
+                "objectTypes": [
+                  2
+                ],
+                "publishState": 1,
+                "defaultObjectType": 2,
+                "ownerType": 2,
+                "ownerId": "556f3109e4b00b3fee9a3f4a",
+                "description": "Category created by upgrade",
+                "name": "Onshape Part",
+                "id": "5877a03ebe4c21163b49dce2",
+                "href": null
+              }
+            ],
+            "objectTypes": [
+              2
+            ],
+            "publishState": 1,
+            "defaultObjectType": 2,
+            "ownerType": 1,
+            "ownerId": "59760381894b430fdea40993",
+            "description": "Category created by upgrade",
+            "name": "Part",
+            "id": "59788740897b48100f5108a6",
+            "href": null
+          }
+        ],
+        "57f3fb8efa3416c06701d623": "Each"
+      }
+    },
+    {
+      "itemSource": {
+        "sourceElementMicroversionId": "ea3b8a2bc2252f10d0b8cd24",
+        "fullConfiguration": "default",
+        "viewHref": "https://cad.onshape.com/documents/b86b36176abab19222a08b65/w/eff05c25870425deb186d6fc/e/bd29fbb9ec9c7aaf7d44b2f7?configuration=default",
+        "configuration": "default",
+        "documentId": "b86b36176abab19222a08b65",
+        "elementId": "bd29fbb9ec9c7aaf7d44b2f7",
+        "partId": "J2D",
+        "wvmType": "w",
+        "wvmId": "eff05c25870425deb186d6fc",
+        "isStandardContent": false
+      },
+      "relatedOccurrences": [
+        "MoJbLjag7NtxhKueC"
+      ],
+      "indentLevel": 0,
+      "headerIdToValue": {
+        "5cb087518b508716ef66a773": "N/A",
+        "57f3fb8efa3416c06701d628": null,
+        "57f3fb8efa3416c06701d61e": false,
+        "57f3fb8efa3416c06701d61d": false,
+        "5f3e123793474711f1a244eb": null,
+        "5f40b4801b7a3c14ed01c59b": false,
+        "66c89285f1a5944e7ccc65ac": null,
+        "57f3fb8efa3416c06701d615": null,
+        "57f3fb8efa3416c06701d613": null,
+        "5ace84d3c046ad611c65a0dd": 1,
+        "57f3fb8efa3416c06701d611": "In progress",
+        "57f3fb8efa3416c06701d633": "N/A",
+        "57f3fb8efa3416c06701d610": null,
+        "5cb0870bbd9fb41783fdeac8": null,
+        "66c2ec3bf7a696613af37f7c": null,
+        "57f3fb8efa3416c06701d60d": "Composite part 2",
+        "57f3fb8efa3416c06701d60e": null,
+        "57f3fb8efa3416c06701d60c": {
+          "opacity": 255,
+          "isGenerated": true,
+          "color": {
+            "green": 234,
+            "blue": 234,
+            "red": 234
+          }
+        },
+        "604b11eda7f8f214f5850372": false,
+        "66c2ec9fbd44901870681756": null,
+        "66c4bcdaf7a696613a47dfa5": null,
+        "57f3fb8efa3416c06701d60f": null,
+        "5ace8269c046ad612c65a0ba": "2",
+        "57f3fb8efa3416c06701d626": null,
+        "57f3fb8efa3416c06701d627": null,
+        "5ace8269c046ad612c65a0bb": "Auto",
+        "5f3e85aa9cfead14fbe96d40": null,
+        "57f3fb8efa3416c06701d625": [
+          {
+            "memberCategoryIds": [
+              "5877a03ebe4c21163b49dce2"
+            ],
+            "memberCategories": [
+              {
+                "objectTypes": [
+                  2
+                ],
+                "publishState": 1,
+                "defaultObjectType": 2,
+                "ownerType": 2,
+                "ownerId": "556f3109e4b00b3fee9a3f4a",
+                "description": "Category created by upgrade",
+                "name": "Onshape Part",
+                "id": "5877a03ebe4c21163b49dce2",
+                "href": null
+              }
+            ],
+            "objectTypes": [
+              2
+            ],
+            "publishState": 1,
+            "defaultObjectType": 2,
+            "ownerType": 1,
+            "ownerId": "59760381894b430fdea40993",
+            "description": "Category created by upgrade",
+            "name": "Part",
+            "id": "59788740897b48100f5108a6",
+            "href": null
+          }
+        ],
+        "57f3fb8efa3416c06701d623": "Each"
+      }
+    },
+    {
+      "itemSource": {
+        "sourceElementMicroversionId": "ea3b8a2bc2252f10d0b8cd24",
+        "fullConfiguration": "default",
+        "viewHref": "https://cad.onshape.com/documents/b86b36176abab19222a08b65/w/eff05c25870425deb186d6fc/e/bd29fbb9ec9c7aaf7d44b2f7?configuration=default",
+        "configuration": "default",
+        "documentId": "b86b36176abab19222a08b65",
+        "elementId": "bd29fbb9ec9c7aaf7d44b2f7",
+        "partId": "J3D",
+        "wvmType": "w",
+        "wvmId": "eff05c25870425deb186d6fc",
+        "isStandardContent": false
+      },
+      "relatedOccurrences": [
+        "MFk0SDpyZEi8XA1nu"
+      ],
+      "indentLevel": 0,
+      "headerIdToValue": {
+        "5cb087518b508716ef66a773": "N/A",
+        "57f3fb8efa3416c06701d628": null,
+        "57f3fb8efa3416c06701d61e": false,
+        "57f3fb8efa3416c06701d61d": false,
+        "5f3e123793474711f1a244eb": null,
+        "5f40b4801b7a3c14ed01c59b": false,
+        "66c89285f1a5944e7ccc65ac": null,
+        "57f3fb8efa3416c06701d615": null,
+        "57f3fb8efa3416c06701d613": null,
+        "5ace84d3c046ad611c65a0dd": 1,
+        "57f3fb8efa3416c06701d611": "In progress",
+        "57f3fb8efa3416c06701d633": "N/A",
+        "57f3fb8efa3416c06701d610": null,
+        "5cb0870bbd9fb41783fdeac8": null,
+        "66c2ec3bf7a696613af37f7c": null,
+        "57f3fb8efa3416c06701d60d": "Composite part 3",
+        "57f3fb8efa3416c06701d60e": null,
+        "57f3fb8efa3416c06701d60c": {
+          "opacity": 255,
+          "isGenerated": true,
+          "color": {
+            "green": 234,
+            "blue": 234,
+            "red": 234
+          }
+        },
+        "604b11eda7f8f214f5850372": false,
+        "66c2ec9fbd44901870681756": null,
+        "66c4bcdaf7a696613a47dfa5": null,
+        "57f3fb8efa3416c06701d60f": null,
+        "5ace8269c046ad612c65a0ba": "3",
+        "57f3fb8efa3416c06701d626": null,
+        "57f3fb8efa3416c06701d627": null,
+        "5ace8269c046ad612c65a0bb": "Auto",
+        "5f3e85aa9cfead14fbe96d40": null,
+        "57f3fb8efa3416c06701d625": [
+          {
+            "memberCategoryIds": [
+              "5877a03ebe4c21163b49dce2"
+            ],
+            "memberCategories": [
+              {
+                "objectTypes": [
+                  2
+                ],
+                "publishState": 1,
+                "defaultObjectType": 2,
+                "ownerType": 2,
+                "ownerId": "556f3109e4b00b3fee9a3f4a",
+                "description": "Category created by upgrade",
+                "name": "Onshape Part",
+                "id": "5877a03ebe4c21163b49dce2",
+                "href": null
+              }
+            ],
+            "objectTypes": [
+              2
+            ],
+            "publishState": 1,
+            "defaultObjectType": 2,
+            "ownerType": 1,
+            "ownerId": "59760381894b430fdea40993",
+            "description": "Category created by upgrade",
+            "name": "Part",
+            "id": "59788740897b48100f5108a6",
+            "href": null
+          }
+        ],
+        "57f3fb8efa3416c06701d623": "Each"
+      }
+    },
+    {
+      "itemSource": {
+        "sourceElementMicroversionId": "ea3b8a2bc2252f10d0b8cd24",
+        "fullConfiguration": "default",
+        "viewHref": "https://cad.onshape.com/documents/b86b36176abab19222a08b65/w/eff05c25870425deb186d6fc/e/bd29fbb9ec9c7aaf7d44b2f7?configuration=default",
+        "configuration": "default",
+        "documentId": "b86b36176abab19222a08b65",
+        "elementId": "bd29fbb9ec9c7aaf7d44b2f7",
+        "partId": "JwD",
+        "wvmType": "w",
+        "wvmId": "eff05c25870425deb186d6fc",
+        "isStandardContent": false
+      },
+      "rowId": "7962a7ffc7e14701ebf9e224",
+      "relatedOccurrences": [
+        "MmvnjZXYm4OGxnv0E"
+      ],
+      "indentLevel": 0,
+      "headerIdToValue": {
+        "5cb087518b508716ef66a773": "N/A",
+        "57f3fb8efa3416c06701d628": null,
+        "57f3fb8efa3416c06701d61e": false,
+        "57f3fb8efa3416c06701d61d": false,
+        "5f3e123793474711f1a244eb": null,
+        "5f40b4801b7a3c14ed01c59b": false,
+        "66c89285f1a5944e7ccc65ac": null,
+        "57f3fb8efa3416c06701d615": null,
+        "57f3fb8efa3416c06701d613": null,
+        "5ace84d3c046ad611c65a0dd": 1,
+        "57f3fb8efa3416c06701d611": "In progress",
+        "57f3fb8efa3416c06701d633": "N/A",
+        "57f3fb8efa3416c06701d610": null,
+        "5cb0870bbd9fb41783fdeac8": null,
+        "66c2ec3bf7a696613af37f7c": null,
+        "57f3fb8efa3416c06701d60d": "Part 4",
+        "57f3fb8efa3416c06701d60e": null,
+        "57f3fb8efa3416c06701d60c": {
+          "opacity": 255,
+          "isGenerated": true,
+          "color": {
+            "green": 97,
+            "blue": 180,
+            "red": 59
+          }
+        },
+        "604b11eda7f8f214f5850372": false,
+        "66c2ec9fbd44901870681756": null,
+        "66c4bcdaf7a696613a47dfa5": null,
+        "57f3fb8efa3416c06701d60f": "SINGLE PN",
+        "5ace8269c046ad612c65a0ba": "4",
+        "57f3fb8efa3416c06701d626": null,
+        "57f3fb8efa3416c06701d627": null,
+        "5ace8269c046ad612c65a0bb": "Auto",
+        "5f3e85aa9cfead14fbe96d40": null,
+        "57f3fb8efa3416c06701d625": [
+          {
+            "memberCategoryIds": [
+              "5877a03ebe4c21163b49dce2"
+            ],
+            "memberCategories": [
+              {
+                "objectTypes": [
+                  2
+                ],
+                "publishState": 1,
+                "defaultObjectType": 2,
+                "ownerType": 2,
+                "ownerId": "556f3109e4b00b3fee9a3f4a",
+                "description": "Category created by upgrade",
+                "name": "Onshape Part",
+                "id": "5877a03ebe4c21163b49dce2",
+                "href": null
+              }
+            ],
+            "objectTypes": [
+              2
+            ],
+            "publishState": 1,
+            "defaultObjectType": 2,
+            "ownerType": 1,
+            "ownerId": "59760381894b430fdea40993",
+            "description": "Category created by upgrade",
+            "name": "Part",
+            "id": "59788740897b48100f5108a6",
+            "href": null
+          }
+        ],
+        "57f3fb8efa3416c06701d623": "Each"
+      }
+    },
+    {
+      "itemSource": {
+        "sourceElementMicroversionId": "ea3b8a2bc2252f10d0b8cd24",
+        "fullConfiguration": "default",
+        "viewHref": "https://cad.onshape.com/documents/b86b36176abab19222a08b65/w/eff05c25870425deb186d6fc/e/bd29fbb9ec9c7aaf7d44b2f7?configuration=default",
+        "configuration": "default",
+        "documentId": "b86b36176abab19222a08b65",
+        "elementId": "bd29fbb9ec9c7aaf7d44b2f7",
+        "partId": "JyD",
+        "wvmType": "w",
+        "wvmId": "eff05c25870425deb186d6fc",
+        "isStandardContent": false
+      },
+      "rowId": "7962a7ffc7e14701ebf9e224",
+      "relatedOccurrences": [
+        "M2LM1Vrhd+h+j2QCg"
+      ],
+      "indentLevel": 0,
+      "headerIdToValue": {
+        "5cb087518b508716ef66a773": "N/A",
+        "57f3fb8efa3416c06701d628": null,
+        "57f3fb8efa3416c06701d61e": false,
+        "57f3fb8efa3416c06701d61d": false,
+        "5f3e123793474711f1a244eb": null,
+        "5f40b4801b7a3c14ed01c59b": false,
+        "66c89285f1a5944e7ccc65ac": null,
+        "57f3fb8efa3416c06701d615": null,
+        "57f3fb8efa3416c06701d613": null,
+        "5ace84d3c046ad611c65a0dd": 1,
+        "57f3fb8efa3416c06701d611": "In progress",
+        "57f3fb8efa3416c06701d633": "N/A",
+        "57f3fb8efa3416c06701d610": null,
+        "5cb0870bbd9fb41783fdeac8": null,
+        "66c2ec3bf7a696613af37f7c": null,
+        "57f3fb8efa3416c06701d60d": "Part 5",
+        "57f3fb8efa3416c06701d60e": null,
+        "57f3fb8efa3416c06701d60c": {
+          "opacity": 255,
+          "isGenerated": true,
+          "color": {
+            "green": 97,
+            "blue": 180,
+            "red": 59
+          }
+        },
+        "604b11eda7f8f214f5850372": false,
+        "66c2ec9fbd44901870681756": null,
+        "66c4bcdaf7a696613a47dfa5": null,
+        "57f3fb8efa3416c06701d60f": "SINGLE PN",
+        "5ace8269c046ad612c65a0ba": "5",
+        "57f3fb8efa3416c06701d626": null,
+        "57f3fb8efa3416c06701d627": null,
+        "5ace8269c046ad612c65a0bb": "Auto",
+        "5f3e85aa9cfead14fbe96d40": null,
+        "57f3fb8efa3416c06701d625": [
+          {
+            "memberCategoryIds": [
+              "5877a03ebe4c21163b49dce2"
+            ],
+            "memberCategories": [
+              {
+                "objectTypes": [
+                  2
+                ],
+                "publishState": 1,
+                "defaultObjectType": 2,
+                "ownerType": 2,
+                "ownerId": "556f3109e4b00b3fee9a3f4a",
+                "description": "Category created by upgrade",
+                "name": "Onshape Part",
+                "id": "5877a03ebe4c21163b49dce2",
+                "href": null
+              }
+            ],
+            "objectTypes": [
+              2
+            ],
+            "publishState": 1,
+            "defaultObjectType": 2,
+            "ownerType": 1,
+            "ownerId": "59760381894b430fdea40993",
+            "description": "Category created by upgrade",
+            "name": "Part",
+            "id": "59788740897b48100f5108a6",
+            "href": null
+          }
+        ],
+        "57f3fb8efa3416c06701d623": "Each"
+      }
+    }
+  ],
+  "formatVersion": "2.1",
+  "bomSource": {
+    "viewHref": "https://cad.onshape.com/documents/b86b36176abab19222a08b65/w/eff05c25870425deb186d6fc/e/16d4fc235a86612d2290645b?configuration=current",
+    "document": {
+      "name": "Frame Cutlist Search for API App",
+      "id": "b86b36176abab19222a08b65"
+    },
+    "element": {
+      "configuration": "current",
+      "headerIdToValue": {
+        "5cb087518b508716ef66a773": null,
+        "57f3fb8efa3416c06701d628": null,
+        "57f3fb8efa3416c06701d61e": false,
+        "57f3fb8efa3416c06701d61d": false,
+        "5f3e123793474711f1a244eb": null,
+        "5f40b4801b7a3c14ed01c59b": false,
+        "66c89285f1a5944e7ccc65ac": null,
+        "57f3fb8efa3416c06701d615": null,
+        "57f3fb8efa3416c06701d613": null,
+        "5ace84d3c046ad611c65a0dd": null,
+        "57f3fb8efa3416c06701d611": "In progress",
+        "57f3fb8efa3416c06701d633": "Show Assembly and components",
+        "57f3fb8efa3416c06701d610": null,
+        "5cb0870bbd9fb41783fdeac8": null,
+        "66c2ec3bf7a696613af37f7c": null,
+        "57f3fb8efa3416c06701d60d": "Assembly 2",
+        "57f3fb8efa3416c06701d60e": null,
+        "57f3fb8efa3416c06701d60c": null,
+        "604b11eda7f8f214f5850372": false,
+        "66c2ec9fbd44901870681756": null,
+        "66c4bcdaf7a696613a47dfa5": null,
+        "57f3fb8efa3416c06701d60f": null,
+        "5ace8269c046ad612c65a0ba": null,
+        "57f3fb8efa3416c06701d626": null,
+        "57f3fb8efa3416c06701d627": null,
+        "5ace8269c046ad612c65a0bb": "Auto",
+        "5f3e85aa9cfead14fbe96d40": null,
+        "57f3fb8efa3416c06701d625": [
+          {
+            "memberCategoryIds": [
+              "5877a03ebe4c21163b49dce3"
+            ],
+            "memberCategories": [
+              {
+                "objectTypes": [
+                  3
+                ],
+                "publishState": 1,
+                "defaultObjectType": 3,
+                "ownerType": 2,
+                "ownerId": "556f3109e4b00b3fee9a3f4a",
+                "description": "Category created by upgrade",
+                "name": "Onshape Assembly",
+                "id": "5877a03ebe4c21163b49dce3",
+                "href": null
+              }
+            ],
+            "objectTypes": [
+              3
+            ],
+            "publishState": 1,
+            "defaultObjectType": 3,
+            "ownerType": 1,
+            "ownerId": "59760381894b430fdea40993",
+            "description": "Category created by upgrade",
+            "name": "Assembly",
+            "id": "5978874064cb811024587afe",
+            "href": null
+          }
+        ],
+        "57f3fb8efa3416c06701d623": "Each"
+      },
+      "name": "Assembly 2",
+      "id": "16d4fc235a86612d2290645b"
+    },
+    "workspace": {
+      "name": "Main",
+      "id": "eff05c25870425deb186d6fc"
+    },
+    "href": "https://cad.onshape.com/api/assemblies/d/b86b36176abab19222a08b65/w/eff05c25870425deb186d6fc/e/16d4fc235a86612d2290645b?configuration=current"
+  },
+  "type": "topLevel",
+  "createdAt": "2025-07-25T14:28:54.807Z",
+  "templateId": "dc9153301b06a1d59d889555",
+  "headers": [
+    {
+      "propertyName": "item",
+      "visible": true,
+      "valueType": "STRING",
+      "name": "Item",
+      "id": "5ace8269c046ad612c65a0ba"
+    },
+    {
+      "propertyName": "name",
+      "visible": true,
+      "valueType": "STRING",
+      "name": "Name",
+      "id": "57f3fb8efa3416c06701d60d"
+    },
+    {
+      "propertyName": "partNumber",
+      "visible": true,
+      "valueType": "STRING",
+      "name": "Part number",
+      "id": "57f3fb8efa3416c06701d60f"
+    },
+    {
+      "propertyName": "description",
+      "visible": true,
+      "valueType": "STRING",
+      "name": "Description",
+      "id": "57f3fb8efa3416c06701d60e"
+    },
+    {
+      "propertyName": "quantity",
+      "visible": true,
+      "valueType": "DOUBLE",
+      "name": "Quantity",
+      "id": "5ace84d3c046ad611c65a0dd"
+    },
+    {
+      "propertyName": "appearance",
+      "visible": false,
+      "valueType": "OBJECT",
+      "name": "Appearance",
+      "id": "57f3fb8efa3416c06701d60c"
+    },
+    {
+      "propertyName": "revision",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "Revision",
+      "id": "57f3fb8efa3416c06701d610"
+    },
+    {
+      "propertyName": "state",
+      "visible": false,
+      "valueType": "ENUM",
+      "name": "State",
+      "id": "57f3fb8efa3416c06701d611"
+    },
+    {
+      "propertyName": "project",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "Project",
+      "id": "57f3fb8efa3416c06701d613"
+    },
+    {
+      "propertyName": "material",
+      "visible": false,
+      "valueType": "OBJECT",
+      "name": "Material",
+      "id": "57f3fb8efa3416c06701d615"
+    },
+    {
+      "propertyName": "notRevisionManaged",
+      "visible": false,
+      "valueType": "BOOL",
+      "name": "Not revision managed",
+      "id": "57f3fb8efa3416c06701d61d"
+    },
+    {
+      "propertyName": "excludeFromBom",
+      "visible": false,
+      "valueType": "BOOL",
+      "name": "Exclude from all BOMs",
+      "id": "57f3fb8efa3416c06701d61e"
+    },
+    {
+      "propertyName": "57f3fb8efa3416c06701d623",
+      "visible": false,
+      "valueType": "ENUM",
+      "name": "Unit of measure",
+      "id": "57f3fb8efa3416c06701d623"
+    },
+    {
+      "propertyName": "category",
+      "visible": false,
+      "valueType": "CATEGORY",
+      "name": "Category",
+      "id": "57f3fb8efa3416c06701d625"
+    },
+    {
+      "propertyName": "57f3fb8efa3416c06701d626",
+      "visible": false,
+      "valueType": "VALUE_WITH_UNITS",
+      "name": "Mass",
+      "id": "57f3fb8efa3416c06701d626"
+    },
+    {
+      "propertyName": "57f3fb8efa3416c06701d627",
+      "visible": false,
+      "valueType": "COMPUTED",
+      "name": "Center of mass",
+      "id": "57f3fb8efa3416c06701d627"
+    },
+    {
+      "propertyName": "57f3fb8efa3416c06701d628",
+      "visible": false,
+      "valueType": "COMPUTED",
+      "name": "Inertia",
+      "id": "57f3fb8efa3416c06701d628"
+    },
+    {
+      "propertyName": "bomBehavior",
+      "visible": false,
+      "valueType": "ENUM",
+      "name": "Subassembly BOM behavior",
+      "id": "57f3fb8efa3416c06701d633"
+    },
+    {
+      "propertyName": "5ace8269c046ad612c65a0bb",
+      "visible": false,
+      "valueType": "ENUM",
+      "name": "Tessellation quality",
+      "id": "5ace8269c046ad612c65a0bb"
+    },
+    {
+      "propertyName": "supplier",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "Supplier",
+      "id": "5cb0870bbd9fb41783fdeac8"
+    },
+    {
+      "propertyName": "manufacturer",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "Manufacturer",
+      "id": "5cb087518b508716ef66a773"
+    },
+    {
+      "propertyName": "vcprofileid",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "VC_ProfileID",
+      "id": "5f3e123793474711f1a244eb"
+    },
+    {
+      "propertyName": "vcvpid",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "VC_VPID",
+      "id": "5f3e85aa9cfead14fbe96d40"
+    },
+    {
+      "propertyName": "excludefromlasersearch",
+      "visible": false,
+      "valueType": "BOOL",
+      "name": "Exclude From Laser Search",
+      "id": "5f40b4801b7a3c14ed01c59b"
+    },
+    {
+      "propertyName": "laserexport",
+      "visible": false,
+      "valueType": "BOOL",
+      "name": "Laser Export",
+      "id": "604b11eda7f8f214f5850372"
+    },
+    {
+      "propertyName": "primitivebodypartnumber",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "Primitive Body Part Number",
+      "id": "66c2ec3bf7a696613af37f7c"
+    },
+    {
+      "propertyName": "compositebodypartnumber",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "Composite Body Part Number",
+      "id": "66c2ec9fbd44901870681756"
+    },
+    {
+      "propertyName": "framequantity",
+      "visible": false,
+      "valueType": "INT",
+      "name": "Frame Quantity",
+      "id": "66c4bcdaf7a696613a47dfa5"
+    },
+    {
+      "propertyName": "apistore1",
+      "visible": false,
+      "valueType": "STRING",
+      "name": "API Store 1",
+      "id": "66c89285f1a5944e7ccc65ac"
+    }
+  ],
+  "name": "BOM : Assembly 2",
+  "id": "0009d248c17d41d4c045f6e1"
+}

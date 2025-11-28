@@ -1,0 +1,2512 @@
+[
+  {
+    "name": "Part 1",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JHD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&1bb$eJx9UEtTwjAQ/jPrUYY+Lcc+AnaUliZRwUsnJZEGgdQ0HeHf09IZL85w3P12v9dD5EHRCX1ZesSygcuWHSu565iR6pQww0Jraf9H6KURxHIgx+kizcLXMkErlCUoizdkBkrLnTyxQxu68bQnZiBORprL8BUxQH8DcQElC0QqqGVrlB6XAcQYhTTNsx5QjdA3yZRHNqQ8tIhlTXyYY79ge7rLUBTUb7Sc/kot8qZX/xni3Ig4kBdE4+cSZTSlGyKg/RZmW48GUk62PVH7rpe8CaL92g0rZYw6Dp6xiz3s4yccYIYrvMWcPFr2xAGjmju4CwfxZe4ceNB3Uxvsxn4fPsqTzXgUV2OwGcyLrl4Lp8hnztlpP8upatDZ6I4LXPVNkg+0ouXweAWpY46F\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": true,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 0,
+    "defaultColorHash": "FQuhXe3QO93x3sZ_0_0",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 2",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JVD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&9a0$eJyN1k1vmzAYwPEv4x0TxS+8HXlxMraFpDbSlF0QBDchbWMKjtb0048UqRym1M8R/Lex+V38LXLQw0V117UjMUF105cvVXO4lKbR56Q0ZYjX5P+R/NoqiSnaiHSVZuGvIuFbniU8i3cyQLprDs25fO5DyuLFsHKJ1Nk05nqbFpWIfz5Ihniy4rJCx6Y3uhtf+igWPMzTTTYM6FZ1H99M64igtA6xxHjuouV2R5mnj3/O6oGenAL/bTq1aYfPv97O87FQjeRPnsffC57lab6TCvVPyuyP4wbSWu6HhX6kPU/UiQR65VXaGP1y27NgwhGu8IQvSlGJvajlDJM5RUa3X4wz9KwezReBg4afc7xX7JHnLCtcm14n79d70bya+6g/+Pmj2mSvh/o0nqow6s30ptNPara4u4X9fIbr2/wxxNCQQEMKDRk0dKChCw09aOhDw8ASBp8/3EYzlTabqbThTKVNZyptPFNp85lKG9BU2oSm0kY0lWAjAjYiYCMCNiJgIwI2ImAjAjYiYCMCNiJgIwo2omAjCjaiYCMKNqJgIwo2omAjCjaiYCMGNmJgIwY2YmAjBjZiYCPmCha7wwUn2iS7MY6r8fISoCUVzTp7j+SCCd94BdYtfzPdpVaiGm5L8jff5sVt4j8D09uA\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 1,
+    "defaultColorHash": "F3RiMNzBS04R8t7_1_0",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 3",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JVH",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&781$eJyNldtuozAQhl/GvQyKsTnkkoOTsruB1EZaJTeIg5uwbQIFs1v69CVlVS6qlLmE+Wb+Gc8vzZ1roIdONv3WEFhHRdmm56w8dqkqq4ufqtTBW/1rJO5rKTBBEQ82Qej8Sny2Y6HPQm8vVqhqymN5SZ9bR7e85VA5RfKiStVf09wUsc8PQRHzN0xk6FS2qmrGnzbyOHPiIAqHQFXL5kMzKFwdBYWDBcaaida7PaFWdTpc5AP5YyT4X9nIqB7kX67zfBQqkPjJYu8+YWEcxHshUfskVX4aGwgKkQ+Fos6hev+yiez6MauUqs7XnjnlBje5xW2e8oznvBALrGsEqar+Jk7Rs3xU3wAGGh7ndIvIUZcah95bR0fr/PcWpGWajd7ie/1g8h8B8+pxqkTJV9WqpnqSi+XNFnJtgYsh/z+IoaAOBQkUpFDQgILmDLj6nHpOeyLnxCcSrm6BSRtMrqCkPueNiZwzx0TOuWMi5+wxkeAdEbA6AasTuDrYIQTsEAJ2CAE7hIAdQsEOoWCHUPCOKHhHFLwjCt4RBe+IWpx65nDB3Mjfj7CXjddphdaEl9vwzRVLym1lJbiq2atqukLybDiH4jfbxck18R3TGj2I\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 2,
+    "defaultColorHash": "F3RiMNzBS04R8t7_1_1",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 4",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JVL",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&d66$eJyN102TmjAcx/E3kx51JAkPHhWiS1vQTdhx3AvDQ6rUXbEYu9pXX1w7y6Hj8jsqX5LA53/hy9QmjyfdXCJbWZSU1TF7zavNKTNVvQ8yk02siP5/JbkctLIYWchwHsaT72kgliIOROyv1ZjUTbWp9tnLccJzf9SunBG9N5W5XG+bZkR8/FCciGAuVE621dHUze1Pj/hSTJJwEbcX6oNu3vcMyyklYTmxlGUNHTJbrhl36+3zXj+yn3ZqvVWNXhza7X9dn+d9oZKobyLxH1IRJ2GyVpocd9oU29sBwlIV7ULF7/ku8t/Wz/XezWtj6tfrmSWXtnSkKz2ZyVwWslQDiw4ZMfXhk+ucvOgf5pPAJu3L2d4rCrLyLl8TEdlPDzN1LxrmQ4/ozeZ09gv9ZFbR7alSo8/maJp6pweju0cohgOrbO//F1poSNGQoSFHQxsNHTR00dBDw3FPOP544X00Xdln05V9OF3Zp9OVfTxd2efTlX1AXdkn1JV9RF0JG1HYiMJGFDaisBGFjShsRGEjChtR2IjCRgw2YrARg40YbMRgIwYbMdiIwUYMNmKwEYeNOGzEYSMOG3HYiMNGHDay4TVtfE3Y3Ybdbdjdgd0d2N2B3R3Y3YHdHdjIhXd34d1dfHd4Qlx4Qlx4Qlx4Qjx4Qjx4Qjx4QjzYyOOS+077mTJdBOtb7Oe3T5AxmTFZRfGfqRpx6Rk3teqDOJvmVGqZt988aiWWSXq98S8ebvQT\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 3,
+    "defaultColorHash": "F3RiMNzBS04R8t7_1_2",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 5",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JWD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&c16$eJyNlk13ojAUhv9MZllPA/nAJQJazoyggdMps+GApBVrxWKcqf9+sM6RxRzLu4Q8uTc3z7vItwkny6NuT3OeUItU9aF4K+uXY2HqZucXpnDp3Pp/JT3tdUJtEqtwFkbuj9wPFkHkB5GXJWPStPVLvSu2B5fZ3n1XuSB6Z2pzOm+bFCS4fiSMBP4sSEqyrg+maS8/HeKpwE3DOOoWmr1uP3uG1cQiYeXShNKRINNFZjPZrH/t9NLe8Jz+qVsd77v27+d5PgtVJPkepN5DHkRpmGaJJodXbVbrywHCKll1hWL+u2bhPKYetcvGmObtfGbFFFdCSeWoQpVqparkjlojm5hm/8U6I1v9bL4AOOkuZ32LWBHlHrbeJojYkia3oFE5ckiq39WT/zh/qjf6MlVu9Ic5mLZ51Xf3N4+wGt3Rqtv/D6QoaKGgjYIMBTkKChSUKOig4HgAHF8vfEhNTw656ckhOT05ZKcnh/T05JCfK2nBE1nwRBY8kQVPZOETDUWuJ4cy15NDobuSNtzdhrvbeHc48wzOPIMTwuCEMDghHK7J8Zpw6jicOg5757B3DnvnsHcBexewdwE7ErAjATsSsCMBOxKwIwE7ErAjCTuSsCMJO5KwIwk7krAjCTuSsCMJO5KwIwd25FDFPNE9qyexn11gr7w8mcdkqtzsOZs9Tk1zehB1zpp98GHaY6VV2b3Rk5/BIs3PG/8CrmaSDw==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 4,
+    "defaultColorHash": "FRAYfYGVFtoyH6i_4_0",
+    "appearance": {
+      "color": {
+        "red": 196,
+        "green": 226,
+        "blue": 243
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 6",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBBD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&f13$eJyll09zojAYh79M9rIzMpAEkSMibBmnahPa6l4Y/sRCtUJDtPXbb9ROcXYPO/JeEAjPjzfOc+D3Y2yjh72Qx3ubZ6gQsjqIIpT1m2/e28z0rMuvPg65ZV4/EKa5aD1Cvx+weYrETlXqGB8bMU5R8H3BKQomvwL9hrJqVS0vN0fIZ4EXR/OZXqgbIVNV1buoGGMUFZ7FLcsYonCxItSpy9878UBe7cT6qKSYN9xF76exz0EF4tMg9u+SYBZH8YoL1G6EysvLAFHBcx2U5QcefkTWE7MnWa1U/cYwI4wymw19V79ukBoOqt4aWe0Uc7mDovsFi2Zxt8EOYCPmspRlfGCZBkGqbq7W1nrNMv+LUbQVa3U7ZyNZvZQ3gjk62FVQv5ZLsl3eOGxuZMYITQuTyOl7e0j36eXvTZT4VK2S9UYMzFv3URgDS+jYL94C8hjIEyBPgbwN5IdA3gHyIyDv9uPdb396CtgF9DSwC+ipYBfQ08EuoKeEXUBPC7uAnhp2AT097AJ6itgFQE3EUBMx1EQMNRFDTcRQEzHURAw1EUNNxFATMdREAjWRQE0kUBMJ1EQCNZFATSRQEwnURAI1kUBNpFATKdRECjWRQk2kUBMp1ET6r4kM+1SXs9Dzg9N9XXqqlqtUqvirFOkOZhmOzggLbxrOmuAprso4KxL7p/74l/tC1E1wOdGdSTc6b5Gc0zBL8+ty5ayNwcjUUbpFnsg0VxdSn/C9XOs2qQMo8ueL1ddU4/lk9VdEdg7B6CPdbuOyyjdiRyaaSxF/DhZxckYwy5wrTm9Bj9+6j3cvD8986eyo0yRuXjfHZ53SajpH/HHMdXV8PJXRP7rOPcw=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 5,
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_0",
+    "appearance": {
+      "color": {
+        "red": 248,
+        "green": 135,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 7",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBBL",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&bc9$eJylll2PojAYhf9M92YTCdACcolYdojrx7Q4rt4QPqqwKrBQx/Hfb5WJmJ2LjfRGgXIeepr3JOfbyACvJ1ZfpgaNQcrq/J2lXl0eXXVqENXR2n/xa1JNfXzBixLWOLp1f8GgEWAFz/kluFRsFAF8v6EI4PEPLL6Q5Q0v6/bhELgEO4E/n4mFsmJ1xPOy8NORDvzU0aimKSbwFmuIrDLbFOwV/jZC7ZzXbF5RG/y5bvsGSgGd4MB9CfEs8IM1ZaDZM55k7Qb8lCYC9BajzQZP0gMmcVxyXh6JTiBBxCCma4vPDSLFAvmxqvOCE5tawJ8uiD8LOoOdgAyJTSIS04GmKhDwsnpY24o1Tf2vDIED2/LndQao8132pDAB46Wz+sgW52kzhk9qlVgZgsbZT/l7cU53P8v2eEPOPnjD63LPBuqzPlJloLErttVrknpdUv/kkXzRI0m9Iak3++nt+/n3NNABejroANIWLFnAUBZgSwL0njHqAD1z1AF6BqkD9ExSB5CdRChrAcpagNIWZMMEZcMEZcMEZcMEZcOEZMOEZMOEZCcRyU4ikp1EJDuJSHYS0ddJJLqLRKX0HBdfn4uqljeURzUPPqucaI6aYgmGlzoTb1bhtyDPgjgNje+istSnlJUVbi9E0xM91FmEN5pOhsZjJTQNZWCaAiW671UZJbxVigt6qreiAwsAAu58sf7c1Wg+Xv+DiG8QHZyjwyHI8mTPCjgWugjQFV4E4U2iE1t90AkLYvuNvXzZva7oL6tAVhXaSVldVoLSCHUC6HJEReFdXiv0X5+0Vb4=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 6,
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_1",
+    "appearance": {
+      "color": {
+        "red": 127,
+        "green": 127,
+        "blue": 127
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 8",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBBT",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&14ea$eJylmFtzojAYhv9M9mZnZMgBApeIuGW7nhLarnvjIMRKD0Ixttpfv1Gc0tle7Mh3owg8b744z3uTb30HzXaqPowcuUS5qotXlQ/r8jm0R46wA9x8m09XYvvzC8M0U9uALT9ecGSK1EYX+pAcKtVPUfTxQzIUDX5EZoV1sdVl3dz0UCiiIIknY/OgrFSd6qLcxHmfoDgPsMTYctFwOqeMl+s/GzWjD84CvxW1mlTSRy/HsU9BOZLXURJeLaJxEidzqdD2Uels3QwQ5zIzQfkAy9eBePn1k3vLUuvyWRBBBROOcEPfLNdLLY6K56ouNlr4kqN4NBXxOGk32ALCE75IxVL2sG1RpMvq07OVeYbt/2IMPamVvpxzUF3cry8EM5TNRkN//RDvdw6/kLWWlof24vZt+j7LJ9f40Py9C632eqvr8lH17Ev3kVs9rEzsmcdAngB5CuQZkHeAvAvkL1TiC+8Beb8b73/401HANqCjgW1ARwXbgI4OtgEdJWwDOlrYBnTUsA3o6GEb0FHENgBqIoGaSKAmEqiJBGoigZpIoCYSqIkEaiKBmkigJlKoiRRqIoWaSKEmUqiJFGoihZpIoSZSqIkUaiKDmsigJjKoiQxqIoOayKAmMqiJDnQCBzwBtAsOtAsOtAsutAsutAsutAsutAsutAsu1EQO3QKHboGDtwAtE4eWiUPLxKFl8qBl8qBl8qBl8qAmel9NFCRkkqFhEEbH+5KjYit1WuvkfNaFsYUtbjKGeXA9HFfRbVKsk2W+cL6rva53uSqrqLkQ/vGgLpguTmlErHCz1PnMzAyTKhOFbXQk00w3pLmQu3qVZscAhsLJdH6eqj8ZzP+JWJ5CCHpLn56SdZE9qg0dGC5F8i6aJosTYpbOPnFmC2b8rX9zdT+7k7/5hvFq4WdldbgzKVtDZ0je9GUSJzfHM8a/d2LZIg==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 7,
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_2",
+    "appearance": {
+      "color": {
+        "red": 250,
+        "green": 182,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 9",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RmBH",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&1313$eJylmEtvozAUhf+MZzNSUAzYhmVCYMpUSVObtEo2kQPuhOYBBaed/PsxoQrVzGIU7ibhdY7vvfoOEv42JujxpKrzlIgNylSVv6ssqopDMJwSPhzh9t/8UoGHXx+IZKrqketcHyBCInXUuT4n51KNJQqvJ8JF4eRHaFbY5rUuqvaihwIejpL4YWZuFKWqpM6LY5yNbRRnIywwtiiK5kvHZcV2dVSPzitZ44+8Ug+l8NFbU/bFKEPiPkyCu3U4S+JkKRSqd0qn27aAOBOpMcJU7ZYOc/Tr3WpTaF0cuM0d7nLCaeCb5QbSYig/lFV+1NwXDMXTOY9nSddgJ+Ae97nkGzHAQ8tBuii/3Hsx9/DwvzIX7dWLvl1HUJX/2t4oTNGkyJ/UyotKQZ5u1Foby0On1NuvJH+NVstJO961Vr91ratipwbDW/vIrAFWxvZTj4F6G6h3gHoXqCdAPQXqGVDvAfV+P71/5acngJ1BTwI7g54IdgY9GewMekLYGfSk8GpgQ4doQ4doQ4doQ4dog4fYM8udQc8wdwY903w1cKAtONAWHHAL0DeSC30judAwudAwudAwEWgFBFwBNM4EGmcCzQKBZoFAs0CgWaDQLFBoFiiURAolkUJJpFASKZRECiWRQkmkUBIZlEQGJZFBSWRQEhmURAYlkUFJZFASGZREBiXRg5Lo/UsitwNXuCgaBWFzXTCU10LLSiefexwYW9hixiPKRvfRrAyfknybbLI1+W6+5atTpooybA+432zQjObri5vNM79dqt0r8U0xvjJWeIgapUx1qzQH4lS9yLQxcFHwMF9+VjV+mCz/sthcTGz0Iff7ZJunO3V0JkYnkXgO58n6IrG5cr/omhbwRZdZXtPJ22KK3/OfzqSaxEex9uutUnqqtNzfFXsVnLRWh1JMx4U5k8f6sCgzqVValOdns2xtlkuRWIxFEieLZjPqDxSPWxw=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 8,
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_3",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 10",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBCD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&467$eJylUk1z2jAQ/TPqpTP2IBt/HY0twAFsR3La0gsj7E3QBGxHyCH011dgmklDZtppD2uvdvXevl3tp5GDbjuQx4XD1qgCKZ6hGstmF1rRQMc4gloJdSyOLYw4Iq8HNkQknhAN2oi9amQf9FFESVgkWaoTTQuSK9HUSTWyUFKFmGFsumj81EG4PUTOrBL5DV0FByEha1mAnk5KzkQVYjNSRNMVSYukWDJA+0dQ5aYXkFSs1ETHebrYzvyHw2Y+XTdKNTut2aODk/Lz1+19hi1UiT3frcVDd1YUc8VDvLCuM5c2iizP5tlkqd3zAATsQ7efyYUfU4vadEidyL80ZnomNh1TuwZHY4nrRRhPoXVGaw+vgl7/ZcKfdyAfYBx3N5vHOL+L5nfWrF4NqE8DynVvBh6gDWYCk8mX0fen8l01A7v6iqfN1xZo49rWpofErpWiVtRnHkoWOU3SIjbwx8Ipti4FDVyZNlJN+zbp6iT24r8CD9EW7tU1mmL4E7zUQwvQS9jhzfPyxzHxJvhebLegQln+E6FhuZrSsHxk/Sfe/hBPcWTr7R+HEXmfo7Z9CrESiXqveF1CyndALO/duzm647BTzaBpc64UyFo/2BBFWb58JXkDAVOvQysbPRdgnbznJTQteVGSl+py1gLsgFannaaDENOSAsM2It8KQtNwvopJTtKYpNGbArZDbfc3ZcHZ9F7Z+Fe9nrhveZTFy6st7DGO3r39AaBtWnb66X44Yl9JXqxOqJ/bkUiF\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 17,
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 11",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RFCD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&528$eJylVE1z2jAQ/TPqpTP2INnGcDS2IA5gXMlJQy+MbAvQBGxHiBD66yt/JEMJM+20B9nSrnb3vaeVvowc8O3I5Xnu0BTkXIpXno9lufeQ39M2BnihhDon54qPGMAfC2oDHEywDtqKgyplaxwAn2AvCReRdpQVl0yJsgjzEQJh7kEKodkH45cj93Yn35nmIr4nq+FJSL6o6BC81EiaRDmgU5z4dyscJWGypBwcnrnKti2AMKeZ6YDzLJrvpoPNaTu7k2KzVTVk0tPfPoW9SzZjlvFDS4lA36J98IhJgp+IRWziEJcMyJAwaqzNvmmBtFSq3PMi1/vdJl+XtZ1TiEAuDmyfis2xIRgwxTw4R589nSrJIl7MFpOlnjZ6Co2m3+Fp80OCWjD+oNPJdE1oOqaeGgyMJSzmXnDHK2eUunA1bOXoKH7dc7nh4+B4v30O4gd/9oCmxarXscpMA9pgC6mAePI4+vGSXVUzYKq31NtyPbgea9NAPdMFYl9JUSgyoC4I5zEJoyQw4G3gBPbfZURIq6jK6tLJtBOmwV8F22DH1+pzNEHoT+GZFm0I3rwj3L4uf55DdwLXYrfjypPZPyU0UKpTGigH6D/jrZvxTT/aYOz5+MoHieXWJpoBURwUKzIesT3HKLs6N0cz9o6q7JVVzJTistAHZgN/ES8/klyEcFNfjkqWWhdOj3Kt70ZZ4TclWaa6tQZg5QTCuqlJz4NX5C7uS91aBOrOtwB+SjCJvNkqwDGOAhz5F+WtIbHYb7h5M1zTsPrvaLqy77x1/x2oYlKNbwQ6uj0PJ86rsqL1T1PWr48Xrxolb9C+rKiftZZvV7E5gtEiWHYEbQ1Fv330O46TVW3/BY4zgyc=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 18,
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 12",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RJCD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&582$eJylVNGSmjAU/Zn0pTMwJIDoI0J02VWkCbtd++IgRGVWgY2xrv36XhC31HWmnfYBDbk5955z7g2fhjb6chDyNLX5EmVC5t9FNpLlziWeAXsJEoXK1Sk+VWKYIPr+wi1E/TEF0Cbfq1KeN/vIY9SNg1kIgbISMlF5WQTZkKAgczHHWO+h0etBuNujZz9keXTPFoNjLsWs4gP0WjNpEmWIP9DYu1vQMA7iORdo/yJUujkTCDKe6iY6TcLp9qG/Pm4md6qsasLMgN8ex0ZXyyhJxf4siGHP5D30RFlMn5nJLGYzh/XZgCVcW+k2ZJX5eqNEkf1Kx7ILmImPmJ6uYRstS6XKHZxyGswF2aw5JijL98luma8PjSN+ohIXT8nHSGtjPItmk9l4DsumATkI6LUsjJYLOXPx+q2xuqNjUABLLUEjiYup69+Jyh4uHbwYnP1rXfm8E3ItRv7hfvPiR4/e5JE8FAujFZWCIgdtMM8xHT8Nv72mV9U0nMERAc9K14gBD9QkRHdQvqtkXijW5w4KphELwtjX8G3iDPcvLhILchmoG0shhjP/r7AW2oqV+ohmxPoTPAXPBujNPeDN9/mPU+CM8SrfboVyZfpPCTVSp9SIQOQ/8eZNfDPBFhq5Hr2KYWYO6i2eorzYq6RIRZjsBCXZVdtsUOweVGmUVZQoJWQB/bKQN4vm70k6EKFDaypZgi+CH+QKblNZ0Tclk1S170DAXDFs1jPNDBdfievclnqyGLY4NhF9jikL3cnCpxENfRp6nfLmkplpl3czZgbMuGY6FzZt2YtuGL89V4lUoxtAG6ZzfxSiKite/4Fk+Fq50aJx8obsbsUlEme9v1dkloBSzK4vjo07SZhttSebZg1n/vwSgLPwVeVfaRQv6v2fiOaZEA==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 19,
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 13",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RNCD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&5df$eJylVN9zojAQ/mdyLzcDQwKIPiJES+sPLqG9ei8OQlSmCjTGWu+vvwWxR60307t7CITdfLvft7vhS99G3/ZCHsc2X6BUyOxFpANZbF3iGWCLkchVpo7RsRT9GNG3D24h6g8pgNbZThXyZOwij1E3CqYTcBSlkLHKijxI+wQFqYs5xnoHDZ73wt0cPPsuzcJbNu8dMimmJe+h54pJHShF/I5G3s2cTqIgmnGBdk9CJesTgSDliW6h42gy3tx1V4f16GYjlqpizAx4djg22mIGcSJ2J0UMeybvoAfKIvrITGYxmzmsy3os5tpSN3UbqaLcqVi2wrH0DGbiI8bWTSSz1VqJPP0spqNruIsWhVLFFk45NeaMrPccE5Rmu3i7yFb7uox+rGIXj8lHT1P7aBpOR9PhDLZ11zIQ3WlYGA0XcuLidZtu6I6OQQFstRgNJM7Hrn8jSru/cPC8dyp6U8mvWyFXYuDvb9dPfnjvje7JXT43GlEJKIrRGvMM0+FD/8dzcpFNI4auEchDCCwTlgXL1h2UbUuZ5Yp1uYOCcciCSeRr+DpxhuNzFYkDKS3U9gnw4aX/SaxxBcvIHyr2G5xAxXro1d3j9cvs5zFwhniZbTZCuTL5p4AaERBSMw1E/hNvXsXXM2+hgevRCx9m5qIy8QRlOQx9nohJvBWULC+aZoNid68KoyjDWCkhc+iWhbxpOHsL0oIAHwOVsoC6CL6XS7h/RUlflYwT1XwDAQszbFcTzQwXX4hr3ZVqrhiGO20i+hhRNnFHc5+GdOLTiddKb6bMFO94m/WCVpu9M5sm7Vk3DN+OV5d9cAVYzebuIERZlLx6gWT4wbnhvK7kFdntjCkSJ73vMzLbgFTMJmC2zZaZ2Z2/Plm3tT/1Z2cHnIVfNv9Ow2he2X8BVS6xag==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 20,
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 14",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RkCD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&708$eJylVNmSmzgU/RnNy1SZQjKLecQg3KS9EInOxHlxscg2FRtoLNJxvj6XxW3acdekkgeBtnPudq7+meroYy2q80LnMUpFlX0TqVcVRxs76kJnavs3mNp8OVaHV2i6EyebNPd4hEQuM3kOz6WYRoi+LriBPlEW0s9Av89Osqi67QlyGLVDf7WEg6IUVSSzIvfTKUF+amOOsWIg77kW9uHF0R/TLPjANtZLVolVyS303PjcEqWIP9LQedjQZeiHay7Q6auQyb5zwU95oujKGJ3ny8XhcbJ72c8fqmy3lyJPuwjb+HAXByNszDSmM4NNmMUiFvMRVhVDGWGC4kLK4gjXzBZ0gV7nAHc0riHqzmjH4lh9KIqpYPADpqMYeRXOF7b7IEp9Gpt4Y3Ue96n99yiqnfDc+sP+qxs8OfMn8phv1N6dBFzR0B7zDNPZp+mX5wR8xurA3AibcGcCw4IRwYhhJIqJsmNZZblkFjeRvwiYvwxfwTxBWX6SUZ6IZXQUHCN8w6crFrJrWahFGURSiioHIg05q2B9zwWhgFrKqthmB8Hrahsloijpd1lFiezXEBJOOWQ2zU7RMc52dSsCN5KRjRekF58+YH9TlSYRv6JbUeAxop9Dypb2fOPSgC5dunQGbmKwHL2JL2oHzIhx8bp175ogyN+Jy6iS3h2gDuk9vQhRFiVvfpAaULgdbFot3K3Q1SI0T5eXtxYZEWCKjZvSjzEjZJCU2170IJ3Qi2yo6fEENrbv6LVnIwb4Ga6C1Xw1W8O07eIMqAzA4ok7ujSGelsJTF5LIaC/ZFG+OTWaWEz39+AaOoitvINnmvq/BNARRANtfrdrvP+2/nH2zRmU7yCkXSV/yDnSVOjXkYYR+WuG8X2G/q3wbIfenBGm60OVMpxchNEfGIyo/Rb4Z/2KIPEN4iqlXpet3QHhWHsXwfQYdMKIeatjTJRJK+KkFbH3ZJyFVWuztTXdWj82WG2afF4UZXYqDpEEpV6afmC56wgN3iqt6whLiZUUFTW8MM39ppSv74d3XbSPj+fP530ipyt3/Q6jCepoOqxO+ycIJgCPEP+PBuGmQf4E2WwGGw==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 21,
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 15",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RrCD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&643$eJylU9tymzAQ/Rn1pTNmkMzFPGIQDokvVCJp3BePDErMxAaCRRLn67tg7DhOMu20Dwu6ndXu0Tnfhib6UctqNzH5EqWyyp5kGlTFxsWePjGZ3v4tpjdfjvXTIzS9l1uXNOe4QDJXmdrFu1IOBaLHCbfQDWUxvYX0q2yrimq/PEAeo24czqawUZSyEior8jAdEhSmLuYYaxYKHmvprp898yrNoku2cJ6zSs5K7qDHpuY2UYr4FY29iwWdxmE85xJtH6RKVvsSwpQnmqX10W48nayvBvfPq/HFslCq2Mg8hdLttjVz3+DJ2GTEM7iBqD+izGAmszynK0uzNayZGgx7SxRUOJ+4/oUszeHSxgtnf3tH0/eNrO5l4NeXqwc/uvbG1+QqX+jMYYItobIexmiFeYbp6Gb46zFhhMmT23rYhCMWhA0xgHAghGajbFNWWa6Yw20UTiIWTuMDlicoy7dK5Imcio3kGOGzdKbmILdWhV6UkVBKVjnkMZA3i+afFCA1ePayKu6yteR1dScSWZT0RVUiUd0c+sFLjglKs63YLLP7un1NXyjh4gnpVGS+JWeDjoIe1lsSPoLbx8V9RG9jyqbueOHTiE59OvXeisQ2w4N3zQ3aALaIcai5Le5IDlC35UpUKvgEZwKz22cpy6LkzQ9oAZ260aJVAdFPmjk3QwA0gBnYV5rqwMSAjPEsmo1nozkMW9dkgLQAiy2/h/eGOqCOhGH9yFgCclZFebppNE2a/l+BDbSWd+ojmvWdP8FBsISAeF7cGq+e5q+70B4BxWup3Cr5p4y9fgJm6vVTRP4T3/8U37k4cD16tkeY8U5EDIuDUoxjnoN4dEbsjwjinCFIEjTL8qib9l5iMGKeGQsTbS+5htIBCq6tnXRqYzR3hnfO6wLrja3GRVFm22ItFGjsYLOT+vb6NUC/htUmc7SllqKiBks355unOTo2eJu0bg/C8bhjZzjz519ktOG1JXi9TjvTwwDgAvGfNIoXDfI36I/V/g==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 22,
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 16",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RyCD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&7a2$eJylVNmW2jgQ/RnNy5yDjyVv+NHYMu00WyR3JuSF40WAT8B2Gzkd8vVTXmjcNMlkZh4EslT3qpZb9cfEQB9rUZ3nBo9RKqrsm0j9qjg62FXnBlPbf5OpzS/H6tCEpjtxckhjxyMkcpnJc3guxSRC9PWDm+gTZSH9DPT77CSLqjseI5dRJwyWC7goSlFFMivyIJ0QFKQO5hgrJvKfa+EcXlzjMc1WH9jGfskqsSy5jZ4bn1uiFPFHGroPG7oIg3DNBTp9FTLZdy4EKU8UTTHQebaYHx7Hu5f97EEW5UlGlewibOPDXRyMMI3pzGAmGzObRSzmI6wqhqKhKtvtpcjT3waZyggbKC6kLI5gZrWgC/S6B7ircx1Rb0o7Ftfu41csBcPbsB3FyK9wPne8B1Eak9jCG7sLs6/Hn0dR7YTv1R/2X73Vkzt7Io/5Ru3dScAVC+0xzzCdfpp8eU7AZ0wGz41wBDYxrMY2hSVgbRULZceyynLJbG6hYL5iwSJ8BfMEZTmkMk/EIjoKjhG+4TMUGzm1LNSiXEVSiioHIh25y9X6ngtCAYmVVbHNDoLX1TZKRFHS77KKEtl/Q0h4yzFBaXaKjnG2q1vleJGMHDwnvWKNAfubqjSJeI9ulYQ1RD+HlC2c2cajK7rw6MIduIljhpM38aXtspQRsS9et+5dEwT5O/FGa/4doAHpPb0IURYlb/4gNdAWzmrTauFuha4vpkh0eXn7ItNUeIppBI41bZgFzfy1pT5I322r+5B4aHU2VL+WwsH29gDjn2i95ydjiDFcrpaz5XQN23ZsZEBuNuDIG12aSr2tItYvZSTQEBijN5dNjbHt/R5aRwexlXfwTDf+kQAahFgg6+9Ojfff1j/OgTWFyh+EdKrkP3KOdAKtPtI1RP43g3afoR8zvuPSmzvCjGgocIZfVdxfmIyQ/khnJH6PIOkN4qqtXtLtuwPCqxrfIZip/hvLMSP2bbNgoozbTknaTvGfzLOwa326tidb+8cGq80kmRVFmZ2KQyRB5JfJMni5azsdhqLeDUVbiZUUFTWMsca+KfrrkPKvH+2E84PZrE/5ZOmtf8LY6Khp4zrt5xxsAB4h/hddhZsG+TcinzHc\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 23,
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 17",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "R5CD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&839$eJy1VNuSmzgQ/RnlJVWmkLiZR8zFQ8YXIjHZeF9cXIRNxQYGi0ycr98G4zH2OLVTye6DbNHq0906Ot0fJhr63PD6ONdYjFJe59956tXl3sK2PNeo3P3rVG5/GZaHLm664QeLtH4sQrwQuTiGx4pPIuS+fjAdfXFp6H6F8Nv8IMr6ZB4jm7pW6C8XcFBWvI5EXhZ+OiHITy3MMJZ05D033Nq92Npjmgef6Np8yWu+rJiJntuau0ApYo9uaD+s3UXohyvG0eEbF8n2VIKfskRSJQ0dZ4v57nG8ednOHnY8EwcR1eJ0xe6C+HQRSqhCVapRnY6pSSMasxGWJUUaYYJEWb0boUkKqvPNVvAifTdIhzQGikshyj24GR3oDL3sAW6rTEWuM3VPUWyzp0wyJAy5YTuKkVfjYm45D7zSJrGB1+aJmf4JP+55veGe03zafnOCJ3v2RB6LtdyXk0ApJtpilmN3+mXy93MCNWN1kG6EW58UFoeVSSMiw8KSgfJ9VeeFoCYzkD8PqL8IX8EsQXkB5BcJX0R7zjDCN/E0yURWI0q5rIJICF4XEEhF9jJY3SuBS6DKqi6zfMdZU2dRwsvK/SHqKBH9N1yJAD0Epfkh2sf5punE5kQisvCc9CLXBtGvXqUl4i26Ex9WkPs1dOnCmq0dN3AXjruwB2XilGJ+db+sWwYwFZ+r7sq7EAT8HVirTu8OUAN6Dy+cV2XF2j+gBjrJCtadFu6+0CVjhviJl+uMVCGQiioqmJUrFpTxf+WpD4i+nSMePBHMETrsE5WAIbs1YPzGovyiT/qMJAJ+wmWwnC2nK9h2UyqHdHoLTpzRuSHlWwVg/SwB0na/iq4OIzjEsfNeNL6Hpmr0r3B4QGJCQ/ywGrz9vvp59I0paGbHhVUnvxlzpCowJEaqisgfR1DuR+gHlGfZ7s0ZoVo2bA1K5LNy+gMwqb0JtukdRHaDuGitb4Yu7yDgRZ1vEFTX/h9P4CC+bUhMpHHXjUnXjd6TfuRmo05X5iQzf66x3E6rWVlW+aHcRQLa4zy9BplPra1CCDXtgplSLKWobGBUtv6tPF4HoXf56Kao589m/eNMls7qFxENUFw7Kpq0n6WwAXiE2F9uEK5b5D+bqFjZ\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 24,
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 18",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "R9CD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPgzAU/jPHF5MRimOXRwadI8o2T0nMfFk6WrYqAyxF5d9bNuNM9uRDr9/5LufczHx4aqXuEp/tQEitPqSY6+oY3IVu4qNr9xEjHgjV8ONO7VtuVFVG3PCAJN41kna1ZD6sMKJoz0pbzchlHGRplOl6eMaB/j7YEGh0T635QTWm0ufPCYRIgzReLS1Q1VKftGMx8yAWAbG2DnGI64xgnqgsax/Dl8XwNVaHLSG3ta5yVUhaCvYmTXb4VFquajaF977Rk74A9kDTcLGlyzRON0xCcyo954oFk44P+7ZppFlXRVeoUvbLxQlOkeMOszCzMQbCGUhnkDtjUMdaq9JgzsYQJ2uMl+llgEhwfKGixByJi8QKEN8a9dLkD078vmD0L753zcdJOLbjna2izVXmzJlCrkpe0C+jWyGr+udiG+DAnuk63fbEb2Tsr9k=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 25,
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 19",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBDD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPgzAU/jPHF5MRimOXRwadI8o2T0nMfFk6WrYqAyxF5d9bNuNM9uRDr9/5LufczHx4aqXuEp/tQEitPqSY6+oY3IVu4qNr9xEjHgjV8ONO7VtuVFVG3PCAJN41kna1ZD6sMKJoz0pbzYgwDrI0ynQ9PONAfx9sCDS6p9b8oBpT6fPnBEKkQRqvlhaoaqlP2rGYeRCLgFhbhzjEdUYwT1SWtY/hy2L4GqvDlpDbWle5KiQtBXuTJjt8Ki1XNZvCe9/oSV8Ae6BpuNjSZRqnGyahOZWec8WCSceHfds00qyroitUKfvl4gSnyHGHWZjZGAPhDKQzyJ0xqGOtVWkwZ2OIkzXGy/QyQCQ4vlBRYo7ERWIFiG+NemnyByd+XzD6F9+75uMkHNvxzlbR5ipz5kwhVyUv6JfRrZBV/XOxDXBgz3SdbnviN2amr9o=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 26,
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 20",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RFDD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPwjAU/jPHFxOWdTIGj7sUWXSAp0sMvpCydlCFbXadyr+3AyMmPPnQ63e+yzk3kQ9PndTHzGcbEFKrDymmuj6Ed7Gb+ejafcSIB0K1/LBR244bVVcJNzwkmXeN5MdGMh8WmFC0Z62tZuIxDrIyyhx7OOJAfx9sCDS5p9Z8p1pT6/PnGGKkYZ4u5haoG6lP2qmIPEhFSKytQxziOiOYZqoousf4ZTZ8TdVuTchto+tS7SWtBHuTpth9Ki0XDZvAe9/oSV8Ae6B5PFvTeZ7mKyahPZWec6WCSceHbde20izr/XGvKtkvF8c4QY4bLOLCxhgIZyCdQekEoA6NVpXBkgWQZktM5/llgEgwuFBRYonERWIFiG+NemnyByd+XzD6F9+75uM4Dux4o0WyuspcOBMoVcX39MvoTsi6+bnYBjiwZ7rM1z3xG2hgr9s=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 27,
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 21",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RJDD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPwjAU/jPHFxOaFRiDR9iKLjqGp0sMvpCydlCFbXadyr+3AyMmPPnQ63e+yzk3Mx+eWmWOic83IJXRH0rOTXWYDkIv8dFz+4jTPkjdiMNGb1thdVVGwoopTfrXSHasFfchxYihOyvjNKMBF6BKq+2xg2cC2O+DD4FFd8yZ73RjK3P+HEOIbJrF6cIBVa3MSTuWsz7EckqdLaGEemQE80TnefsYvtwPX2O9W1N6W5uq0HvFSsnflM13n9qotOYTeO8aPelL4A8sC+/XbJHF2YoraE6l51yx5Ir4sG2bRtlltT/udam65eEYJyhwg3mYuxg9SXqK9AoSgD7URpcWCx5AnCwxXmSXASLF4EJFhQVSD6kToL4z6qTpH5z6XcHoX/z+NR/HYeDGO0uj1VXmnEyg0KXYsy9rWqmq+ufiGhDAn9kyW3fEb2oar9w=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 28,
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Composite part 1",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RLDD",
+    "bodyType": "composite",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM4Sa$entityTypeBa$EntityTypeS4$BODYSb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S12.15$FxvbpLWlNtrdXwD_12opCreateCompositePartS9$queryTypeS5$DUMMY\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 29,
+    "defaultColorHash": "FxvbpLWlNtrdXwD_12_0",
+    "appearance": {
+      "color": {
+        "red": 196,
+        "green": 226,
+        "blue": 243
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Composite part 2",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RMDD",
+    "bodyType": "composite",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM4Sa$entityTypeBa$EntityTypeS4$BODYSb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S12.15$FCRc1AoyuQCh1b6_13opCreateCompositePartS9$queryTypeS5$DUMMY\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 30,
+    "defaultColorHash": "FCRc1AoyuQCh1b6_13_0",
+    "appearance": {
+      "color": {
+        "red": 248,
+        "green": 135,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Part 22",
+    "state": "IN_PROGRESS",
+    "revision": null,
+    "description": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RPDD",
+    "bodyType": "solid",
+    "microversionId": "eb3ee51a8715453619984782",
+    "partQuery": "query=qCompressed(1.0,\"&1bd$eJx9UMlugzAQ/ZnpsVVIgIQjiwmoZamNlHJCNnaD1SSm4DTN39cEKZdKOc68N2+Zp8CB97MYrplDrCVwOdIjk/sz1VKdIqqpb2XL/0h17QWxVlDgdJvm/lsToRLlEcrDmnigBrmXJ3oYfTtcGGEK4qSlvk5XAQV0H4gNKNoiwqCTo1bDvNxAiJFfpUVuANWL4WaZ8mAJKfctk+bFhfiDHVrqrXa1Ww5x3Vj2RQ6i6I3999TnpsSBvKIqTBqUV2lVEwHjl9BtNydIOWmNUpdsFiS5rJMsl0xprY5TaGxjB7t4jTeYYoZbzMmzMV6BVv0D3IaD+NQPCA6Y53Qa26Fr2gdFVM+kkM3NPIiTbZRFsSvtY+WVP6aZ6tGvHs5cYGZ+SXaorJrp8g91V45M\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "isMesh": false,
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    },
+    "metadataMicroversion": "a8ccf567f49925327123b4b4",
+    "ordinal": 31,
+    "defaultColorHash": "FHGDMDF6i4mT9Pv_14_0",
+    "appearance": {
+      "color": {
+        "red": 127,
+        "green": 127,
+        "blue": 127
+      },
+      "isGenerated": true,
+      "opacity": 255
+    }
+  }
+]

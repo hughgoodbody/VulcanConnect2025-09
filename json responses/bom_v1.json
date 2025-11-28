@@ -1,0 +1,1744 @@
+{
+  "bomTable" : {
+    "formatVersion" : "1.2",
+    "id" : "b69453e630db1ee471d800fd",
+    "name" : "BOM : Assembly 4",
+    "type" : "flattened",
+    "createdAt" : "2025-07-18T08:59:13.390Z",
+    "templateId" : "dc9153301b06a1d59d889555",
+    "bomSource" : {
+      "document" : {
+        "id" : "676d347f07a05b925c755e92",
+        "name" : "API"
+      },
+      "workspace" : {
+        "id" : "a1022ae3094b9d2ae98ee308",
+        "name" : "Main"
+      },
+      "element" : {
+        "id" : "6dc1674bdfe17f0002dd56b7",
+        "type" : "Assembly",
+        "excludeFromBom" : false,
+        "notRevisionManaged" : false,
+        "excludefromlasersearch" : false,
+        "state" : "In progress",
+        "bomBehavior" : "Show Assembly and components",
+        "name" : "Assembly 4",
+        "laserexport" : false,
+        "5ace8269c046ad612c65a0bb" : "Auto",
+        "category" : "",
+        "57f3fb8efa3416c06701d623" : "Each"
+      },
+      "href" : "https://cad.onshape.com/api/assemblies/d/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6dc1674bdfe17f0002dd56b7?configuration=current",
+      "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6dc1674bdfe17f0002dd56b7?configuration=current",
+      "configuration" : "current"
+    },
+    "headers" : [ {
+      "name" : "Item",
+      "propertyName" : "item",
+      "visible" : true,
+      "propertyId" : "5ace8269c046ad612c65a0ba"
+    }, {
+      "name" : "Name",
+      "propertyName" : "name",
+      "visible" : true,
+      "propertyId" : "57f3fb8efa3416c06701d60d"
+    }, {
+      "name" : "Part number",
+      "propertyName" : "partNumber",
+      "visible" : true,
+      "propertyId" : "57f3fb8efa3416c06701d60f"
+    }, {
+      "name" : "Description",
+      "propertyName" : "description",
+      "visible" : true,
+      "propertyId" : "57f3fb8efa3416c06701d60e"
+    }, {
+      "name" : "Quantity",
+      "propertyName" : "quantity",
+      "visible" : true,
+      "propertyId" : "5ace84d3c046ad611c65a0dd"
+    }, {
+      "name" : "Appearance",
+      "propertyName" : "appearance",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d60c"
+    }, {
+      "name" : "Revision",
+      "propertyName" : "revision",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d610"
+    }, {
+      "name" : "State",
+      "propertyName" : "state",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d611"
+    }, {
+      "name" : "Project",
+      "propertyName" : "project",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d613"
+    }, {
+      "name" : "Material",
+      "propertyName" : "material",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d615"
+    }, {
+      "name" : "Not revision managed",
+      "propertyName" : "notRevisionManaged",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d61d"
+    }, {
+      "name" : "Exclude from all BOMs",
+      "propertyName" : "excludeFromBom",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d61e"
+    }, {
+      "name" : "Unit of measure",
+      "propertyName" : "57f3fb8efa3416c06701d623",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d623"
+    }, {
+      "name" : "Category",
+      "propertyName" : "category",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d625"
+    }, {
+      "name" : "Mass",
+      "propertyName" : "57f3fb8efa3416c06701d626",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d626"
+    }, {
+      "name" : "Subassembly BOM behavior",
+      "propertyName" : "bomBehavior",
+      "visible" : false,
+      "propertyId" : "57f3fb8efa3416c06701d633"
+    }, {
+      "name" : "Tessellation quality",
+      "propertyName" : "5ace8269c046ad612c65a0bb",
+      "visible" : false,
+      "propertyId" : "5ace8269c046ad612c65a0bb"
+    }, {
+      "name" : "Supplier",
+      "propertyName" : "supplier",
+      "visible" : false,
+      "propertyId" : "5cb0870bbd9fb41783fdeac8"
+    }, {
+      "name" : "Manufacturer",
+      "propertyName" : "manufacturer",
+      "visible" : false,
+      "propertyId" : "5cb087518b508716ef66a773"
+    }, {
+      "name" : "VC_ProfileID",
+      "propertyName" : "vcprofileid",
+      "visible" : false,
+      "propertyId" : "5f3e123793474711f1a244eb"
+    }, {
+      "name" : "VC_VPID",
+      "propertyName" : "vcvpid",
+      "visible" : false,
+      "propertyId" : "5f3e85aa9cfead14fbe96d40"
+    }, {
+      "name" : "Exclude From Laser Search",
+      "propertyName" : "excludefromlasersearch",
+      "visible" : false,
+      "propertyId" : "5f40b4801b7a3c14ed01c59b"
+    }, {
+      "name" : "Laser Export",
+      "propertyName" : "laserexport",
+      "visible" : false,
+      "propertyId" : "604b11eda7f8f214f5850372"
+    }, {
+      "name" : "Primitive Body Part Number",
+      "propertyName" : "primitivebodypartnumber",
+      "visible" : false,
+      "propertyId" : "66c2ec3bf7a696613af37f7c"
+    }, {
+      "name" : "Composite Body Part Number",
+      "propertyName" : "compositebodypartnumber",
+      "visible" : false,
+      "propertyId" : "66c2ec9fbd44901870681756"
+    }, {
+      "name" : "Frame Quantity",
+      "propertyName" : "framequantity",
+      "visible" : false,
+      "propertyId" : "66c4bcdaf7a696613a47dfa5"
+    }, {
+      "name" : "API Store 1",
+      "propertyName" : "apistore1",
+      "visible" : false,
+      "propertyId" : "66c89285f1a5944e7ccc65ac"
+    } ],
+    "items" : [ {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RLDD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MMIgeVPl/PkJa0WJy" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "",
+        "id" : "",
+        "properties" : [ ],
+        "displayName" : ""
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Composite part 1",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 196,
+          "green" : 226,
+          "blue" : 243
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "1",
+      "57f3fb8efa3416c06701d626" : "",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RMDD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MlarkEypyLoiTzcvA" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "",
+        "id" : "",
+        "properties" : [ ],
+        "displayName" : ""
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Composite part 2",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 248,
+          "green" : 135,
+          "blue" : 1
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "2",
+      "57f3fb8efa3416c06701d626" : "",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "JVD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MjUBg3zoNyfRtkGWf" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 2",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 165,
+          "green" : 165,
+          "blue" : 165
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "3",
+      "57f3fb8efa3416c06701d626" : "7 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "JVH",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "M2KQ7gK/GkOEVAMOQ" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 3",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 59,
+          "green" : 97,
+          "blue" : 180
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "4",
+      "57f3fb8efa3416c06701d626" : "7 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "JVL",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "M3RuCFQUchfULF6cc" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 4",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 234,
+          "green" : 234,
+          "blue" : 234
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "5",
+      "57f3fb8efa3416c06701d626" : "7 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "JWD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "Ms7ddSO+5BjjwFCmo" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 5",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 196,
+          "green" : 226,
+          "blue" : 243
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "6",
+      "57f3fb8efa3416c06701d626" : "2 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RBBD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "Mlgc4rlbjTcuAQ3jE" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 6",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 248,
+          "green" : 135,
+          "blue" : 1
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "7",
+      "57f3fb8efa3416c06701d626" : "12 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RBBL",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MWBOHKZR73BUvt6jT" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 7",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 127,
+          "green" : 127,
+          "blue" : 127
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "8",
+      "57f3fb8efa3416c06701d626" : "12 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RBBT",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MSEYXlVxH2715N+VO" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 8",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 250,
+          "green" : 182,
+          "blue" : 1
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "9",
+      "57f3fb8efa3416c06701d626" : "12 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RmBH",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MN4o1D3a9LhTZ7iRk" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 9",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 157,
+          "green" : 207,
+          "blue" : 237
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "10",
+      "57f3fb8efa3416c06701d626" : "12 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RkCD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MzaSqfULNfH5pkpbs" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 14",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 59,
+          "green" : 97,
+          "blue" : 180
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "11",
+      "57f3fb8efa3416c06701d626" : "0 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "R9CD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MY5BwEnxgQ61b/luE" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 18",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 234,
+          "green" : 234,
+          "blue" : 234
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "12",
+      "57f3fb8efa3416c06701d626" : "0 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "List_TIFIdpai0voBTd=Default;width=0.001+meter",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/220b5d1c0c6d1c7e82258320?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "220b5d1c0c6d1c7e82258320",
+        "partId" : "JHD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "b1700e0c7a39e926aed9a040",
+        "relatedOccurrences" : [ "M+9rdg+4+ht3Tlfh1" ],
+        "indentLevel" : 0,
+        "rowId" : "a15ae3ed7fb18a3e2df988c9"
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "LGM Engineering",
+      "primitivebodypartnumber" : "",
+      "name" : "Laser Block",
+      "description" : "Square Block",
+      "appearance" : {
+        "isGenerated" : false,
+        "color" : {
+          "red" : 95,
+          "green" : 167,
+          "blue" : 61
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "HG-456",
+      "item" : "13",
+      "57f3fb8efa3416c06701d626" : "0 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/676d347f07a05b925c755e92/w/a1022ae3094b9d2ae98ee308/e/6990166d4eaca73e1958e64f?configuration=default",
+        "configuration" : "default",
+        "documentId" : "676d347f07a05b925c755e92",
+        "elementId" : "6990166d4eaca73e1958e64f",
+        "partId" : "RPDD",
+        "wvmType" : "w",
+        "wvmId" : "a1022ae3094b9d2ae98ee308",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "a8ccf567f49925327123b4b4",
+        "relatedOccurrences" : [ "MbGivuivPc+63GFPL" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "Common SFX Materials",
+        "id" : "ws9U6r6lbIlEry8Y",
+        "properties" : [ {
+          "category" : "Physical",
+          "name" : "COMPRESSIVE_YIELD_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Compressive Yield Strength",
+          "units" : "Pa",
+          "description" : "Compressive yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "YOUNGS_MODULUS",
+          "value" : "2E+11",
+          "type" : "REAL",
+          "displayName" : "Young's Modulus",
+          "units" : "Pa",
+          "description" : "Young's modulus"
+        }, {
+          "category" : "Physical",
+          "name" : "TENSILE_YIELD_STRENGTH",
+          "value" : "275000000",
+          "type" : "REAL",
+          "displayName" : "Tensile Yield Strength",
+          "units" : "Pa",
+          "description" : "Tensile yield strength"
+        }, {
+          "category" : "Physical",
+          "name" : "DENS",
+          "value" : "7800",
+          "type" : "REAL",
+          "displayName" : "Density",
+          "units" : "kg/m^3",
+          "description" : "Density"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value" : "0",
+          "type" : "REAL",
+          "displayName" : "Ultimate Compressive Strength",
+          "units" : "Pa",
+          "description" : "Ultimate compressive strength"
+        }, {
+          "category" : "Physical",
+          "name" : "POISSONS_RATIO",
+          "value" : "0.29",
+          "type" : "REAL",
+          "displayName" : "Poisson's Ratio",
+          "units" : "",
+          "description" : "Poisson's ratio"
+        }, {
+          "category" : "Physical",
+          "name" : "ULTIMATE_TENSILE_STRENGTH",
+          "value" : "560000000",
+          "type" : "REAL",
+          "displayName" : "Ultimate Tensile Strength",
+          "units" : "Pa",
+          "description" : "Ultimate tensile strength"
+        } ],
+        "displayName" : "S275JR (1.0044)",
+        "libraryReference" : {
+          "documentId" : "81e33fccf396569c09b88d8f",
+          "elementId" : "2335880ba0008e0ed01e8a07",
+          "elementMicroversionId" : "683c8a51ac4281f0055b8176",
+          "versionId" : "ca767f66065e81b0ffe206be"
+        }
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Part 22",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : true,
+        "color" : {
+          "red" : 127,
+          "green" : 127,
+          "blue" : 127
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "14",
+      "57f3fb8efa3416c06701d626" : "20 kg",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    }, {
+      "itemSource" : {
+        "fullConfiguration" : "default",
+        "viewHref" : "https://cad.onshape.com/documents/46e27a1fc23f4ec664dedf85/v/f7a1c0c85f313b4fed26f49a/e/1c1a8297bbef950c6d506eed?configuration=default",
+        "configuration" : "default",
+        "documentId" : "46e27a1fc23f4ec664dedf85",
+        "elementId" : "1c1a8297bbef950c6d506eed",
+        "partId" : "LFPNK",
+        "wvmType" : "v",
+        "wvmId" : "f7a1c0c85f313b4fed26f49a",
+        "isStandardContent" : false,
+        "sourceElementMicroversionId" : "8425633b4c4397e6a0961f9a",
+        "relatedOccurrences" : [ "Ms24u3XNQp+VAZGEE" ],
+        "indentLevel" : 0
+      },
+      "manufacturer" : "N/A",
+      "excludeFromBom" : false,
+      "notRevisionManaged" : false,
+      "vcprofileid" : "",
+      "excludefromlasersearch" : false,
+      "apistore1" : "",
+      "material" : {
+        "libraryName" : "",
+        "id" : "",
+        "properties" : [ ],
+        "displayName" : ""
+      },
+      "project" : "",
+      "quantity" : 1.0,
+      "state" : "In progress",
+      "bomBehavior" : "N/A",
+      "revision" : "",
+      "supplier" : "",
+      "primitivebodypartnumber" : "",
+      "name" : "Speeder Rhino Mesh",
+      "description" : "",
+      "appearance" : {
+        "isGenerated" : false,
+        "color" : {
+          "red" : 165,
+          "green" : 165,
+          "blue" : 165
+        },
+        "opacity" : 255
+      },
+      "laserexport" : false,
+      "compositebodypartnumber" : "",
+      "framequantity" : 0,
+      "partNumber" : "",
+      "item" : "15",
+      "57f3fb8efa3416c06701d626" : "",
+      "5ace8269c046ad612c65a0bb" : "Auto",
+      "vcvpid" : "",
+      "category" : "",
+      "57f3fb8efa3416c06701d623" : "Each"
+    } ]
+  }
+}

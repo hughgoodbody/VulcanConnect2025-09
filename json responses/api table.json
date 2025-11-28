@@ -1,0 +1,73 @@
+{
+  "btType": "BTApiTableList-1223",
+  "tables": [
+    {
+      "btType": "BTApiTable-2300",
+      "columns": [
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "Item",
+          "header": "Item"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "Qty",
+          "header": "Qty"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "Standard",
+          "header": "Standard"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "Description",
+          "header": "Description"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "Length",
+          "header": "Length"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "Angle 1",
+          "header": "Angle 1"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "Angle 2",
+          "header": "Angle 2"
+        }
+      ],
+      "rows": [
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "Item": "1",
+            "Description": "25 x 25 x 2 SHS ERW",
+            "Length": "168.94 mm",
+            "Qty": "1",
+            "Standard": "BS EN 10219-2: 2006",
+            "Angle 1": "0 deg",
+            "Angle 2": "0 deg"
+          },
+          "entityIds": [
+            "JSD"
+          ]
+        }
+      ],
+      "id": "FSTable 0",
+      "entityIds": [
+        "JUD"
+      ]
+    }
+  ]
+}

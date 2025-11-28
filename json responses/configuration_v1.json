@@ -1,0 +1,264 @@
+{
+  "configurationParameters" : [ {
+    "type" : 105,
+    "typeName" : "BTMConfigurationParameterEnum",
+    "message" : {
+      "enumName" : "List_YnplrZu90sjZkj_conf",
+      "options" : [ {
+        "type" : 592,
+        "typeName" : "BTMEnumOption",
+        "message" : {
+          "option" : "Default",
+          "optionName" : "Default",
+          "hasUserCode" : false,
+          "nodeId" : "MOMzZvmPsYb2DvP7E"
+        }
+      }, {
+        "type" : 592,
+        "typeName" : "BTMEnumOption",
+        "message" : {
+          "option" : "List_2___V1",
+          "optionName" : "List 2 - V1",
+          "hasUserCode" : false,
+          "nodeId" : "MqOU7868X7aWaT6Gv"
+        }
+      }, {
+        "type" : 592,
+        "typeName" : "BTMEnumOption",
+        "message" : {
+          "option" : "List_2___V2",
+          "optionName" : "List 2 - V2",
+          "hasUserCode" : false,
+          "nodeId" : "M+hCD8TZ6Jcs2JMp5"
+        }
+      }, {
+        "type" : 592,
+        "typeName" : "BTMEnumOption",
+        "message" : {
+          "option" : "List_2___V3",
+          "optionName" : "List 2 - V3",
+          "hasUserCode" : false,
+          "nodeId" : "MmcSCX3yaRgB8VAGy"
+        }
+      } ],
+      "namespace" : "",
+      "defaultValue" : "Default",
+      "enumOptionVisibilityConditions" : {
+        "type" : 2936,
+        "typeName" : "BTEnumOptionVisibilityConditionList",
+        "message" : {
+          "visibilityConditions" : [ ]
+        }
+      },
+      "parameterId" : "List_YnplrZu90sjZkj",
+      "parameterName" : "List Input 2",
+      "isCosmetic" : false,
+      "visibilityCondition" : {
+        "type" : 177,
+        "typeName" : "BTParameterVisibilityCondition",
+        "message" : { }
+      },
+      "hasUserCode" : false,
+      "nodeId" : "MinnYnN7Sry2AYyl+"
+    }
+  }, {
+    "type" : 2550,
+    "typeName" : "BTMConfigurationParameterBoolean",
+    "message" : {
+      "defaultValue" : true,
+      "parameterId" : "Boolean1",
+      "parameterName" : "Boolean1",
+      "isCosmetic" : false,
+      "visibilityCondition" : {
+        "type" : 177,
+        "typeName" : "BTParameterVisibilityCondition",
+        "message" : { }
+      },
+      "hasUserCode" : false,
+      "nodeId" : "MxZSFXwGNH71/xWpl"
+    }
+  }, {
+    "type" : 2550,
+    "typeName" : "BTMConfigurationParameterBoolean",
+    "message" : {
+      "defaultValue" : true,
+      "parameterId" : "Boolean_2",
+      "parameterName" : "Boolean 2",
+      "isCosmetic" : false,
+      "visibilityCondition" : {
+        "type" : 177,
+        "typeName" : "BTParameterVisibilityCondition",
+        "message" : { }
+      },
+      "hasUserCode" : false,
+      "nodeId" : "Mf2hZPV/iiPhkNCDZ"
+    }
+  }, {
+    "type" : 105,
+    "typeName" : "BTMConfigurationParameterEnum",
+    "message" : {
+      "enumName" : "List_yKnxHvjluSiK8J_conf",
+      "options" : [ {
+        "type" : 592,
+        "typeName" : "BTMEnumOption",
+        "message" : {
+          "option" : "Default",
+          "optionName" : "Default",
+          "hasUserCode" : false,
+          "nodeId" : "MXRa8fWHr5xj0AJtv"
+        }
+      }, {
+        "type" : 592,
+        "typeName" : "BTMEnumOption",
+        "message" : {
+          "option" : "List_1___V4",
+          "optionName" : "List 1 - V4",
+          "hasUserCode" : false,
+          "nodeId" : "MnH19EAe7r5cIAmph"
+        }
+      }, {
+        "type" : 592,
+        "typeName" : "BTMEnumOption",
+        "message" : {
+          "option" : "List_1___V5",
+          "optionName" : "List 1 - V5",
+          "hasUserCode" : false,
+          "nodeId" : "MPjhUByS6KA2sdxm2"
+        }
+      } ],
+      "namespace" : "",
+      "defaultValue" : "Default",
+      "enumOptionVisibilityConditions" : {
+        "type" : 2936,
+        "typeName" : "BTEnumOptionVisibilityConditionList",
+        "message" : {
+          "visibilityConditions" : [ ]
+        }
+      },
+      "parameterId" : "List_yKnxHvjluSiK8J",
+      "parameterName" : "List input 1",
+      "isCosmetic" : false,
+      "visibilityCondition" : {
+        "type" : 177,
+        "typeName" : "BTParameterVisibilityCondition",
+        "message" : { }
+      },
+      "hasUserCode" : false,
+      "nodeId" : "MSHfTa5XreZi1YaTQ"
+    }
+  }, {
+    "type" : 1826,
+    "typeName" : "BTMConfigurationParameterQuantity",
+    "message" : {
+      "quantityType" : "LENGTH",
+      "rangeAndDefault" : {
+        "type" : 181,
+        "typeName" : "BTQuantityRange",
+        "message" : {
+          "units" : "millimeter",
+          "minValue" : 0.0,
+          "maxValue" : 100000.0,
+          "defaultValue" : 1.0,
+          "location" : {
+            "type" : 226,
+            "typeName" : "BTLocationInfo",
+            "message" : {
+              "document" : "",
+              "version" : "",
+              "topLevel" : "",
+              "parseNodeId" : "",
+              "character" : 0,
+              "line" : 0,
+              "column" : 0,
+              "endCharacter" : 0,
+              "endLine" : 0,
+              "endColumn" : 0,
+              "languageVersion" : 0,
+              "moduleIds" : {
+                "type" : 1897,
+                "typeName" : "BTDocumentVersionElementIds",
+                "message" : {
+                  "documentId" : "",
+                  "versionId" : "",
+                  "elementId" : ""
+                }
+              },
+              "elementMicroversion" : "",
+              "nodeId" : "E9067bE1mt++6Aso"
+            }
+          }
+        }
+      },
+      "parameterId" : "Var1",
+      "parameterName" : "Var1",
+      "isCosmetic" : false,
+      "visibilityCondition" : {
+        "type" : 177,
+        "typeName" : "BTParameterVisibilityCondition",
+        "message" : { }
+      },
+      "hasUserCode" : false,
+      "nodeId" : "MX+A3oi7chSiy61/D"
+    }
+  }, {
+    "type" : 1826,
+    "typeName" : "BTMConfigurationParameterQuantity",
+    "message" : {
+      "quantityType" : "LENGTH",
+      "rangeAndDefault" : {
+        "type" : 181,
+        "typeName" : "BTQuantityRange",
+        "message" : {
+          "units" : "millimeter",
+          "minValue" : 0.0,
+          "maxValue" : 100000.0,
+          "defaultValue" : 1.0,
+          "location" : {
+            "type" : 226,
+            "typeName" : "BTLocationInfo",
+            "message" : {
+              "document" : "",
+              "version" : "",
+              "topLevel" : "",
+              "parseNodeId" : "",
+              "character" : 0,
+              "line" : 0,
+              "column" : 0,
+              "endCharacter" : 0,
+              "endLine" : 0,
+              "endColumn" : 0,
+              "languageVersion" : 0,
+              "moduleIds" : {
+                "type" : 1897,
+                "typeName" : "BTDocumentVersionElementIds",
+                "message" : {
+                  "documentId" : "",
+                  "versionId" : "",
+                  "elementId" : ""
+                }
+              },
+              "elementMicroversion" : "",
+              "nodeId" : "In6yZiWtcflQZ86c"
+            }
+          }
+        }
+      },
+      "parameterId" : "Var2",
+      "parameterName" : "Var2",
+      "isCosmetic" : false,
+      "visibilityCondition" : {
+        "type" : 177,
+        "typeName" : "BTParameterVisibilityCondition",
+        "message" : { }
+      },
+      "hasUserCode" : false,
+      "nodeId" : "MzkGoLTTY14EvtDxJ"
+    }
+  } ],
+  "currentConfiguration" : [ ],
+  "serializationVersion" : "1.2.11",
+  "sourceMicroversion" : "936dc38e5a2dce99dcf2dc86",
+  "rejectMicroversionSkew" : false,
+  "microversionSkew" : false,
+  "libraryVersion" : 2695
+}

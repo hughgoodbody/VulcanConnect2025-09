@@ -1,0 +1,30 @@
+partName
+item
+originalbodyid
+description
+qty
+cutlistbodyid
+length
+partNumber
+type
+
+ {'cutlistbodyid': 'J1D',
+  'description': '25 x 25 x 2 SHS ERW',
+  'item': '3',
+  'length': '0.18',
+  'originalbodyid': 'J0D',
+  'partName': 'Composite part 1',
+  'partNumber': 'COMPOSITE PN-3',
+  'qty': '2',
+  'type': 'Composite'}
+
+row.get('partName')
+row.get('item')
+row.get('originalbodyid')
+row.get('description')
+row.get('qty')
+row.get('cutlistbodyid')
+row.get('length')
+row.get('partNumber')
+row.get('type')
+                  

@@ -1,0 +1,180 @@
+{
+  "btType": "BTApiTableList-1223",
+  "tables": [
+    {
+      "btType": "BTApiTable-2300",
+      "columns": [
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "partName",
+          "header": "Name"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "item",
+          "header": "Item"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "originalbodyid",
+          "header": "OriginalBodyId"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "description",
+          "header": "Description"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "qty",
+          "header": "Qty"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "cutlistbodyid",
+          "header": "CutListBodyId"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "length",
+          "header": "Length"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "partNumber",
+          "header": "Part Number"
+        },
+        {
+          "btType": "BTApiTableColumn-3141",
+          "textAlignment": "LEFT",
+          "id": "type",
+          "header": "Type"
+        }
+      ],
+      "rows": [
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "1",
+            "qty": "1",
+            "cutlistbodyid": "J2D",
+            "length": "0.3",
+            "description": "50 x 50 x 2 SHS ERW",
+            "originalbodyid": "JwD",
+            "partNumber": "SINGLE PN-1",
+            "type": "Discrete",
+            "partName": "Part 4"
+          }
+        },
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "1",
+            "qty": "1",
+            "cutlistbodyid": "J3D",
+            "length": "0.3",
+            "description": "50 x 50 x 2 SHS ERW",
+            "originalbodyid": "JyD",
+            "partNumber": "SINGLE PN-1",
+            "type": "Discrete",
+            "partName": "Part 5"
+          }
+        },
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "1",
+            "qty": "1",
+            "cutlistbodyid": "J4D",
+            "length": "0.18",
+            "description": "25 x 25 x 2 SHS ERW",
+            "originalbodyid": "J0P",
+            "partNumber": "undefined-1",
+            "type": "Discrete",
+            "partName": "Part 9"
+          }
+        },
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "1",
+            "qty": "1",
+            "cutlistbodyid": "J5D",
+            "length": "0.14",
+            "description": "25 x 25 x 2 SHS ERW",
+            "originalbodyid": "J0T",
+            "partNumber": "undefined-1",
+            "type": "Discrete",
+            "partName": "Part 10"
+          }
+        },
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "1",
+            "qty": "1",
+            "cutlistbodyid": "J6D",
+            "length": "0.27",
+            "description": "25 x 25 x 2 SHS ERW",
+            "originalbodyid": "J0X",
+            "partNumber": "undefined-1",
+            "type": "Discrete",
+            "partName": "Part 11"
+          }
+        },
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "1",
+            "qty": "2",
+            "cutlistbodyid": "J1D",
+            "length": "0.27",
+            "description": "25 x 25 x 2 SHS ERW",
+            "originalbodyid": "J0L",
+            "partNumber": "COMPOSITE PN-1",
+            "type": "Composite",
+            "partName": "Composite part 1"
+          }
+        },
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "2",
+            "qty": "2",
+            "cutlistbodyid": "J1D",
+            "length": "0.14",
+            "description": "25 x 25 x 2 SHS ERW",
+            "originalbodyid": "J0H",
+            "partNumber": "COMPOSITE PN-2",
+            "type": "Composite",
+            "partName": "Composite part 1"
+          }
+        },
+        {
+          "btType": "BTApiTableRow-2915",
+          "columnIdToValue": {
+            "item": "3",
+            "qty": "2",
+            "cutlistbodyid": "J1D",
+            "length": "0.18",
+            "description": "25 x 25 x 2 SHS ERW",
+            "originalbodyid": "J0D",
+            "partNumber": "COMPOSITE PN-3",
+            "type": "Composite",
+            "partName": "Composite part 1"
+          }
+        }
+      ],
+      "title": "Frame Bodies",
+      "id": "FSTable 0"
+    }
+  ]
+}
