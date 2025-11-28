@@ -17,12 +17,15 @@ This repository contains a NiceGUI-based application. The previous local entry p
 1. In **Setup Python App**, create (or select) a virtual environment.
 2. Upload/clone this repo into the **Application root** shown in cPanel (the same folder where cPanel will look for the startup file).
 3. Set the **Application startup file** to `passenger_wsgi.py`. Leave the **Application entry point** as `application` (Passenger looks for this name by default). If cPanel pre-populated the file with a default stub that calls ``imp.load_source`` on `passenger_wsgi.py`, delete that content and replace it with the `passenger_wsgi.py` from this repo—using ``imp`` to reload this same file causes infinite recursion.
-4. Open the cPanel terminal for that app, activate the environment if needed, and install dependencies:
+4. Confirm the app uses your virtual environment:
+   - In the cPanel UI, ensure the **Python version** matches the venv you created.
+   - The `passenger_wsgi.py` here will also honor a `VIRTUAL_ENV` environment variable by adding its `site-packages` to `sys.path`; if you see `ModuleNotFoundError`, verify `VIRTUAL_ENV` is set to the full path of your venv (or reinstall the app via **Setup Python App** so Passenger sets it automatically).
+5. Open the cPanel terminal for that app, activate the environment if needed, and install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-5. Click **Restart** in the cPanel UI. Passenger will import `passenger_wsgi.py`, which wraps the NiceGUI ASGI app from `main.py` and serves it on your domain.
-6. Optional: for troubleshooting you can start the ASGI app yourself (e.g., over SSH) with:
+6. Click **Restart** in the cPanel UI. Passenger will import `passenger_wsgi.py`, which wraps the NiceGUI ASGI app from `main.py` and serves it on your domain.
+7. Optional: for troubleshooting you can start the ASGI app yourself (e.g., over SSH) with:
    ```bash
    uvicorn main:app --host 0.0.0.0 --port 8051 --proxy-headers --forwarded-allow-ips="*"
    ```
