@@ -1,7 +1,9 @@
-from nicegui import ui
+from nicegui import ui, app
 
 @ui.page("/")
 def index():
-    ui.label("Hello from NiceGUI + Passenger!")
+    ui.label("Hello from NiceGUI on Passenger!")
 
-app = ui.run(return_app=True)
+# IMPORTANT:
+# DO NOT call ui.run() when deploying under uvicorn.
+# Passenger starts uvicorn and uvicorn loads app directly.
