@@ -1,16 +1,11 @@
-import nicegui
-print(">>> PASSENGER IMPORTED NICEGUI FROM:", nicegui.__file__)
-print(">>> NICEGUI VERSION:", getattr(nicegui, '__version__', '(no version)'))
-
-
 from nicegui import ui
-from nicegui.app import app as nicegui_app
-from nicegui.ui_run_with import run_with
 
-from frontend.ui import frontend_ui
+print(">>> NiceGUI imported from:", ui.__file__)
+print(">>> NiceGUI version:", ui.__version__)
 
-# Register your UI pages
-frontend_ui()
+@ui.page("/")
+def index():
+    ui.label("Hello from Passenger + NiceGUI")
 
-# Create the ASGI app NiceGUI exposes, initialized for embedding
-app = run_with(nicegui_app)
+# THIS is the FastAPI ASGI app Passenger must serve:
+app = ui.app
