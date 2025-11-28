@@ -136,5 +136,6 @@ def export_drawings_to_memory_zip(
 
         zip_buffer.seek(0)
     except:
-        traceback.print_exc()    
+        traceback.print_exc()
+
     return zip_buffer.read()

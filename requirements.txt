@@ -4,6 +4,7 @@ aiohttp==3.12.14
 aiosignal==1.4.0
 annotated-types==0.7.0
 anyio==4.9.0
+asgiref==3.8.1
 attrs==25.3.0
 bidict==0.23.1
 certifi==2025.7.14
@@ -30,7 +31,6 @@ markdown2==2.5.3
 MarkupSafe==3.0.2
 matplotlib==3.10.3
 multidict==6.6.3
-nicegui==2.21.1
 numpy==2.3.1
 orjson==3.11.0
 packaging==25.0
