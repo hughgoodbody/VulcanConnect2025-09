@@ -1,0 +1,2 @@
+- Refactor shared logic
+- Complete UI layout

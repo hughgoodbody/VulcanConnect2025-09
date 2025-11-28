@@ -1,0 +1,18 @@
+cd /d A:\Onshape\OnshapeApp-2025
+python -m venv venv
+venv\Scripts\activate
+pip install nicegui requests
+pip install ezdxf
+
+Activate existing Virtual environment:
+.\venv\Scripts\Activate
+
+Virtual environment on laptop:
+python -m venv laptop_onshape_venv
+laptop_onshape_venv\Scripts\activate
+
+#Paste this to enable the venv on LAPTOP
+C:\Users\Hugh\Python_venvs\laptop_onshape_venv\Scripts\Activate.ps1
+
+#Paste this to enable the venv on WORKSTATION1
+C:\Users\Hugh\Python_venvs\workstation1_venv\Scripts\Activate.ps1

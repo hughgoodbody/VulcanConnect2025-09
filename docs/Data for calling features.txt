@@ -1,0 +1,34 @@
+Frame Cutlist Search for API App: https://cad.onshape.com/documents/b86b36176abab19222a08b65/v/23cb407ae387b9a0179be5c5/e/bd29fbb9ec9c7aaf7d44b2f7
+Microversion: 2db38d505a599172d00f021b
+
+Get microversion from documents/elements
+
+Namespace:db86b36176abab19222a08b65::v23cb407ae387b9a0179be5c5::ede018edd97ab8acdaf9e4acf::m2db38d505a599172d00f021b
+tableType: APITable
+
+For Version 5:
+Namespace:db86b36176abab19222a08b65::vf3dc5c2eb495cea21ee96a79::ede018edd97ab8acdaf9e4acf::md7ee335e8f255fcf8c17f410
+
+
+
+Create API Frame feature:
+
+Request body:
+{
+      "btType": "BTFeatureDefinitionCall-1406",
+      "feature":{
+        "btType": "BTMFeature-134",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "namespace": "db86b36176abab19222a08b65::v23cb407ae387b9a0179be5c5::ede018edd97ab8acdaf9e4acf::m2db38d505a599172d00f021b",
+      "name": "API Frame Search 1",
+      "suppressed": false,
+      "parameters": [],
+      "featureId": "F6hLIQvclUECLF2_2",
+      "nodeId": "q/Wtpnr7uCHhhxvn",
+      "featureType": "apiFrameSearch",
+      "suppressionState": null
+      }
+}
+
+Ensure namespace is updated if new version is created

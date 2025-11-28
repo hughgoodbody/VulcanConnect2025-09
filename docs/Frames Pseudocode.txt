@@ -1,0 +1,36 @@
+
+CURRENT STRUCTURE:
+parse_url
+get_bom
+extract_frame_info
+			-process_frame_data
+					 	-determine_profile
+						-get_step_url
+update_parts_and_quantities
+			-update_metadata
+update_metadata
+
+
+NEW STRUCTURE:
+parse_url
+get_configurations
+encode_configurations
+get_bom
+
+{
+create_list _of _discrete_partstudios, 
+traverse them, 
+create api frame search feature in each PS
+create list of the results along with associated did, eid, etc
+Cross reference BOM with the list to pull out required info into new list
+}
+
+Go through the bom now, getting the part info
+-determine_profile
+-get_step_url
+
+update_metadata
+create NC1 csv
+create total material csv
+bin pack
+download step files

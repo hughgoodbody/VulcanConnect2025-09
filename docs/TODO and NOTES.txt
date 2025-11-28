@@ -1,0 +1,36 @@
+TODO:
+
+LASER EXPORT TOOL:
+
+Auto part numbering
+Composite / discrete analysis - same method as frame api search, use tables
+
+AGGRID data table
+
+Flat part in contact sheet not showing - Sheet metal outline is on layer "SHEETMETAL_CUT_LINES"
+wheras all other parts are on "VISIBLE" - This is new!
+
+
+FRAME EXPORT TOOL:
+
+Create part numbers
+Create list of part studios
+Create API Frame feature in each part studio
+
+
+
+DRAWINGS:
+Find largest face
+Find longest edge
+Find coincident view plane with largest face plane of largest face
+Find angle between longest edge and x axis
+
+Create view manually, then automate the annotations and dimensioning of each view? POSSIBLE?
+
+
+
+KEEP EYE ON CUT LIST TABLE CHANGES
+This caught me out when they changed the location of transient id to row.entities.subqueries[0]["subquery1"][0]["transientId"]
+
+ROLL WRAP:
+In custom feature, add a notification to not forget to run rollwrap api code.
