@@ -1,26 +1,26 @@
 import os
-from nicegui import ui
+from nicegui import ui, app as nicegui_app
+from nicegui import ui_run_with
 
 from frontend.ui import frontend_ui
 
-# Register UI pages once
+# Register UI routes
 frontend_ui()
 
-# ASGI app (for uvicorn)
-app = ui.app
-
+# This creates the ASGI app with full NiceGUI initialization
+app = ui_run_with(
+    nicegui_app,
+    host=os.getenv("HOST", "127.0.0.1"),
+    port=int(os.getenv("PORT", "8051")),
+    reload=False,
+)
 
 def main():
-    # Local development runner
     ui.run(
-        host=os.getenv("HOST", "127.0.0.1"),
-        port=int(os.getenv("PORT", "8051")),
+        host="0.0.0.0",
+        port=8051,
         reload=False,
     )
 
-
-# Passenger/uvicorn imports this module as "main",
-# so __name__ is NOT "__main__" and ui.run() should NOT run here.
-# Local dev still works.
 if __name__ == "__main__":
     main()
