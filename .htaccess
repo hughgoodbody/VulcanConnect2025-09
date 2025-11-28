@@ -1,10 +1,9 @@
-AddHandler application/x-httpd-alt-php84___lsphp .php
-
-PassengerAppType standalone
+PassengerEnabled on
+PassengerAppType wsgi
 PassengerStartupFile passenger_wsgi.py
-PassengerFriendlyErrorPages on
-PassengerMinInstances 1
 PassengerPython /home/cb08d76fjvq5/virtualenv/VulcanConnect2025-09/3.11/bin/python
+PassengerFriendlyErrorPages on
 
+# Reverse proxy to uvicorn running in Passenger
 RewriteEngine On
 RewriteRule ^(.*)$ http://127.0.0.1:8051/$1 [P,L]
