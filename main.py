@@ -1,14 +1,15 @@
 import os
-from nicegui import ui, app as nicegui_app
-from nicegui import ui_run_with
+from nicegui import ui
+from nicegui.app import app as nicegui_app
+from nicegui.ui_run_with import run_with
 
 from frontend.ui import frontend_ui
 
 # Register UI routes
 frontend_ui()
 
-# This creates the ASGI app with full NiceGUI initialization
-app = ui_run_with(
+# Create fully initialized ASGI app for uvicorn
+app = run_with(
     nicegui_app,
     host=os.getenv("HOST", "127.0.0.1"),
     port=int(os.getenv("PORT", "8051")),
