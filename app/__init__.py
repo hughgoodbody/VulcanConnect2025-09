@@ -1,1 +1,1 @@
-
+"""VulcanConnect web app package."""

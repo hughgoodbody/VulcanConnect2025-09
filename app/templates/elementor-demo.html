@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Onshape Configurator Embed</title>
+    <script src="/static/elementor-widget.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        window.VULCAN_API_URL = "https://your-domain.com/api";
+        window.renderOnshapeConfigurator("configurator-root");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="configurator-root"></div>
+  </body>
+</html>
