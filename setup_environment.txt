@@ -7,7 +7,7 @@ pip install -r requirements.txt
 # Run the API locally
 uvicorn app.main:app --reload --port 8000
 
-# Environment variables for Onshape (create a .env file or export)
+# Environment variables for Onshape (copy .env.example to .env at the project root or export)
 # ONSHAPE_ACCESS_KEY=your_access_key
 # ONSHAPE_SECRET_KEY=your_secret_key
 # ONSHAPE_BASE_URL=https://cad.onshape.com

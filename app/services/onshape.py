@@ -1,4 +1,4 @@
-"""Client for communicating with the Onshape API."""
+"""Onshape helper class for retrieving configuration metadata."""
 
 from __future__ import annotations
 
@@ -18,8 +18,8 @@ class OnshapeUrlError(ValueError):
     """Raised when an Onshape URL cannot be parsed."""
 
 
-class OnshapeClient:
-    """A lightweight Onshape API client tailored for configuration retrieval."""
+class Onshape:
+    """Lightweight Onshape helper with URL parsing and configuration lookup."""
 
     def __init__(self, settings: Settings):
         self.settings = settings
@@ -56,19 +56,11 @@ class OnshapeClient:
             "Accept": "application/json",
         }
 
-    def fetch_configurations(self, onshape_url: str) -> ConfigurationResponse:
-        """Fetch configuration options for an Onshape element.
-
-        Notes:
-            This method expects the Onshape URL to follow the standard pattern and
-            requires API credentials when accessing private documents. The return
-            shape matches what the frontend needs to render radio, enum, and
-            quantity controls.
-        """
+    def get_configurations(self, onshape_url: str) -> ConfigurationResponse:
+        """Fetch configuration options for an Onshape element."""
 
         document_id, workspace_or_version_id, element_id = self.parse_url(onshape_url)
 
-        # Onshape API path for configuration list
         api_path = (
             f"/api/parts/d/{document_id}/w/{workspace_or_version_id}"
             f"/e/{element_id}/configurations"
@@ -83,7 +75,6 @@ class OnshapeClient:
         response.raise_for_status()
         data: Mapping[str, Any] = response.json()
 
-        # Transform the Onshape payload into UI-friendly options.
         options = [
             ConfigurationOption(
                 key=item.get("parameterId", ""),

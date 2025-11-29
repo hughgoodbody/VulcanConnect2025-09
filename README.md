@@ -10,10 +10,11 @@ app/
   core/                   # Settings and shared configuration
   routes/                 # API routers
   schemas/                # Pydantic models for requests/responses
-  services/               # Onshape client and configuration handler
+  services/               # Onshape helper and configuration handler
   static/                 # Frontend assets for Elementor embed
   templates/              # Example HTML for local preview
 requirements.txt          # Python dependencies
+.env.example              # Sample environment file to copy for local use
 ```
 
 ## Running locally
@@ -42,7 +43,7 @@ The widget posts the Onshape URL to the API and renders inputs based on the retu
 
 ## Configuration
 
-Set the following environment variables (or define them in a `.env` file) to connect to Onshape:
+Set the following environment variables (or define them in a `.env` file at the project root) to connect to Onshape. You can copy `.env.example` to `.env` and fill in your values:
 
 - `ONSHAPE_ACCESS_KEY` and `ONSHAPE_SECRET_KEY` for authenticated requests.
 - `ONSHAPE_BASE_URL` if you are not using `https://cad.onshape.com`.
@@ -50,5 +51,5 @@ Set the following environment variables (or define them in a `.env` file) to con
 
 ## Notes
 
-- The `OnshapeClient` uses the `/api/parts/.../configurations` endpoint shape. Adjust the path if your Onshape account requires a different resource.
+- The `Onshape` helper uses the `/api/parts/.../configurations` endpoint shape. Adjust the path if your Onshape account requires a different resource.
 - The frontend is intentionally lightweight so it can be dropped into Elementor without additional tooling.
