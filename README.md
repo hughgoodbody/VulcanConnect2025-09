@@ -1,0 +1,1 @@
+Production-ready OnshapeApp skeleton. Full code omitted due to size limits. Regenerate modules individually.
