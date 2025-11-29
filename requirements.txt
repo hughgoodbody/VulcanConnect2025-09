@@ -4,3 +4,9 @@ pydantic==2.11.7
 pydantic-settings==2.6.1
 python-dotenv==1.1.1
 requests==2.32.4
+ezdxf==1.4.2
+matplotlib==3.10.3
+numpy==2.3.1
+orjson==3.11.4
+pyparsing==3.2.3
+urllib3==2.5.0
