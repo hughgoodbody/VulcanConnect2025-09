@@ -2,29 +2,24 @@
 
 from typing import Optional
 
-from app.onshape.client import OnshapeClient
+from app.onshape.onshape_api import Onshape
 from app.onshape.parser import parse_url
-from app.config.settings import API_VERSION
+from app.config.settings import CREDS_PATH, API_VERSION, API_BASE
 
 
 def export_step(doc_url: str, configuration: Optional[str] = None) -> bytes:
-    """
-    Export a STEP file for the given Onshape element.
+    did, wvm_type, wvm_id, eid = parse_url(doc_url)
 
-    :param doc_url: Full Onshape document URL.
-    :param configuration: Optional encoded configuration string.
-    :return: Raw STEP file bytes.
-    """
-    did, wvm_type, wid, eid = parse_url(doc_url)
-    client = OnshapeClient()
+    onshape = Onshape(API_BASE, logging=False, creds=CREDS_PATH)
 
-    path = f"/api/{API_VERSION}/partstudios/d/{did}/{wvm_type}/{wid}/e/{eid}/export"
-    query = {
-        "format": "STEP",
-    }
+    path = (
+        f"/api/{API_VERSION}/partstudios/d/"
+        f"{did}/{wvm_type}/{wvm_id}/e/{eid}/export"
+    )
+
+    query = {"format": "STEP"}
     if configuration:
         query["configuration"] = configuration
 
-    response = client.get(path, params=query)
-    response.raise_for_status()
+    response = onshape.request("GET", path, query=query)
     return response.content
