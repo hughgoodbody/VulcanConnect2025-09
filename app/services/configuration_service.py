@@ -1,0 +1,55 @@
+# app/services/configuration_service.py
+
+from typing import Any, Dict, List
+
+
+def build_ui_schema(config_json: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Convert the raw Onshape configuration JSON into a simplified UI schema.
+
+    The schema is designed for a frontend (e.g. WordPress/Elementor + JS) to render:
+      - enum parameters as <select>
+      - boolean parameters as checkboxes
+      - quantity parameters as numeric inputs with bounds and units
+
+    Input is expected to be what Onshape returns from /configuration.
+    """
+    parameters = config_json.get("configurationParameters", [])
+    ui_parameters: List[Dict[str, Any]] = []
+
+    for param in parameters:
+        type_name = param.get("btType", "")
+        name = param.get("parameterName", "Unnamed")
+        param_id = param.get("parameterId", "unknown")
+
+        entry: Dict[str, Any] = {
+            "id": param_id,
+            "name": name,
+            "rawType": type_name,
+        }
+
+        if type_name.startswith("BTMConfigurationParameterEnum"):
+            entry["type"] = "enum"
+            entry["options"] = [
+                opt.get("optionName", "Unnamed") for opt in param.get("options", [])
+            ]
+
+        elif type_name.startswith("BTMConfigurationParameterBoolean"):
+            entry["type"] = "boolean"
+            entry["default"] = param.get("defaultValue", False)
+
+        elif type_name.startswith("BTMConfigurationParameterQuantity"):
+            range_msg = param.get("rangeAndDefault", {})
+            entry["type"] = "quantity"
+            entry["min"] = range_msg.get("minValue", 0)
+            entry["max"] = range_msg.get("maxValue", 1000)
+            entry["default"] = range_msg.get("defaultValue", entry["min"])
+            entry["units"] = range_msg.get("units", "mm")
+
+        else:
+            # Unsupported / unknown parameter type – still return basic info
+            entry["type"] = "unsupported"
+
+        ui_parameters.append(entry)
+
+    return {"parameters": ui_parameters}
