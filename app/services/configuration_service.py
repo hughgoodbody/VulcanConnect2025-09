@@ -5,13 +5,13 @@ from typing import Any, Dict, List
 
 def build_ui_schema(config_json: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Convert the raw Onshape configuration JSON into a simplified UI schema.
+    Convert Onshape's configurationStructure into a clean UI schema used by Elementor.
     """
     parameters = config_json.get("configurationParameters", [])
     ui_parameters: List[Dict[str, Any]] = []
 
     for param in parameters:
-        type_name = param.get("btType", "")
+        type_name = param.get("btType")
         name = param.get("parameterName", "Unnamed")
         param_id = param.get("parameterId", "unknown")
 
@@ -21,16 +21,19 @@ def build_ui_schema(config_json: Dict[str, Any]) -> Dict[str, Any]:
             "rawType": type_name,
         }
 
+        # ENUM PARAMETERS
         if type_name.startswith("BTMConfigurationParameterEnum"):
             entry["type"] = "enum"
             entry["options"] = [
                 opt.get("optionName", "Unnamed") for opt in param.get("options", [])
             ]
 
+        # BOOLEAN PARAMETERS
         elif type_name.startswith("BTMConfigurationParameterBoolean"):
             entry["type"] = "boolean"
             entry["default"] = param.get("defaultValue", False)
 
+        # QUANTITY PARAMETERS
         elif type_name.startswith("BTMConfigurationParameterQuantity"):
             range_msg = param.get("rangeAndDefault", {})
             entry["type"] = "quantity"
