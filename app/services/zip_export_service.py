@@ -6,6 +6,10 @@ from typing import Dict
 
 
 def create_zip(files: Dict[str, bytes]) -> bytes:
+    """
+    Create a ZIP archive from a mapping of { filename: file_bytes }.
+    Returns the ZIP as bytes.
+    """
     buffer = io.BytesIO()
     with zipfile.ZipFile(buffer, mode="w", compression=zipfile.ZIP_DEFLATED) as zf:
         for name, content in files.items():
