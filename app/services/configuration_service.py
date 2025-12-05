@@ -6,13 +6,6 @@ from typing import Any, Dict, List
 def build_ui_schema(config_json: Dict[str, Any]) -> Dict[str, Any]:
     """
     Convert the raw Onshape configuration JSON into a simplified UI schema.
-
-    The schema is designed for a frontend (e.g. WordPress/Elementor + JS) to render:
-      - enum parameters as <select>
-      - boolean parameters as checkboxes
-      - quantity parameters as numeric inputs with bounds and units
-
-    Input is expected to be what Onshape returns from /configuration.
     """
     parameters = config_json.get("configurationParameters", [])
     ui_parameters: List[Dict[str, Any]] = []
@@ -47,7 +40,6 @@ def build_ui_schema(config_json: Dict[str, Any]) -> Dict[str, Any]:
             entry["units"] = range_msg.get("units", "mm")
 
         else:
-            # Unsupported / unknown parameter type – still return basic info
             entry["type"] = "unsupported"
 
         ui_parameters.append(entry)
