@@ -9,14 +9,9 @@ from app.config.settings import CREDS_PATH, API_VERSION, API_BASE
 
 def export_step(doc_url: str, configuration: Optional[str] = None) -> bytes:
     did, wvm_type, wvm_id, eid = parse_url(doc_url)
-
     onshape = Onshape(API_BASE, logging=False, creds=CREDS_PATH)
 
-    path = (
-        f"/api/{API_VERSION}/partstudios/d/"
-        f"{did}/{wvm_type}/{wvm_id}/e/{eid}/export"
-    )
-
+    path = f"/api/{API_VERSION}/partstudios/d/{did}/{wvm_type}/{wvm_id}/e/{eid}/export"
     query = {"format": "STEP"}
     if configuration:
         query["configuration"] = configuration
