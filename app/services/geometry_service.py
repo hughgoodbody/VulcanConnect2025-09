@@ -7,18 +7,12 @@ import numpy  # type: ignore
 from ezdxf.gfxattribs import GfxAttribs  # type: ignore
 
 
-# ---------------------------------------------------------------------------
-# General utilities
-# ---------------------------------------------------------------------------
-
 def load_js_function_as_string(path_to_js_file: str) -> str:
-    """Load the contents of a JS file as a string."""
     with open(path_to_js_file, "r", encoding="utf-8") as file:
         return file.read()
 
 
 def findInList(lst: List[Dict[str, Any]], key: str, value: Any) -> int:
-    """Return index of dict in list where dict[key] == value, or -1 if not found."""
     for i, dic in enumerate(lst):
         if dic.get(key) == value:
             return i
@@ -26,18 +20,15 @@ def findInList(lst: List[Dict[str, Any]], key: str, value: Any) -> int:
 
 
 def search(lst: List[Dict[str, Any]], key: str, value: Any) -> Optional[int]:
-    """Return index of dict in list where dict[key] == value, or None if not found."""
     return next((index for (index, d) in enumerate(lst) if d.get(key) == value), None)
 
 
 def dotProduct(vector1: Sequence[float], vector2: Sequence[float]) -> float:
-    """Absolute value of the dot product of two 3D vectors."""
     dot_val = (vector1[0] * vector2[0]) + (vector1[1] * vector2[1]) + (vector1[2] * vector2[2])
     return abs(dot_val)
 
 
 def pointDistance(point1: Sequence[float], point2: Sequence[float]) -> float:
-    """Euclidean distance between two 3D points."""
     return math.sqrt(
         (point1[0] - point2[0]) ** 2
         + (point1[1] - point2[1]) ** 2
@@ -46,12 +37,10 @@ def pointDistance(point1: Sequence[float], point2: Sequence[float]) -> float:
 
 
 def find_face_index(faces: List[Dict[str, Any]], face_id: Any) -> Optional[int]:
-    """Return index of face dict with given id, or None."""
     return next((i for i, f in enumerate(faces) if f.get("id") == face_id), None)
 
 
 def calculate_thickness(face1: Dict[str, Any], face2: Dict[str, Any]) -> float:
-    """Calculate thickness between two faces using their origins and face1 normal."""
     o1 = face1["surface"]["origin"]
     o2 = face2["surface"]["origin"]
     vec = (o1["x"] - o2["x"], o1["y"] - o2["y"], o1["z"] - o2["z"])
@@ -64,34 +53,20 @@ def calculate_thickness(face1: Dict[str, Any], face2: Dict[str, Any]) -> float:
 
 
 def are_faces_parallel(face1: Dict[str, Any], face2: Dict[str, Any], tol: float) -> bool:
-    """Return True if faces are parallel within a tolerance based on their normals."""
     n1 = face1["surface"]["normal"]
     n2 = face2["surface"]["normal"]
     dot = n1["x"] * n2["x"] + n1["y"] * n2["y"] + n1["z"] * n2["z"]
     return abs(dot - 1) <= tol
 
 
-# ---------------------------------------------------------------------------
-# DXF / dimensioning utilities
-# ---------------------------------------------------------------------------
-
 def detailTapping(hole: Any, msp: Any) -> None:
-    """
-    Add tapping detail to a hole in a DXF modelspace.
-
-    :param hole: DXF circle-like entity with .dxf.radius and .dxf.center
-    :param msp: DXF modelspace
-    """
     xtapinfo = "M6 x 1.75 - H6 THRU"
-    hole_diameter = round((hole.dxf.radius * 2), 1)
-
-    # centre of circle
     hole_centre = hole.dxf.center
-    hole_x_coordinate = hole_centre[0]
-    hole_y_coordinate = hole_centre[1]
+    hole_x = hole_centre[0]
+    hole_y = hole_centre[1]
 
     msp.add_radius_dim(
-        center=(hole_x_coordinate, hole_y_coordinate),
+        center=(hole_x, hole_y),
         radius=hole.dxf.radius,
         angle=45,
         text=" " + xtapinfo,
@@ -102,7 +77,6 @@ def detailTapping(hole: Any, msp: Any) -> None:
 
 
 def dimensionPrincipal(msp: Any) -> None:
-    """Dimension the longest line in modelspace as a principal dimension."""
     longest_line = {"Line Object": None, "Line Length": 0.0}
     lines_query = msp.query("LINE")
 
@@ -126,25 +100,17 @@ def dimensionPrincipal(msp: Any) -> None:
 
 
 def dimensionBoundingBox(msp: Any, xboundingBox: Any, xtextHeight: float) -> None:
-    """
-    Create horizontal and vertical bounding box dimensions using manual DXF entities.
-    """
-    second_horizontal_point = (xboundingBox.extmax[0], xboundingBox.extmin[1])
-    second_vertical_point = (xboundingBox.extmin[0], xboundingBox.extmax[1])
-
-    s = 6  # spacing between dimension line and model
+    s = 6
     attribs = GfxAttribs(layer="Dimensions")
 
     h_start = (xboundingBox.extmin[0], (xboundingBox.extmin[1] - s))
     h_end = (xboundingBox.extmax[0], (xboundingBox.extmin[1] - s))
-    v_start = (xboundingBox.extmin[0] - s, (xboundingBox.extmin[1]))
+    v_start = (xboundingBox.extmin[0] - s, xboundingBox.extmin[1])
     v_end = (xboundingBox.extmin[0] - s, xboundingBox.extmax[1])
 
-    # main dimension lines
-    horiz_line = msp.add_line(h_start, h_end, dxfattribs=attribs)
-    vert_line = msp.add_line(v_start, v_end, dxfattribs=attribs)
+    msp.add_line(h_start, h_end, dxfattribs=attribs)
+    msp.add_line(v_start, v_end, dxfattribs=attribs)
 
-    # oblique ends for horizontal
     msp.add_line(
         (xboundingBox.extmin[0] - 5, xboundingBox.extmin[1] - 5 - s),
         (xboundingBox.extmin[0] + 5, xboundingBox.extmin[1] + 5 - s),
@@ -156,7 +122,6 @@ def dimensionBoundingBox(msp: Any, xboundingBox: Any, xtextHeight: float) -> Non
         dxfattribs=attribs,
     )
 
-    # oblique ends for vertical
     msp.add_line(
         (xboundingBox.extmin[0] - 5 - s, xboundingBox.extmin[1] - 5),
         (xboundingBox.extmin[0] + 5 - s, xboundingBox.extmin[1] + 5),
@@ -168,7 +133,6 @@ def dimensionBoundingBox(msp: Any, xboundingBox: Any, xtextHeight: float) -> Non
         dxfattribs=attribs,
     )
 
-    # numeric labels
     horiz_length = math.ceil(abs(xboundingBox.extmax[0] - xboundingBox.extmin[0]))
     vert_length = math.ceil(abs(xboundingBox.extmax[1] - xboundingBox.extmin[1]))
 
@@ -177,7 +141,7 @@ def dimensionBoundingBox(msp: Any, xboundingBox: Any, xtextHeight: float) -> Non
         (xboundingBox.extmin[1] - (xtextHeight + 2)),
     )
     v_dim_pos = (
-        xboundingBox.extmin[0] - ((xtextHeight / 2)) - (s + 2),
+        xboundingBox.extmin[0] - (xtextHeight / 2) - (s + 2),
         (xboundingBox.extmin[1] + (vert_length / 2)),
     )
 
@@ -192,10 +156,6 @@ def dimensionBoundingBox(msp: Any, xboundingBox: Any, xtextHeight: float) -> Non
     text.dxf.layer = "Dimensions"
     text.dxf.halign = 4
 
-
-# ---------------------------------------------------------------------------
-# Face / edge / view-matrix helpers
-# ---------------------------------------------------------------------------
 
 def get_face_edges(faces: List[Dict[str, Any]], face_index: int) -> List[Any]:
     edge_list: List[Any] = []
@@ -213,7 +173,6 @@ def are_faces_adjacent(qtyFaces: List[Dict[str, Any]], largestFace0_index: int, 
     for i in range(len(qtyFaces)):
         if i in (largestFace0_index, largestFace1_index):
             continue
-
         test_edges = get_face_edges(qtyFaces, i)
         bool_val = (any(e in largestFace0_edges for e in test_edges)) and (
             any(e in largestFace1_edges for e in test_edges)
@@ -230,9 +189,6 @@ def are_faces_perpendicular(
     largestFace1_index: int,
     tolerance: float,
 ) -> bool:
-    largestFace0_edges = get_face_edges(qtyFaces, largestFace0_index)
-    largestFace1_edges = get_face_edges(qtyFaces, largestFace1_index)
-
     normal1 = qtyFaces[largestFace0_index]["surface"]["normal"]
     normal2 = qtyFaces[largestFace1_index]["surface"]["normal"]
 
@@ -253,7 +209,6 @@ def are_faces_perpendicular(
                 + normal2["y"] * test_normal["y"]
                 + normal2["z"] * test_normal["z"]
             )
-
             if abs(i_1 - 1) <= tolerance and abs(i_2 - 1) <= tolerance:
                 return False
 
@@ -344,10 +299,6 @@ def compute_view_matrix(
     longestEdgeID: Any,
     largestFace0_index: int,
 ) -> List[float]:
-    """
-    Build a 4x4 view matrix (flattened) based on the longest edge and the
-    normal of the largest face.
-    """
     view_matrix = [0.0] * 16
     view_matrix[15] = 1.0
 
@@ -358,18 +309,15 @@ def compute_view_matrix(
     edge = edges[longest_edge_index]
     start_vec = edge["geometry"]["startVector"]
 
-    # x axis
     view_matrix[0] = start_vec["x"]
     view_matrix[1] = start_vec["y"]
     view_matrix[2] = start_vec["z"]
 
-    # z axis (face normal)
     normal = faces_list[largestFace0_index]["surface"]["normal"]
     view_matrix[8] = normal["x"]
     view_matrix[9] = normal["y"]
     view_matrix[10] = normal["z"]
 
-    # y axis = cross(x, z)
     y_axis = numpy.cross(
         [start_vec["x"], start_vec["y"], start_vec["z"]],
         [normal["x"], normal["y"], normal["z"]],
@@ -388,10 +336,6 @@ def compute_view_matrix(
 
 
 def undersize_holes(edges: List[Dict[str, Any]]) -> Optional[float]:
-    """
-    Return the smallest circular edge diameter found in a list of edges,
-    or None if no circular edges exist.
-    """
     smallest: Optional[float] = None
     for edge in edges:
         if edge.get("curve", {}).get("type") == "CIRCLE":
