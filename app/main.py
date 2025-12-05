@@ -1,4 +1,10 @@
-from flask import Flask
-app=Flask(__name__)
-@app.get('/')
-def ok(): return 'OK'
+# app/main.py
+
+from . import create_app
+
+app = create_app()
+
+# Optional: for local dev: `python -m app.main`
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=5000)
+
