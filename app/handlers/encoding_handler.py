@@ -8,7 +8,7 @@ from app.services.encoding_service import build_parameter_list
 
 class EncodingHandler:
     """
-    High-level façade for turning raw configuration values into an
+    Facade for turning raw configuration values into an
     encoded Onshape configuration string.
     """
 
@@ -17,6 +17,7 @@ class EncodingHandler:
         """
         :param doc_url: Full Onshape document URL.
         :param values: Dict of {parameterId: value}
+                       e.g. { 'conf1': 'Option A', 'conf2': True, 'conf3': '10_mm' }
         :return: Encoded configuration string (encodedId).
         """
         parameter_list = build_parameter_list(values)
