@@ -3,7 +3,7 @@
 import os
 from typing import Optional
 
-from backend.onshape.onshape import Onshape
+from app.onshape.onshape import Onshape
 from app.onshape.parser import parse_url
 from app.config.settings import (
     DEVELOPMENT_MODE,
