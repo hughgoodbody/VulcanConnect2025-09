@@ -6,7 +6,7 @@ from .public_api import config_routes, export_routes, bom_routes
 def create_app() -> Flask:
     app = Flask(__name__)
     #Debug remove later
-    @app.route("/debug/routes")
+    @app.route("/VulcanConnect2025-09/debug/routes")
     def debug_routes():
         return "<pre>" + "\n".join(sorted(str(r) for r in app.url_map.iter_rules())) + "</pre>"
 
