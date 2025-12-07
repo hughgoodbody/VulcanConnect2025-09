@@ -18,17 +18,17 @@ def create_app() -> Flask:
     # MOUNT API BLUEPRINTS UNDER /vulcan-connect/api/*
     app.register_blueprint(
         config_routes.config_bp,
-        url_prefix="/vulcan-connect/api/config"
+        url_prefix="/VulcanConnect2025-09/api/config"
     )
 
     app.register_blueprint(
         export_routes.export_bp,
-        url_prefix="/vulcan-connect/api/export"
+        url_prefix="/VulcanConnect2025-09/api/export"
     )
 
     app.register_blueprint(
         bom_routes.bom_bp,
-        url_prefix="/vulcan-connect/api/bom"
+        url_prefix="/VulcanConnect2025-09/api/bom"
     )
 
     return app
