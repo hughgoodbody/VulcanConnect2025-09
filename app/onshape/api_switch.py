@@ -1,7 +1,7 @@
 # app/onshape/api_switch.py
 
 from typing import Any, Dict
-from backend.onshape.onshape import Onshape
+from app.onshape.onshape import Onshape
 from app.utils.mock_loader import load_mock_json
 from app.config.settings import DEVELOPMENT_MODE, CREDS_PATH, API_BASE
 
