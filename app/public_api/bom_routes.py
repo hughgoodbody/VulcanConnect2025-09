@@ -3,7 +3,7 @@
 from flask import Blueprint, request, jsonify
 from app.handlers.bom_handler import BomHandler
 
-bom_bp = Blueprint("bom", __name__, url_prefix="/api/bom")
+bom_bp = Blueprint("bom", __name__)
 
 
 # -----------------------------------------------------------
