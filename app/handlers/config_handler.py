@@ -4,7 +4,7 @@ import logging
 from typing import Any, Dict, List
 
 from app.onshape.api_switch import api_or_mock
-from backend.onshape.onshape import Onshape  # your original class
+from app.onshape.onshape import Onshape  # your original class
 from app.onshape.parser import parse_url
 from app.config.settings import CREDS_PATH, API_VERSION, API_BASE, DEVELOPMENT_MODE
 
