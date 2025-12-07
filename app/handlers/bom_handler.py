@@ -2,7 +2,7 @@
 
 from typing import Any, Dict, List
 
-from app.onshape.onshape_api import Onshape
+from app.onshape.onshape import Onshape
 from app.onshape.parser import parse_url
 from app.config.settings import CREDS_PATH, API_VERSION, API_BASE
 from app.services.bom_service import filter_bom_rows, dedupe_bom_by_source
