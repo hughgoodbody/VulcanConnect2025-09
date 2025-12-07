@@ -5,7 +5,7 @@ from app.handlers.config_handler import ConfigHandler
 from app.handlers.encoding_handler import EncodingHandler
 from app.services.configuration_service import build_ui_schema
 
-config_bp = Blueprint("config", __name__, url_prefix="/api/config")
+config_bp = Blueprint("config", __name__)
 
 
 # -----------------------------------------------------------
