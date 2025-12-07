@@ -3,16 +3,15 @@
 from flask import Flask
 from .public_api import config_routes, export_routes, bom_routes
 
-
 def create_app() -> Flask:
     app = Flask(__name__)
 
-    # Root route required for Passenger health check
+    # Passenger root route check
     @app.route("/")
     def home():
         return "OK"
 
-    # Mount all API routes under /vulcan-connect/api/...
+    # MOUNT API BLUEPRINTS UNDER /vulcan-connect/api/*
     app.register_blueprint(
         config_routes.config_bp,
         url_prefix="/vulcan-connect/api/config"
@@ -29,4 +28,3 @@ def create_app() -> Flask:
     )
 
     return app
-
