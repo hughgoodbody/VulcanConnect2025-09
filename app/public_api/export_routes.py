@@ -4,7 +4,7 @@ from flask import Blueprint, request
 from app.handlers.export_handler import ExportHandler
 from app.utils.file_ops import bytes_to_download_response
 
-export_bp = Blueprint("export", __name__, url_prefix="/api/export")
+export_bp = Blueprint("export", __name__)
 
 
 # -----------------------------------------------------------
