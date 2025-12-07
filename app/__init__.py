@@ -12,9 +12,21 @@ def create_app() -> Flask:
     def home():
         return "OK"
 
-    # Register blueprints
-    app.register_blueprint(config_routes.config_bp)
-    app.register_blueprint(export_routes.export_bp)
-    app.register_blueprint(bom_routes.bom_bp)
+    # Mount all API routes under /vulcan-connect/api/...
+    app.register_blueprint(
+        config_routes.config_bp,
+        url_prefix="/vulcan-connect/api/config"
+    )
+
+    app.register_blueprint(
+        export_routes.export_bp,
+        url_prefix="/vulcan-connect/api/export"
+    )
+
+    app.register_blueprint(
+        bom_routes.bom_bp,
+        url_prefix="/vulcan-connect/api/bom"
+    )
 
     return app
+
