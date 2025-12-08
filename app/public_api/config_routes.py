@@ -21,9 +21,18 @@ def get_configurations():
     if not doc_url:
         return jsonify({"error": "Missing ?url= parameter"}), 400
 
-    config_json = ConfigHandler.get_configurations(doc_url)
+    try:
+        config_json = ConfigHandler.get_configurations(doc_url)
+    except ValueError as e:
+        # Errors like: Invalid Onshape URL — missing 'documents'
+        return jsonify({"error": str(e)}), 400
+    except Exception as e:
+        # Any unexpected errors
+        return jsonify({"error": "Internal server error", "details": str(e)}), 500
+    
     ui_schema = build_ui_schema(config_json)
     return jsonify(ui_schema)
+
 
 
 # -----------------------------------------------------------
