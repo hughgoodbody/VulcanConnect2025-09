@@ -1,18 +1,13 @@
-cd /d A:\Onshape\OnshapeApp-2025
-python -m venv venv
-venv\Scripts\activate
-pip install nicegui requests
-pip install ezdxf
+# Local development quickstart
+python -m venv .venv
+source .venv/bin/activate  # On Windows use .venv\Scripts\activate
+pip install --upgrade pip
+pip install -r requirements.txt
 
-Activate existing Virtual environment:
-.\venv\Scripts\Activate
+# Run the API locally
+uvicorn app.main:app --reload --port 8000
 
-Virtual environment on laptop:
-python -m venv laptop_onshape_venv
-laptop_onshape_venv\Scripts\activate
-
-#Paste this to enable the venv on LAPTOP
-C:\Users\Hugh\Python_venvs\laptop_onshape_venv\Scripts\Activate.ps1
-
-#Paste this to enable the venv on WORKSTATION1
-C:\Users\Hugh\Python_venvs\workstation1_venv\Scripts\Activate.ps1
+# Environment variables for Onshape (copy .env.example to .env at the project root or export)
+# ONSHAPE_ACCESS_KEY=your_access_key
+# ONSHAPE_SECRET_KEY=your_secret_key
+# ONSHAPE_BASE_URL=https://cad.onshape.com
