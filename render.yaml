@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: vulcanconnect-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app.main:app --timeout 120 --workers 2
+    envVars:
+      DEVELOPMENT_MODE: true
+      CREDS_PATH: /etc/secrets/onshape_creds.json
+      API_VERSION: v12
+      API_BASE: https://cad.onshape.com
+    disk:
+      name: local_json
+      mountPath: /opt/render/local_json
