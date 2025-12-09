@@ -36,10 +36,10 @@ def debug_master_part_list():
         return jsonify({
             "success": True,
             "encodedId": encoded_id,
-            "filteredBom_preview": filtered[:5],   # first 5 rows
-            "dedupBom_preview": dedup[:5],         # first 5 rows
-            "filteredBom_full": filtered,
-            "dedupBom_full": dedup
+            "filteredBom_preview": filtered_bom[:5],   # first 5 rows
+            "dedupBom_preview": dedup_bom_by_source[:5],         # first 5 rows
+            "filteredBom_full": filtered_bom,
+            "dedupBom_full": dedup_bom_by_source
         }), 200
 
         # 3. Build master part list
