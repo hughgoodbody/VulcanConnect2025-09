@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from app.handlers.config_handler import encode_configuration
-from app.handlers.bom_handler import fetch_deduped_bom   # adjust import if needed
+from app.handlers.config_handler import ConfigHandler
+from app.handlers.bom_handler import BomHandler
 import traceback
 
 job_bp = Blueprint("job", __name__)
