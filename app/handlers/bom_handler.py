@@ -51,6 +51,7 @@ class BomHandler:
         deduped = dedupe_bom_by_source(filtered)
 
         return {
+            "raw": raw_bom,
             "filtered": filtered,
             "dedupBySource": deduped
         }
