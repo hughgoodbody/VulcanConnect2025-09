@@ -2,7 +2,7 @@
 
 from flask import Flask
 from flask_cors import CORS
-from .public_api import config_routes, export_routes, bom_routes, supplier_routes, job_routes
+from .public_api import config_routes, export_routes, bom_routes, supplier_routes, job_routes, debug_routes
 
 def create_app() -> Flask:
     app = Flask(__name__)
@@ -17,6 +17,9 @@ def create_app() -> Flask:
     @app.route("/")
     def home():
         return "OK"
+        
+    #Master list debug route
+    app.register_blueprint(debug_routes.debug_bp, url_prefix="/api/debug")
 
     # MOUNT API BLUEPRINTS UNDER /api/*
     app.register_blueprint(
