@@ -8,10 +8,7 @@ def create_app() -> Flask:
     app = Flask(__name__)
     # Allow WP/Elementor frontend to call /api/*
     CORS(app, resources={r"/api/*": {"origins": "*"}})
-    #Debug remove later
-    @app.route("/debug/routes")
-    def debug_routes():
-        return "<pre>" + "\n".join(sorted(str(r) for r in app.url_map.iter_rules())) + "</pre>"
+    
 
     # Passenger root route check
     @app.route("/")
