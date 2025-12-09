@@ -53,7 +53,6 @@ def build_parameter_list(config_values):
 # ----------------------------------------------------------
 @job_bp.post("/create")
 def create_job():
-
     try:
         payload = request.get_json(force=True)
 
@@ -65,21 +64,18 @@ def create_job():
         user_options = payload.get("userOptions", {})
 
         if not onshape_url:
-            return jsonify({"error": "Missing Onshape URL"}), 400
+            return jsonify({"error": "Missing onshapeUrl"}), 400
 
-        # 1. Convert UI config values → Onshape parameter list
+        # 1. Convert UI → Onshape parameter payload
         parameter_list = build_parameter_list(config_values)
 
-        # 2. Encode configuration (Onshape encodedId)
-        encoded_id = encode_configuration(onshape_url, parameter_list)
+        # 2. Encode configuration
+        encoded_id = ConfigHandler.encode_configuration(onshape_url, parameter_list)
 
-        if not encoded_id:
-            return jsonify({"error": "Failed to encode configuration"}), 500
+        # 3. Use encodedId to retrieve BOM
+        bom = BomHandler.fetch_bom_for_configuration(onshape_url, encoded_id)
 
-        # 3. Get BOM for this encodedId
-        bom = fetch_deduped_bom(onshape_url, encoded_id)
-
-        # 4. Final response
+        # 4. Return result
         return jsonify({
             "success": True,
             "encodedId": encoded_id,
