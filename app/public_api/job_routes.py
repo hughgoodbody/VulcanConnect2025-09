@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from app.handlers.configHandler import encode_configuration_string
-from app.handlers.bomHandler import get_bom_for_configuration   # adjust import if needed
+from app.handlers.configHandler import encode_configuration
+from app.handlers.bomHandler import fetch_deduped_bom   # adjust import if needed
 import traceback
 
 job_bp = Blueprint("job", __name__)
@@ -71,13 +71,13 @@ def create_job():
         parameter_list = build_parameter_list(config_values)
 
         # 2. Encode configuration (Onshape encodedId)
-        encoded_id = encode_configuration_string(onshape_url, parameter_list)
+        encoded_id = encode_configuration(onshape_url, parameter_list)
 
         if not encoded_id:
             return jsonify({"error": "Failed to encode configuration"}), 500
 
         # 3. Get BOM for this encodedId
-        bom = get_bom_for_configuration(onshape_url, encoded_id)
+        bom = fetch_deduped_bom(onshape_url, encoded_id)
 
         # 4. Final response
         return jsonify({
