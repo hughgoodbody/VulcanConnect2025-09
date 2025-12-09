@@ -20,67 +20,87 @@ class PartListService:
         filtered_bom: List[Dict[str, Any]],
         dedup_bom_by_source: List[Dict[str, Any]]
     ) -> List[Dict[str, Any]]:
-
+    
         logger.info("Building Master Part List...")
-
-        # Load metadata + body details once
+    
         parts_meta = PartListService._fetch_parts_metadata()
         body_details = PartListService._fetch_body_details()
-
-        # Map each Part Studio to its identifying keys
-        studio_groups = PartListService._group_by_part_studio(dedup_bom_by_source)
-
-        # Build final list
+    
+        # Create BOM partId → row lookup
+        bom_part_lookup = {
+            row.get("itemSource", {}).get("partId"): row
+            for row in filtered_bom
+        }
+    
         master_list = []
-
+    
         for row in filtered_bom:
             src = row.get("itemSource", {})
-            document_id = src.get("documentId")
-            element_id = src.get("elementId")
-            wvm_type = src.get("wvmType")
-            wvm_id = src.get("wvmId")
             part_id = src.get("partId")
-            configuration = src.get("configuration")
-
+    
             if not part_id:
-                logger.warning("Skipping BOM row missing partId: %s", row)
                 continue
-
-            # Identify sheet-metal, composite, etc.
+    
+            # Metadata lookup
             meta = PartListService._lookup_part_meta(parts_meta, part_id)
-
-            # Attach body geometry
+    
+            # Standard body details
             bodies = PartListService._lookup_body_details(body_details, part_id)
-
-            # Compute quantity for this exact part
+    
+            # Compute quantity
             qty = PartListService._lookup_quantity(
                 filtered_bom,
-                document_id,
-                element_id,
-                wvm_type,
-                wvm_id,
+                src.get("documentId"),
+                src.get("elementId"),
+                src.get("wvmType"),
+                src.get("wvmId"),
                 part_id,
-                configuration
+                src.get("configuration")
             )
-
-            master_list.append({
+    
+            # Base entry
+            entry = {
                 "partId": part_id,
                 "quantity": qty,
-                "documentId": document_id,
-                "elementId": element_id,
-                "wvmType": wvm_type,
-                "wvmId": wvm_id,
-                "configuration": configuration,
+                "documentId": src.get("documentId"),
+                "elementId": src.get("elementId"),
+                "wvmType": src.get("wvmType"),
+                "wvmId": src.get("wvmId"),
+                "configuration": src.get("configuration"),
+                "bodyDetails": bodies,
                 "isSheetMetal": meta.get("isSheetMetal", False),
-                "flattenedBodyId": meta.get("flattenedBodyId"),
-                "unflattenedPartId": meta.get("unflattenedPartId"),
-                "compositePartId": meta.get("compositePartId"),
-                "hasCutList": meta.get("hasCutList", False),
-                "bodyDetails": bodies
-            })
-
-        logger.info("Master Part List built. Total parts: %d", len(master_list))
+                "flattenedBodyId": None,
+                "unflattenedPartId": None,
+                "flatPatternBodies": []
+            }
+    
+            # ---------------------------------------------------------
+            # SHEET METAL LOGIC
+            # ---------------------------------------------------------
+            if meta.get("isSheetMetal"):
+                unflat_id = meta.get("unflattenedPartId")  # folded part ID
+                flat_body_id = meta.get("flattenedBodyId") # body of flat pattern
+    
+                entry["unflattenedPartId"] = unflat_id
+                entry["flattenedBodyId"] = flat_body_id
+    
+                # Attach flat pattern geometry
+                if flat_body_id:
+                    entry["flatPatternBodies"] = [
+                        bd for bd in body_details.get("bodies", [])
+                        if bd.get("bodyId") == flat_body_id
+                    ]
+    
+                # Try to match folded part using unflattenedPartId
+                if unflat_id in bom_part_lookup:
+                    entry["foldedPartId"] = unflat_id
+                else:
+                    entry["foldedPartId"] = None
+    
+            master_list.append(entry)
+    
         return master_list
+
 
     # ---------------------------------------------------------------------
     # PART META LOOKUP
