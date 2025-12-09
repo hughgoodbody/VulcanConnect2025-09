@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify
 import json
 import os
 
-supplier_bp = Blueprint("suppliers", __name__, url_prefix="/api")
+supplier_bp = Blueprint("suppliers", __name__)
 
 SUPPLIER_FILE = "user_data/hugh/SupplierDetails.json"
 
