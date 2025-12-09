@@ -208,7 +208,7 @@ class PartListService:
     # -------------------------------------------------------------------------
     @staticmethod
     def _fetch_parts_metadata() -> List[Dict[str, Any]]:
-        path = "local_data/parts_meta.json"
+        path = "local_json_responses/parts_meta.json"
         try:
             import json
             with open(path, "r") as f:
@@ -222,7 +222,7 @@ class PartListService:
     # -------------------------------------------------------------------------
     @staticmethod
     def _fetch_body_details() -> Dict[str, Any]:
-        path = "local_data/bodydetails.json"
+        path = "local_json_responses/bodydetails.json"
         try:
             import json
             with open(path, "r") as f:
