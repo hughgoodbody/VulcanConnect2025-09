@@ -11,6 +11,9 @@ def get_suppliers():
     try:
         with open(SUPPLIER_FILE, "r") as f:
             data = json.load(f)
-        return jsonify(data.get("suppliers", []))
+
+        # data is already a list
+        return jsonify(data)
+
     except Exception as e:
         return jsonify({"error": str(e)}), 500
