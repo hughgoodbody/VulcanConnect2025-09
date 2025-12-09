@@ -1,0 +1,4472 @@
+[
+  {
+    "name": "Part 1",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JHD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2e4ca19429f9e5966137bd74ac20704e7effd844/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2e4ca19429f9e5966137bd74ac20704e7effd844/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2e4ca19429f9e5966137bd74ac20704e7effd844/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2e4ca19429f9e5966137bd74ac20704e7effd844/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "2e4ca19429f9e5966137bd74ac20704e7effd844",
+      "href": "https://cad.onshape.com/api/thumbnails/2e4ca19429f9e5966137bd74ac20704e7effd844?t=1677827271647"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&1bb$eJx9UEtTwjAQ/jPrUYY+Lcc+AnaUliZRwUsnJZEGgdQ0HeHf09IZL85w3P12v9dD5EHRCX1ZesSygcuWHSu565iR6pQww0Jraf9H6KURxHIgx+kizcLXMkErlCUoizdkBkrLnTyxQxu68bQnZiBORprL8BUxQH8DcQElC0QqqGVrlB6XAcQYhTTNsx5QjdA3yZRHNqQ8tIhlTXyYY79ge7rLUBTUb7Sc/kot8qZX/xni3Ig4kBdE4+cSZTSlGyKg/RZmW48GUk62PVH7rpe8CaL92g0rZYw6Dp6xiz3s4yccYIYrvMWcPFr2xAGjmju4CwfxZe4ceNB3Uxvsxn4fPsqTzXgUV2OwGcyLrl4Lp8hnztlpP8upatDZ6I4LXPVNkg+0ouXweAWpY46F\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": true,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FQuhXe3QO93x3sZ_0_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 0
+  },
+  {
+    "name": "Part 2",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JVD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f0629de0eafc464110eb93e63dfb588a313f2f56/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f0629de0eafc464110eb93e63dfb588a313f2f56/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f0629de0eafc464110eb93e63dfb588a313f2f56/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f0629de0eafc464110eb93e63dfb588a313f2f56/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "f0629de0eafc464110eb93e63dfb588a313f2f56",
+      "href": "https://cad.onshape.com/api/thumbnails/f0629de0eafc464110eb93e63dfb588a313f2f56?t=1677827273643"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&9a0$eJyN1k1vmzAYwPEv4x0TxS+8HXlxMraFpDbSlF0QBDchbWMKjtb0048UqRym1M8R/Lex+V38LXLQw0V117UjMUF105cvVXO4lKbR56Q0ZYjX5P+R/NoqiSnaiHSVZuGvIuFbniU8i3cyQLprDs25fO5DyuLFsHKJ1Nk05nqbFpWIfz5Ihniy4rJCx6Y3uhtf+igWPMzTTTYM6FZ1H99M64igtA6xxHjuouV2R5mnj3/O6oGenAL/bTq1aYfPv97O87FQjeRPnsffC57lab6TCvVPyuyP4wbSWu6HhX6kPU/UiQR65VXaGP1y27NgwhGu8IQvSlGJvajlDJM5RUa3X4wz9KwezReBg4afc7xX7JHnLCtcm14n79d70bya+6g/+Pmj2mSvh/o0nqow6s30ptNPara4u4X9fIbr2/wxxNCQQEMKDRk0dKChCw09aOhDw8ASBp8/3EYzlTabqbThTKVNZyptPFNp85lKG9BU2oSm0kY0lWAjAjYiYCMCNiJgIwI2ImAjAjYiYCMCNiJgIwo2omAjCjaiYCMKNqJgIwo2omAjCjaiYCMGNmJgIwY2YmAjBjZiYCPmCha7wwUn2iS7MY6r8fISoCUVzTp7j+SCCd94BdYtfzPdpVaiGm5L8jff5sVt4j8D09uA\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "F3RiMNzBS04R8t7_1_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 1
+  },
+  {
+    "name": "Part 3",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JVH",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de5c8c9dbe4c3cfa71de90db24c51f6917d2e6aa/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de5c8c9dbe4c3cfa71de90db24c51f6917d2e6aa/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de5c8c9dbe4c3cfa71de90db24c51f6917d2e6aa/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de5c8c9dbe4c3cfa71de90db24c51f6917d2e6aa/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "de5c8c9dbe4c3cfa71de90db24c51f6917d2e6aa",
+      "href": "https://cad.onshape.com/api/thumbnails/de5c8c9dbe4c3cfa71de90db24c51f6917d2e6aa?t=1753013435958"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&781$eJyNldtuozAQhl/GvQyKsTnkkoOTsruB1EZaJTeIg5uwbQIFs1v69CVlVS6qlLmE+Wb+Gc8vzZ1roIdONv3WEFhHRdmm56w8dqkqq4ufqtTBW/1rJO5rKTBBEQ82Qej8Sny2Y6HPQm8vVqhqymN5SZ9bR7e85VA5RfKiStVf09wUsc8PQRHzN0xk6FS2qmrGnzbyOHPiIAqHQFXL5kMzKFwdBYWDBcaaida7PaFWdTpc5AP5YyT4X9nIqB7kX67zfBQqkPjJYu8+YWEcxHshUfskVX4aGwgKkQ+Fos6hev+yiez6MauUqs7XnjnlBje5xW2e8oznvBALrGsEqar+Jk7Rs3xU3wAGGh7ndIvIUZcah95bR0fr/PcWpGWajd7ie/1g8h8B8+pxqkTJV9WqpnqSi+XNFnJtgYsh/z+IoaAOBQkUpFDQgILmDLj6nHpOeyLnxCcSrm6BSRtMrqCkPueNiZwzx0TOuWMi5+wxkeAdEbA6AasTuDrYIQTsEAJ2CAE7hIAdQsEOoWCHUPCOKHhHFLwjCt4RBe+IWpx65nDB3Mjfj7CXjddphdaEl9vwzRVLym1lJbiq2atqukLybDiH4jfbxck18R3TGj2I\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "F3RiMNzBS04R8t7_1_1",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 2
+  },
+  {
+    "name": "Part 4",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JVL",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e82f0155137adf9630ec007cd28063d7a27c9085/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e82f0155137adf9630ec007cd28063d7a27c9085/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e82f0155137adf9630ec007cd28063d7a27c9085/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e82f0155137adf9630ec007cd28063d7a27c9085/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "e82f0155137adf9630ec007cd28063d7a27c9085",
+      "href": "https://cad.onshape.com/api/thumbnails/e82f0155137adf9630ec007cd28063d7a27c9085?t=1753013435235"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&d66$eJyN102TmjAcx/E3kx51JAkPHhWiS1vQTdhx3AvDQ6rUXbEYu9pXX1w7y6Hj8jsqX5LA53/hy9QmjyfdXCJbWZSU1TF7zavNKTNVvQ8yk02siP5/JbkctLIYWchwHsaT72kgliIOROyv1ZjUTbWp9tnLccJzf9SunBG9N5W5XG+bZkR8/FCciGAuVE621dHUze1Pj/hSTJJwEbcX6oNu3vcMyyklYTmxlGUNHTJbrhl36+3zXj+yn3ZqvVWNXhza7X9dn+d9oZKobyLxH1IRJ2GyVpocd9oU29sBwlIV7ULF7/ku8t/Wz/XezWtj6tfrmSWXtnSkKz2ZyVwWslQDiw4ZMfXhk+ucvOgf5pPAJu3L2d4rCrLyLl8TEdlPDzN1LxrmQ4/ozeZ09gv9ZFbR7alSo8/maJp6pweju0cohgOrbO//F1poSNGQoSFHQxsNHTR00dBDw3FPOP544X00Xdln05V9OF3Zp9OVfTxd2efTlX1AXdkn1JV9RF0JG1HYiMJGFDaisBGFjShsRGEjChtR2IjCRgw2YrARg40YbMRgIwYbMdiIwUYMNmKwEYeNOGzEYSMOG3HYiMNGHDay4TVtfE3Y3Ybdbdjdgd0d2N2B3R3Y3YHdHdjIhXd34d1dfHd4Qlx4Qlx4Qlx4Qjx4Qjx4Qjx4QjzYyOOS+077mTJdBOtb7Oe3T5AxmTFZRfGfqRpx6Rk3teqDOJvmVGqZt988aiWWSXq98S8ebvQT\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "F3RiMNzBS04R8t7_1_2",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 3
+  },
+  {
+    "name": "Part 5",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "JWD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/05f1b3f01a6e0faf1315b944b72d6555d9507b42/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/05f1b3f01a6e0faf1315b944b72d6555d9507b42/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/05f1b3f01a6e0faf1315b944b72d6555d9507b42/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/05f1b3f01a6e0faf1315b944b72d6555d9507b42/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "05f1b3f01a6e0faf1315b944b72d6555d9507b42",
+      "href": "https://cad.onshape.com/api/thumbnails/05f1b3f01a6e0faf1315b944b72d6555d9507b42?t=1752507943260"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&c16$eJyNlk13ojAUhv9MZllPA/nAJQJazoyggdMps+GApBVrxWKcqf9+sM6RxRzLu4Q8uTc3z7vItwkny6NuT3OeUItU9aF4K+uXY2HqZucXpnDp3Pp/JT3tdUJtEqtwFkbuj9wPFkHkB5GXJWPStPVLvSu2B5fZ3n1XuSB6Z2pzOm+bFCS4fiSMBP4sSEqyrg+maS8/HeKpwE3DOOoWmr1uP3uG1cQiYeXShNKRINNFZjPZrH/t9NLe8Jz+qVsd77v27+d5PgtVJPkepN5DHkRpmGaJJodXbVbrywHCKll1hWL+u2bhPKYetcvGmObtfGbFFFdCSeWoQpVqparkjlojm5hm/8U6I1v9bL4AOOkuZ32LWBHlHrbeJojYkia3oFE5ckiq39WT/zh/qjf6MlVu9Ic5mLZ51Xf3N4+wGt3Rqtv/D6QoaKGgjYIMBTkKChSUKOig4HgAHF8vfEhNTw656ckhOT05ZKcnh/T05JCfK2nBE1nwRBY8kQVPZOETDUWuJ4cy15NDobuSNtzdhrvbeHc48wzOPIMTwuCEMDghHK7J8Zpw6jicOg5757B3DnvnsHcBexewdwE7ErAjATsSsCMBOxKwIwE7ErAjCTuSsCMJO5KwIwk7krAjCTuSsCMJO5KwIwd25FDFPNE9qyexn11gr7w8mcdkqtzsOZs9Tk1zehB1zpp98GHaY6VV2b3Rk5/BIs3PG/8CrmaSDw==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 196,
+        "green": 226,
+        "blue": 243
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FRAYfYGVFtoyH6i_4_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 4
+  },
+  {
+    "name": "Part 6",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBBD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2c2b9b97ba11345e50ea23b8b6a44f080956afef/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2c2b9b97ba11345e50ea23b8b6a44f080956afef/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2c2b9b97ba11345e50ea23b8b6a44f080956afef/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2c2b9b97ba11345e50ea23b8b6a44f080956afef/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "2c2b9b97ba11345e50ea23b8b6a44f080956afef",
+      "href": "https://cad.onshape.com/api/thumbnails/2c2b9b97ba11345e50ea23b8b6a44f080956afef?t=1753013436442"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&f13$eJyll09zojAYh79M9rIzMpAEkSMibBmnahPa6l4Y/sRCtUJDtPXbb9ROcXYPO/JeEAjPjzfOc+D3Y2yjh72Qx3ubZ6gQsjqIIpT1m2/e28z0rMuvPg65ZV4/EKa5aD1Cvx+weYrETlXqGB8bMU5R8H3BKQomvwL9hrJqVS0vN0fIZ4EXR/OZXqgbIVNV1buoGGMUFZ7FLcsYonCxItSpy9878UBe7cT6qKSYN9xF76exz0EF4tMg9u+SYBZH8YoL1G6EysvLAFHBcx2U5QcefkTWE7MnWa1U/cYwI4wymw19V79ukBoOqt4aWe0Uc7mDovsFi2Zxt8EOYCPmspRlfGCZBkGqbq7W1nrNMv+LUbQVa3U7ZyNZvZQ3gjk62FVQv5ZLsl3eOGxuZMYITQuTyOl7e0j36eXvTZT4VK2S9UYMzFv3URgDS+jYL94C8hjIEyBPgbwN5IdA3gHyIyDv9uPdb396CtgF9DSwC+ipYBfQ08EuoKeEXUBPC7uAnhp2AT097AJ6itgFQE3EUBMx1EQMNRFDTcRQEzHURAw1EUNNxFATMdREAjWRQE0kUBMJ1EQCNZFATSRQEwnURAI1kUBNpFATKdRECjWRQk2kUBMp1ET6r4kM+1SXs9Dzg9N9XXqqlqtUqvirFOkOZhmOzggLbxrOmuAprso4KxL7p/74l/tC1E1wOdGdSTc6b5Gc0zBL8+ty5ayNwcjUUbpFnsg0VxdSn/C9XOs2qQMo8ueL1ddU4/lk9VdEdg7B6CPdbuOyyjdiRyaaSxF/DhZxckYwy5wrTm9Bj9+6j3cvD8986eyo0yRuXjfHZ53SajpH/HHMdXV8PJXRP7rOPcw=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 248,
+        "green": 135,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 5
+  },
+  {
+    "name": "Part 7",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBBL",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5546e3236943eb83ba02a3165da62456f718dde7/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5546e3236943eb83ba02a3165da62456f718dde7/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5546e3236943eb83ba02a3165da62456f718dde7/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5546e3236943eb83ba02a3165da62456f718dde7/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "5546e3236943eb83ba02a3165da62456f718dde7",
+      "href": "https://cad.onshape.com/api/thumbnails/5546e3236943eb83ba02a3165da62456f718dde7?t=1753013434992"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&bc9$eJylll2PojAYhf9M92YTCdACcolYdojrx7Q4rt4QPqqwKrBQx/Hfb5WJmJ2LjfRGgXIeepr3JOfbyACvJ1ZfpgaNQcrq/J2lXl0eXXVqENXR2n/xa1JNfXzBixLWOLp1f8GgEWAFz/kluFRsFAF8v6EI4PEPLL6Q5Q0v6/bhELgEO4E/n4mFsmJ1xPOy8NORDvzU0aimKSbwFmuIrDLbFOwV/jZC7ZzXbF5RG/y5bvsGSgGd4MB9CfEs8IM1ZaDZM55k7Qb8lCYC9BajzQZP0gMmcVxyXh6JTiBBxCCma4vPDSLFAvmxqvOCE5tawJ8uiD8LOoOdgAyJTSIS04GmKhDwsnpY24o1Tf2vDIED2/LndQao8132pDAB46Wz+sgW52kzhk9qlVgZgsbZT/l7cU53P8v2eEPOPnjD63LPBuqzPlJloLErttVrknpdUv/kkXzRI0m9Iak3++nt+/n3NNABejroANIWLFnAUBZgSwL0njHqAD1z1AF6BqkD9ExSB5CdRChrAcpagNIWZMMEZcMEZcMEZcMEZcOEZMOEZMOEZCcRyU4ikp1EJDuJSHYS0ddJJLqLRKX0HBdfn4uqljeURzUPPqucaI6aYgmGlzoTb1bhtyDPgjgNje+istSnlJUVbi9E0xM91FmEN5pOhsZjJTQNZWCaAiW671UZJbxVigt6qreiAwsAAu58sf7c1Wg+Xv+DiG8QHZyjwyHI8mTPCjgWugjQFV4E4U2iE1t90AkLYvuNvXzZva7oL6tAVhXaSVldVoLSCHUC6HJEReFdXiv0X5+0Vb4=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 127,
+        "green": 127,
+        "blue": 127
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_1",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 6
+  },
+  {
+    "name": "Part 8",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBBT",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6b5f00dd5b292a3d4551b48ae2b04dad84e86edd/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6b5f00dd5b292a3d4551b48ae2b04dad84e86edd/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6b5f00dd5b292a3d4551b48ae2b04dad84e86edd/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6b5f00dd5b292a3d4551b48ae2b04dad84e86edd/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "6b5f00dd5b292a3d4551b48ae2b04dad84e86edd",
+      "href": "https://cad.onshape.com/api/thumbnails/6b5f00dd5b292a3d4551b48ae2b04dad84e86edd?t=1753013436199"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&14ea$eJylmFtzojAYhv9M9mZnZMgBApeIuGW7nhLarnvjIMRKD0Ixttpfv1Gc0tle7Mh3owg8b744z3uTb30HzXaqPowcuUS5qotXlQ/r8jm0R46wA9x8m09XYvvzC8M0U9uALT9ecGSK1EYX+pAcKtVPUfTxQzIUDX5EZoV1sdVl3dz0UCiiIIknY/OgrFSd6qLcxHmfoDgPsMTYctFwOqeMl+s/GzWjD84CvxW1mlTSRy/HsU9BOZLXURJeLaJxEidzqdD2Uels3QwQ5zIzQfkAy9eBePn1k3vLUuvyWRBBBROOcEPfLNdLLY6K56ouNlr4kqN4NBXxOGk32ALCE75IxVL2sG1RpMvq07OVeYbt/2IMPamVvpxzUF3cry8EM5TNRkN//RDvdw6/kLWWlof24vZt+j7LJ9f40Py9C632eqvr8lH17Ev3kVs9rEzsmcdAngB5CuQZkHeAvAvkL1TiC+8Beb8b73/401HANqCjgW1ARwXbgI4OtgEdJWwDOlrYBnTUsA3o6GEb0FHENgBqIoGaSKAmEqiJBGoigZpIoCYSqIkEaiKBmkigJlKoiRRqIoWaSKEmUqiJFGoihZpIoSZSqIkUaiKDmsigJjKoiQxqIoOayKAmMqiJDnQCBzwBtAsOtAsOtAsutAsutAsutAsutAsutAsu1EQO3QKHboGDtwAtE4eWiUPLxKFl8qBl8qBl8qBl8qAmel9NFCRkkqFhEEbH+5KjYit1WuvkfNaFsYUtbjKGeXA9HFfRbVKsk2W+cL6rva53uSqrqLkQ/vGgLpguTmlErHCz1PnMzAyTKhOFbXQk00w3pLmQu3qVZscAhsLJdH6eqj8ZzP+JWJ5CCHpLn56SdZE9qg0dGC5F8i6aJosTYpbOPnFmC2b8rX9zdT+7k7/5hvFq4WdldbgzKVtDZ0je9GUSJzfHM8a/d2LZIg==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 250,
+        "green": 182,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_2",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 7
+  },
+  {
+    "name": "Part 9",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RmBH",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/99c2c0d6e01f6732ef28bd4e150fd1092e4c2a92/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/99c2c0d6e01f6732ef28bd4e150fd1092e4c2a92/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/99c2c0d6e01f6732ef28bd4e150fd1092e4c2a92/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/99c2c0d6e01f6732ef28bd4e150fd1092e4c2a92/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "99c2c0d6e01f6732ef28bd4e150fd1092e4c2a92",
+      "href": "https://cad.onshape.com/api/thumbnails/99c2c0d6e01f6732ef28bd4e150fd1092e4c2a92?t=1753013435718"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&1313$eJylmEtvozAUhf+MZzNSUAzYhmVCYMpUSVObtEo2kQPuhOYBBaed/PsxoQrVzGIU7ibhdY7vvfoOEv42JujxpKrzlIgNylSVv6ssqopDMJwSPhzh9t/8UoGHXx+IZKrqketcHyBCInXUuT4n51KNJQqvJ8JF4eRHaFbY5rUuqvaihwIejpL4YWZuFKWqpM6LY5yNbRRnIywwtiiK5kvHZcV2dVSPzitZ44+8Ug+l8NFbU/bFKEPiPkyCu3U4S+JkKRSqd0qn27aAOBOpMcJU7ZYOc/Tr3WpTaF0cuM0d7nLCaeCb5QbSYig/lFV+1NwXDMXTOY9nSddgJ+Ae97nkGzHAQ8tBuii/3Hsx9/DwvzIX7dWLvl1HUJX/2t4oTNGkyJ/UyotKQZ5u1Foby0On1NuvJH+NVstJO961Vr91ratipwbDW/vIrAFWxvZTj4F6G6h3gHoXqCdAPQXqGVDvAfV+P71/5acngJ1BTwI7g54IdgY9GewMekLYGfSk8GpgQ4doQ4doQ4doQ4dog4fYM8udQc8wdwY903w1cKAtONAWHHAL0DeSC30judAwudAwudAwEWgFBFwBNM4EGmcCzQKBZoFAs0CgWaDQLFBoFiiURAolkUJJpFASKZRECiWRQkmkUBIZlEQGJZFBSWRQEhmURAYlkUFJZFASGZREBiXRg5Lo/UsitwNXuCgaBWFzXTCU10LLSiefexwYW9hixiPKRvfRrAyfknybbLI1+W6+5atTpooybA+432zQjObri5vNM79dqt0r8U0xvjJWeIgapUx1qzQH4lS9yLQxcFHwMF9+VjV+mCz/sthcTGz0Iff7ZJunO3V0JkYnkXgO58n6IrG5cr/omhbwRZdZXtPJ22KK3/OfzqSaxEex9uutUnqqtNzfFXsVnLRWh1JMx4U5k8f6sCgzqVValOdns2xtlkuRWIxFEieLZjPqDxSPWxw=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_3",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 8
+  },
+  {
+    "name": "Bend line 1",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RHBD",
+    "bodyType": "wire",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/4ba8c7758bb574ff69355cf7779d11f0f0c5c98c/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/4ba8c7758bb574ff69355cf7779d11f0f0c5c98c/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/4ba8c7758bb574ff69355cf7779d11f0f0c5c98c/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/4ba8c7758bb574ff69355cf7779d11f0f0c5c98c/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "4ba8c7758bb574ff69355cf7779d11f0f0c5c98c",
+      "href": "https://cad.onshape.com/api/thumbnails/4ba8c7758bb574ff69355cf7779d11f0f0c5c98c?t=1765284937704"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&319$eJx1Ul2TmjAU/TO3L52RMXyIPCKELrMrakLt2hcmkKymVZJC3K3/vkFq27GzD0kuyTn3nnsuHxYBbM6iuywDWgMXnXwVPOvUKUbJdBmQaeyOp91nFE3/hWC+F/0NN+yUgWiNNJfyosWCAf7zQX3A6SdsSxxkb1Q3Xs4hITgu81VhH5QWHTNStTlfuJDzGFGEnBlk653nh+rwtRUb71tQoTfZiZWmEfwYdF8TcaCPuEweKlyUebmjAvrvwjSHUUDOaeN4UDevNHvL0ZYEqVGauMQjPgnILIlsrQlzQpAn3cnWkIiGkC/XJC/KG8zeyJ4a1pnyN8OqQ07oRJDx+DErNN6W8lDWvAo+ip+mO3OhNB4Dm9D2Gq+rwYT7wih0JmhuM1l3ByJrzEi0AT13L6wZ+D4kq/Xur9e3ibjAZc9Otdyfr+6lzLAYLV07OURQ/T/gahjyAD+XmBTxU5XiNS5SXCS7O2W2wUHYzJnUkPXR54f95gt9Dls/1FU0GkwiwkhN504AWh0vR9mKYU3ve3T9a6qJG9jTA0tD72EGN+z8bo0TxN4BCmv9y5G1e1HVSh0Fa5VejIH1K4AlJoPZiW+9W6zS3V2KBhr7s4ruyepdactoIMUk3+K0GtC/AP4G84E=\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 9
+  },
+  {
+    "name": "Bend line 2",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RIBD",
+    "bodyType": "wire",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/e876968d2f191cc92ec7638bd71d884fa0df204f/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/e876968d2f191cc92ec7638bd71d884fa0df204f/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/e876968d2f191cc92ec7638bd71d884fa0df204f/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/e876968d2f191cc92ec7638bd71d884fa0df204f/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "e876968d2f191cc92ec7638bd71d884fa0df204f",
+      "href": "https://cad.onshape.com/api/thumbnails/e876968d2f191cc92ec7638bd71d884fa0df204f?t=1765284937704"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&319$eJx1Ul2TmjAU/TO3L52RMXyIPCLELuOKmlC7+sIEktW0CmmI3frvG6S2HTv7kOSSnHPvuefyYRbA5iL0dRnQCrjQ8ofgc92eY5SMlwEZx+5w2n1C0fhfCOYH0d1x/U4ZiMZIcy2uSswY4D8f1AecfsK2xFF2ptXD5RQSguMiW+X2oVVCMyPbJuMzFzIeI4qQM4H5euf5YXvcN2LjfQ1K9Ca1WCkawfde9y0RB7rARfJU4rzIih0V0H0Tpj4OAjJOa8eDbeXv93jBT5hUplXEJR7xSUAmSWRrjZgTgjwrLRtDIhpCtlyTLC/uMHsjO2qYNsVvhlWHnNCJYM7jxTxXeFvIY1HxMvgofhp94aJVeAhsQttrvC57Ex4Lo9AZoanNZN3tiaw2A9EG9KJfWd3zfUhW691fr+8TcYHLjp0rebjc3EuZYTFaunZyiKDqf8DNMOQBfikwyePnMsVrnKc4T3YPymyDvbCJM6pg3kWfnw6bL/QlbPxQldFgMIkIIxWdOgGo9nQ9yUb0a/zYo+vfUo3cwJ4eWBp6D9O7Yed3b5wg9g5QWOtfT6w5iLJq25NgTatmQ2D9CmCJSW924lvvZqt095Cihtr+rEI/W70rZRk1pJhkW5yWPfoXJIHzlA==\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 10
+  },
+  {
+    "name": "Bend line 3",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RJBD",
+    "bodyType": "wire",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/53822bede78f7efb34c42653f4b4a96bdc48b776/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/53822bede78f7efb34c42653f4b4a96bdc48b776/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/53822bede78f7efb34c42653f4b4a96bdc48b776/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/53822bede78f7efb34c42653f4b4a96bdc48b776/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "53822bede78f7efb34c42653f4b4a96bdc48b776",
+      "href": "https://cad.onshape.com/api/thumbnails/53822bede78f7efb34c42653f4b4a96bdc48b776?t=1765284937704"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&319$eJx1Ul1z2jAQ/DPXl87gQf7A+NHYonEDBiQ3DX3xyJYCasFSbJGUf18Zl6RDJw+SztLu3d6eP80C2JxEe14GtAIuWvki+LxVxxgl42VAxrE7nHafUDT+F4L5TnRXXL9TBqIx0pyLsxYzBvjtg/qA0y/YltjLzqh2uJxCQnBcZKvcPigtWmakajI+cyHjMaIIOROYr7eeH6r9j0ZsvJ9BiV5lK1aaRvDc674k4kDvcZHclTgvsmJLBXS/hKn3g4CM09rxgKeIvqTkefE1nBqliUs84pOATJLI1hoxJwR51K1sDIloCNlyTbK8uMLsjeyoYa0p/jKsOuSETgRzHt/Pc40fCrkvKl4Gn8Vv0564UBoPgU1oe43XZW/CbWEUOiM0tZmsuz2R1WYg2oCe2idW93wfktV6++71dSIucNmxYyV3p4t7KTMsRkvXTg4RVP0PuBiGPMCPBSZ5vChTvMZ5ivNke6PMNtgLmzijCuZd9O1ut/lOH8PGD3UZDQaTiDBS0akTgFaH80E2ol/j2x5d/5Jq5Ab29MDS0EeY3g07v2vjBLEPgMJa/3RgzU6UlVIHwRqlZ0Ng/QpgiUlvduJb72ardHuTooba/qyiXVi9K20ZNaSYZA84LXv0H4Pw80k=\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 11
+  },
+  {
+    "name": "Part 6",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RLBD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de60d0af0f88f3573a935ff4664e7e7e2243321f/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de60d0af0f88f3573a935ff4664e7e7e2243321f/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de60d0af0f88f3573a935ff4664e7e7e2243321f/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/de60d0af0f88f3573a935ff4664e7e7e2243321f/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "de60d0af0f88f3573a935ff4664e7e7e2243321f",
+      "href": "https://cad.onshape.com/api/thumbnails/de60d0af0f88f3573a935ff4664e7e7e2243321f?t=1753013436684"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&f7c$eJyll11vmzAYRv+MdzMpCNsQ4JIQaFFWktr0I7tBfLiFNg0MnHT99zMhKtE0aSrvDRib59igc/N8W5jo9iDajxvCHfSrH8UfjVg4w2w/5thE3poxn2/W0TKMrpIwSoIfbsxt1B2yU8bTb0yeoUK01VEUQVu/9TOMuni4q+ucY/3yhSDNRedS4/MFk6dI7GUlhxOkyP984Abyl1e+2qGsOlmfz2Ujj/luHK4jtVA3ok1lVe/DYkFQWLiYY6zNUbDZUsOqy597cUtfzAS/V61YN0znBeIrP/auEz+Kw3jLBepehczLYduw4LmKZ/mRB+8hvmfmMqulrN+YyebMYjZzvH6TmdAsVL01bbWXCmqh8GbDwigeP2sMsIzpLGcFn2GqUSTr5mINY7WIyX9zBtqJJzkhaKK2ei6/mszR0az8+qV8pLvHr5431zLNRqtCp+3qV3dMD+nwixMpfstOtvWrmOlf/RSiazOCFfcMwFAAgQIoFGBAASYUMIcCLCjAhgKciQDnU6SpKo6EqS6OhKkyjoSpNo6EqTqOhKk+joSpQo6EqUaOhKlKjgSwkwTsJAE7ScBOErCTBOwkATtJwE4SsJME7CQBO0nBTlKwkxTsJAU7ScFOUrCTFOwkBTtJwU5SsJMG2EkD7KQBdtIAO2mAnTTAThr/cJKZnq1aXOB6fr+gelLVcZm2Mj73KFXWsGYpSFC4qyBq/Pu4KuOsSMzvqiu0h0LUjT8MVM1S1c/dJCeayVJx2cdsos1sqlCqbvbJNJdDUg34oX1StVMBDFVpN9vzqRbr5fYvRHaCEPSe7nZxWeWvYk+XKpci/uBv4uQUMVnmXORw/w+Czrm7fr594I/W3rCaxMnr5uNBUTqVzhG/W3DVNu/61voHp6xJFA==\",id);",
+    "unflattenedPartId": "RBBD",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": true,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 248,
+        "green": 135,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 12
+  },
+  {
+    "name": "Part 7",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RLBL",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ddf329ed004ac7ac6e18fc76e191eefa5b0e5b7b/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ddf329ed004ac7ac6e18fc76e191eefa5b0e5b7b/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ddf329ed004ac7ac6e18fc76e191eefa5b0e5b7b/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ddf329ed004ac7ac6e18fc76e191eefa5b0e5b7b/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "ddf329ed004ac7ac6e18fc76e191eefa5b0e5b7b",
+      "href": "https://cad.onshape.com/api/thumbnails/ddf329ed004ac7ac6e18fc76e191eefa5b0e5b7b?t=1753013433995"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&c25$eJylll1vmzAYhf+MdzMpKMYmwCUh0KI2hNqkWXKD+HALSwoMnKb99zOhCtE2aQq+AYM5j/2a90jn21wDT0fWfC5VaoJf3Sj8rNnc7N92Ywo1YK8IcWiw8heefxd5fuQ+WiE1QHtMzhp7utRoAjLWFO8sc5vqrXtDkAX7u7jOKJxef+DGKWstVb98oNEYsJIXvN9BDJzLA8XAWdw5YoW8aHn1tS8D2MSxQm/li4mqZk3Mi6r0srkKvMyCFEJlBtxgi7Be5buSPaGfWgRPRcNWNZnSDNAHJ7TvI8cPvXBLGWj3jKd5v6yX0VTInxO82zkP2cEhSVJxXr0RjcyITgxi2t0iE6booHirm6LkAqoDbxkQzw+HsgYBSciUpCSjE4gUBHhVX81BKCah+l8dBgf2wkcINdAUr/mtyhQs1tbmIw9Oy3aBbhUriSKaxNov+Xt5yl4fq/6II84+eMubas8m01tLUafKRIUdtwdAWYAqC7j1WP4CYFmAJguYjQSYl78wtoaBMLaIgSBfhS5NMKQJpixBHeupgTDWVANhrKsGwlhbDQTpnkTSVSDpKpB8FdLOQtLOQtLOQtLOQtLOwtLOwtLOwtI9iaV7Ekv3JJbuSSzdk/gfPUk02xBx07Vsp5sQga5oKY8bHn4FPpEqoaILiJtZD65fO89hkYdJFmnfRahpjhmraqcfiDwoMqoVRGeaRgz9OjjODGUyMwVK5OJOGae8V4oBPTYvIh8LABbZO9h+7Wq+Wmz/QCRniApO8eEQ5kW6ZyVaCF0M6MYJwugs0YipXulgdwZua67vX5829IdeYr2OzLSqPzeC0gp1Cuh6TkUsXnfx+jeyOmOh\",id);",
+    "unflattenedPartId": "RBBL",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": true,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 127,
+        "green": 127,
+        "blue": 127
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_1",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 13
+  },
+  {
+    "name": "Part 8",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RLBT",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/179fc79f4705506e36bf25764d2c1d4299ded372/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/179fc79f4705506e36bf25764d2c1d4299ded372/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/179fc79f4705506e36bf25764d2c1d4299ded372/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/179fc79f4705506e36bf25764d2c1d4299ded372/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "179fc79f4705506e36bf25764d2c1d4299ded372",
+      "href": "https://cad.onshape.com/api/thumbnails/179fc79f4705506e36bf25764d2c1d4299ded372?t=1753013435476"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&156a$eJylmFtvmzAYhv+MdzMpCNuYwyUh0LK2Odi0XXaDOLgNPQQGTpvs1w9CVKpt0hS+m8TBeR/b6Hlv/GXK0Gon68MNEQ762Y2iQyWnTv+0GwvMkLfg3BfLxXwWzi/icB4H124kbNTs0mPG02+YSFEu6+JN5kFdvnZPOHVx/91+mgLrn/8QJJlsXCP9+AMTCZJbVah+BwnyP34IA/mzC79dYVM0qjzty0Ye990oXMzbibKSdaKKchvmU4LC3MUCY81EwXJNDavc/NjKFX1iMX4varmouC5yJK78yLuM/XkURmshUfMsVbbplw1zkbXxfIbF24z/vP5m2WmpVPnKGTe5xW3ueN0iE6lZqHit6mKrWqiFwpslD+fRcKwhwFOu84znYoKpRpEqq09zGLeTmPw3Z6AX+aBGBBmqi8fNuckMZaubwNk8hfsds84Na6lmoz2/e1/+WuWLK3zoX3Gs5F41qi6f5UQ/9yhE1yYEt9wTAEMBBAqgUIABBTAowIQCzlXjL4ANBTgjAc6HSGNVHAhjXRwIY2UcCGNtHAhjdRwIY30cCGOFHAhjjRwIY5UcCGAnCdhJAnaSgJ0kYCcJ2EkCdpKAnSRgJwnYSQJ2koKdpGAnKdhJCnaSgp2kYCcp2EkKdpKCnaRgJw2wkwbYSQPspAF20gA7aYCdNMBOMvAeGHwP4F4wcC8YuBcmuBcmuBcmuBcmuBcmuBcm2EkLfAoLfAoLfgpwsyxwsyxwsyxws2xws2xws2xws2ywk/Y/nOTMs4WBAtfzuwlhoaIRKqlVdLo1w1jDmtVCgty9CuaVfxcVmyjNY/ZV7lW9y2VZ+f2A691Fn7uMjzTGH2i/Vn/7lra7STsU1lGXTDLVJ9uB2NUPSdYBDOQtluvTrqaL2foPRHqEEPSevLxEmyJ7lls6a3MJEvf+MoqPkXZp+SmHu3cQNM7t5ePqXny3toZVxU5WVof7ltK06QyJ26mIwui2u6P8DXnz4CE=\",id);",
+    "unflattenedPartId": "RBBT",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": true,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 250,
+        "green": 182,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_2",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 14
+  },
+  {
+    "name": "Bend line 4",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RsBD",
+    "bodyType": "wire",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/0da61f38f2c9ab91234b8610194dd4cc4125030d/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/0da61f38f2c9ab91234b8610194dd4cc4125030d/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/0da61f38f2c9ab91234b8610194dd4cc4125030d/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/0da61f38f2c9ab91234b8610194dd4cc4125030d/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "0da61f38f2c9ab91234b8610194dd4cc4125030d",
+      "href": "https://cad.onshape.com/api/thumbnails/0da61f38f2c9ab91234b8610194dd4cc4125030d?t=1765284937704"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&35a$eJx1Ul1zojAU/TPZl52RMXyIPCLElW1BTbBb+sIEkmpahTTEdv33G0T3w50+JLkk5557z7l8mXlgfeTqlHqkAowr8c7ZXLWHEEbj1MPj0B5Os08IHP8NQWzLuyuu3wkFvNFCn/KT5DMK0O8P4gIUf0OmxE50ulXD5RREGIV5sszMQyu5olq0TcJmNkhYCAmE1gTMV4Xj+u3uqeFr58Ur4YdQfClJAN76vs9EDJA7lEeLEmV5kheEg+6V63o3NJAwUlsOgBP+Wji+o18WT7qV2MYOdrGHJ1Fgao2o5QNxkEo0GgfEB0m6wkmWX2HmRnREU6XzS4bpDlq+FYA5C+/mmUQPudjlFSu9r/ynVkfGW4mGwBAareGq7E24LQx9awSnhsm42yfSWg+JJiBH9UzrPt8F0XJV/PH6OhEbMNHRQyW2x7N7MdU0hKltJgcxrP4HnA2DDkCPOcJZeF/GaIWyGGVRcdOZEdg3NrFGFZh3wWaxXf8gj37j+rIMBoNxgCmuyNTygGz3p71oeL/Gtxpt90w1sj1zOsCkwc8wvRtmflfhGNJPgNxY/7ynzZaXVdvuOW1aORsC45cHUoR7syPXeDdbxsW/yi7imDW1ajB/26TwXXx3YhUnDTHqdpzrlGu6XxjC6Kg1P0iSXui7w0Yyqnlt/nau7o3gpTQlaxAjnDyguOzL/QIJugoN\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 15
+  },
+  {
+    "name": "Part 9",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RtBH",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/a708f5294bf778c9c77ad99d70a98b0c04497910/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/a708f5294bf778c9c77ad99d70a98b0c04497910/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/a708f5294bf778c9c77ad99d70a98b0c04497910/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/a708f5294bf778c9c77ad99d70a98b0c04497910/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "a708f5294bf778c9c77ad99d70a98b0c04497910",
+      "href": "https://cad.onshape.com/api/thumbnails/a708f5294bf778c9c77ad99d70a98b0c04497910?t=1753013434240"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&138b$eJylmEtvozAURv+MZzNSEAZskyXh0TKdPGqTVskG8XAntEmg4Ezbfz8QolCNRhqVu0kAc499rfOx8LcZQfcnWX/MDTFFr91V9FHJ2bR/2l0LTJC75NwXq+XCCxc3cbiIg59OJGzUnNJzjavPiUhRLuvit8yDujx0T7jp4P6//aUC659fCJJMNo5lXl8gIkHyqArVryBB/vVGWMj3bvx2hl3RqPKyLhu53HeicLloB8pK1okqymOYzwwU5g4WGGsUBauNabFytz3Ke/OZxPitqOWy4rrIkbjzI/c29hdRGG2ERM2LVNmunzbMRdaWYypfNiYz1fPtNi2VKg+ccMoZt/nU7SaZSI2h4lDVxVG1UIbC+YqHi2hoayjgKdd5xnMxwaZmIlVWn8Ywbgex8d86C+3lkxpRSFBd/Np9tTJDXlk8yK0dVII8fLVYSzUbnTJ7v034c7DdeP0Wx0q+q0bV5Yuc6F9txdC1iYFb7gWAoQADCjChAAsKIFAAhQIYFGBDAdORgOlVpLEqDoSxLg6EsTIOhLE2DoSxOg6EsT5eCQZ4Jw3wThrgnTTAO2nAd3JstAfC2GwPhLHhvhJMcBcmuAsT3gX4G2WBv1EWOFkWOFkWOFkEvAYCXwM43QScbgLOBQHngoBzQcC5oOBcUHAuKNhJCnaSgp2kYCcp2EkKdpKCnaRgJxnYSQZ2koGdZGAnGdhJBnaSgZ1kYCcZ2EkGdtIGO2n/w0lOXFtYKHBcvxsQDBWNUEmtosspCcYa1lgLCXLnLlhU/kNU7KI0j8l3+a7qUy7Lyu8vuN4d7Dir+EwjPE/7ufrTlqRdTdKhsI66yiRTfWV7IU71U5J1AAu5y9XmsqrZ0tv8hUjPEAO9Jft9tCuyF3k0vbYuQeLRX0XxuYRwST/VdS3gc12u2V0nr+s5/l38ML3aC48injY7KdVcqmR/W+6le1JKHioxn5XtXXJsDusqT5TMyurjsZ22aafLkFjPRBRG6+4Q6w+EUmQq\",id);",
+    "unflattenedPartId": "RmBH",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": true,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FdAKFNpEVTihTbd_5_3",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 16
+  },
+  {
+    "name": "Part 10",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBCD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f45233df433c49fda3e9b6feefd7bbc193ea3549/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f45233df433c49fda3e9b6feefd7bbc193ea3549/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f45233df433c49fda3e9b6feefd7bbc193ea3549/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f45233df433c49fda3e9b6feefd7bbc193ea3549/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "f45233df433c49fda3e9b6feefd7bbc193ea3549",
+      "href": "https://cad.onshape.com/api/thumbnails/f45233df433c49fda3e9b6feefd7bbc193ea3549?t=1725433578874"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&467$eJylUk1z2jAQ/TPqpTP2IBt/HY0twAFsR3La0gsj7E3QBGxHyCH011dgmklDZtppD2uvdvXevl3tp5GDbjuQx4XD1qgCKZ6hGstmF1rRQMc4gloJdSyOLYw4Iq8HNkQknhAN2oi9amQf9FFESVgkWaoTTQuSK9HUSTWyUFKFmGFsumj81EG4PUTOrBL5DV0FByEha1mAnk5KzkQVYjNSRNMVSYukWDJA+0dQ5aYXkFSs1ETHebrYzvyHw2Y+XTdKNTut2aODk/Lz1+19hi1UiT3frcVDd1YUc8VDvLCuM5c2iizP5tlkqd3zAATsQ7efyYUfU4vadEidyL80ZnomNh1TuwZHY4nrRRhPoXVGaw+vgl7/ZcKfdyAfYBx3N5vHOL+L5nfWrF4NqE8DynVvBh6gDWYCk8mX0fen8l01A7v6iqfN1xZo49rWpofErpWiVtRnHkoWOU3SIjbwx8Ipti4FDVyZNlJN+zbp6iT24r8CD9EW7tU1mmL4E7zUQwvQS9jhzfPyxzHxJvhebLegQln+E6FhuZrSsHxk/Sfe/hBPcWTr7R+HEXmfo7Z9CrESiXqveF1CyndALO/duzm647BTzaBpc64UyFo/2BBFWb58JXkDAVOvQysbPRdgnbznJTQteVGSl+py1gLsgFannaaDENOSAsM2It8KQtNwvopJTtKYpNGbArZDbfc3ZcHZ9F7Z+Fe9nrhveZTFy6st7DGO3r39AaBtWnb66X44Yl9JXqxOqJ/bkUiF\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 17
+  },
+  {
+    "name": "Part 11",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RFCD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/db64d331686a869d99a13bed7b3863794ff3db51/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/db64d331686a869d99a13bed7b3863794ff3db51/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/db64d331686a869d99a13bed7b3863794ff3db51/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/db64d331686a869d99a13bed7b3863794ff3db51/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "db64d331686a869d99a13bed7b3863794ff3db51",
+      "href": "https://cad.onshape.com/api/thumbnails/db64d331686a869d99a13bed7b3863794ff3db51?t=1725433576380"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&528$eJylVE1z2jAQ/TPqpTP2INnGcDS2IA5gXMlJQy+MbAvQBGxHiBD66yt/JEMJM+20B9nSrnb3vaeVvowc8O3I5Xnu0BTkXIpXno9lufeQ39M2BnihhDon54qPGMAfC2oDHEywDtqKgyplaxwAn2AvCReRdpQVl0yJsgjzEQJh7kEKodkH45cj93Yn35nmIr4nq+FJSL6o6BC81EiaRDmgU5z4dyscJWGypBwcnrnKti2AMKeZ6YDzLJrvpoPNaTu7k2KzVTVk0tPfPoW9SzZjlvFDS4lA36J98IhJgp+IRWziEJcMyJAwaqzNvmmBtFSq3PMi1/vdJl+XtZ1TiEAuDmyfis2xIRgwxTw4R589nSrJIl7MFpOlnjZ6Co2m3+Fp80OCWjD+oNPJdE1oOqaeGgyMJSzmXnDHK2eUunA1bOXoKH7dc7nh4+B4v30O4gd/9oCmxarXscpMA9pgC6mAePI4+vGSXVUzYKq31NtyPbgea9NAPdMFYl9JUSgyoC4I5zEJoyQw4G3gBPbfZURIq6jK6tLJtBOmwV8F22DH1+pzNEHoT+GZFm0I3rwj3L4uf55DdwLXYrfjypPZPyU0UKpTGigH6D/jrZvxTT/aYOz5+MoHieXWJpoBURwUKzIesT3HKLs6N0cz9o6q7JVVzJTistAHZgN/ES8/klyEcFNfjkqWWhdOj3Kt70ZZ4TclWaa6tQZg5QTCuqlJz4NX5C7uS91aBOrOtwB+SjCJvNkqwDGOAhz5F+WtIbHYb7h5M1zTsPrvaLqy77x1/x2oYlKNbwQ6uj0PJ86rsqL1T1PWr48Xrxolb9C+rKiftZZvV7E5gtEiWHYEbQ1Fv330O46TVW3/BY4zgyc=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 18
+  },
+  {
+    "name": "Part 12",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RJCD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/84b15eca27e1bd766dd0d6ee3336e5beedb31a78/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/84b15eca27e1bd766dd0d6ee3336e5beedb31a78/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/84b15eca27e1bd766dd0d6ee3336e5beedb31a78/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/84b15eca27e1bd766dd0d6ee3336e5beedb31a78/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "84b15eca27e1bd766dd0d6ee3336e5beedb31a78",
+      "href": "https://cad.onshape.com/api/thumbnails/84b15eca27e1bd766dd0d6ee3336e5beedb31a78?t=1725433575623"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&582$eJylVNGSmjAU/Zn0pTMwJIDoI0J02VWkCbtd++IgRGVWgY2xrv36XhC31HWmnfYBDbk5955z7g2fhjb6chDyNLX5EmVC5t9FNpLlziWeAXsJEoXK1Sk+VWKYIPr+wi1E/TEF0Cbfq1KeN/vIY9SNg1kIgbISMlF5WQTZkKAgczHHWO+h0etBuNujZz9keXTPFoNjLsWs4gP0WjNpEmWIP9DYu1vQMA7iORdo/yJUujkTCDKe6iY6TcLp9qG/Pm4md6qsasLMgN8ex0ZXyyhJxf4siGHP5D30RFlMn5nJLGYzh/XZgCVcW+k2ZJX5eqNEkf1Kx7ILmImPmJ6uYRstS6XKHZxyGswF2aw5JijL98luma8PjSN+ohIXT8nHSGtjPItmk9l4DsumATkI6LUsjJYLOXPx+q2xuqNjUABLLUEjiYup69+Jyh4uHbwYnP1rXfm8E3ItRv7hfvPiR4/e5JE8FAujFZWCIgdtMM8xHT8Nv72mV9U0nMERAc9K14gBD9QkRHdQvqtkXijW5w4KphELwtjX8G3iDPcvLhILchmoG0shhjP/r7AW2oqV+ohmxPoTPAXPBujNPeDN9/mPU+CM8SrfboVyZfpPCTVSp9SIQOQ/8eZNfDPBFhq5Hr2KYWYO6i2eorzYq6RIRZjsBCXZVdtsUOweVGmUVZQoJWQB/bKQN4vm70k6EKFDaypZgi+CH+QKblNZ0Tclk1S170DAXDFs1jPNDBdfievclnqyGLY4NhF9jikL3cnCpxENfRp6nfLmkplpl3czZgbMuGY6FzZt2YtuGL89V4lUoxtAG6ZzfxSiKite/4Fk+Fq50aJx8obsbsUlEme9v1dkloBSzK4vjo07SZhttSebZg1n/vwSgLPwVeVfaRQv6v2fiOaZEA==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 19
+  },
+  {
+    "name": "Part 13",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RNCD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/1e90041aa1c7226589cb159a64cc2d3b0a874c45/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/1e90041aa1c7226589cb159a64cc2d3b0a874c45/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/1e90041aa1c7226589cb159a64cc2d3b0a874c45/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/1e90041aa1c7226589cb159a64cc2d3b0a874c45/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "1e90041aa1c7226589cb159a64cc2d3b0a874c45",
+      "href": "https://cad.onshape.com/api/thumbnails/1e90041aa1c7226589cb159a64cc2d3b0a874c45?t=1725433577380"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&5df$eJylVN9zojAQ/mdyLzcDQwKIPiJES+sPLqG9ei8OQlSmCjTGWu+vvwWxR60307t7CITdfLvft7vhS99G3/ZCHsc2X6BUyOxFpANZbF3iGWCLkchVpo7RsRT9GNG3D24h6g8pgNbZThXyZOwij1E3CqYTcBSlkLHKijxI+wQFqYs5xnoHDZ73wt0cPPsuzcJbNu8dMimmJe+h54pJHShF/I5G3s2cTqIgmnGBdk9CJesTgSDliW6h42gy3tx1V4f16GYjlqpizAx4djg22mIGcSJ2J0UMeybvoAfKIvrITGYxmzmsy3os5tpSN3UbqaLcqVi2wrH0DGbiI8bWTSSz1VqJPP0spqNruIsWhVLFFk45NeaMrPccE5Rmu3i7yFb7uox+rGIXj8lHT1P7aBpOR9PhDLZ11zIQ3WlYGA0XcuLidZtu6I6OQQFstRgNJM7Hrn8jSru/cPC8dyp6U8mvWyFXYuDvb9dPfnjvje7JXT43GlEJKIrRGvMM0+FD/8dzcpFNI4auEchDCCwTlgXL1h2UbUuZ5Yp1uYOCcciCSeRr+DpxhuNzFYkDKS3U9gnw4aX/SaxxBcvIHyr2G5xAxXro1d3j9cvs5zFwhniZbTZCuTL5p4AaERBSMw1E/hNvXsXXM2+hgevRCx9m5qIy8QRlOQx9nohJvBWULC+aZoNid68KoyjDWCkhc+iWhbxpOHsL0oIAHwOVsoC6CL6XS7h/RUlflYwT1XwDAQszbFcTzQwXX4hr3ZVqrhiGO20i+hhRNnFHc5+GdOLTiddKb6bMFO94m/WCVpu9M5sm7Vk3DN+OV5d9cAVYzebuIERZlLx6gWT4wbnhvK7kFdntjCkSJ73vMzLbgFTMJmC2zZaZ2Z2/Plm3tT/1Z2cHnIVfNv9Ow2he2X8BVS6xag==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "Fr1nMADHep5Bb71_9_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 20
+  },
+  {
+    "name": "Part 14",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RkCD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/67c93ed09b9f9eebd29be2f60711b62fef3e8f2b/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/67c93ed09b9f9eebd29be2f60711b62fef3e8f2b/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/67c93ed09b9f9eebd29be2f60711b62fef3e8f2b/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/67c93ed09b9f9eebd29be2f60711b62fef3e8f2b/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "67c93ed09b9f9eebd29be2f60711b62fef3e8f2b",
+      "href": "https://cad.onshape.com/api/thumbnails/67c93ed09b9f9eebd29be2f60711b62fef3e8f2b?t=1725433576622"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&708$eJylVNmSmzgU/RnNy1SZQjKLecQg3KS9EInOxHlxscg2FRtoLNJxvj6XxW3acdekkgeBtnPudq7+meroYy2q80LnMUpFlX0TqVcVRxs76kJnavs3mNp8OVaHV2i6EyebNPd4hEQuM3kOz6WYRoi+LriBPlEW0s9Av89Osqi67QlyGLVDf7WEg6IUVSSzIvfTKUF+amOOsWIg77kW9uHF0R/TLPjANtZLVolVyS303PjcEqWIP9LQedjQZeiHay7Q6auQyb5zwU95oujKGJ3ny8XhcbJ72c8fqmy3lyJPuwjb+HAXByNszDSmM4NNmMUiFvMRVhVDGWGC4kLK4gjXzBZ0gV7nAHc0riHqzmjH4lh9KIqpYPADpqMYeRXOF7b7IEp9Gpt4Y3Ue96n99yiqnfDc+sP+qxs8OfMn8phv1N6dBFzR0B7zDNPZp+mX5wR8xurA3AibcGcCw4IRwYhhJIqJsmNZZblkFjeRvwiYvwxfwTxBWX6SUZ6IZXQUHCN8w6crFrJrWahFGURSiioHIg05q2B9zwWhgFrKqthmB8Hrahsloijpd1lFiezXEBJOOWQ2zU7RMc52dSsCN5KRjRekF58+YH9TlSYRv6JbUeAxop9Dypb2fOPSgC5dunQGbmKwHL2JL2oHzIhx8bp175ogyN+Jy6iS3h2gDuk9vQhRFiVvfpAaULgdbFot3K3Q1SI0T5eXtxYZEWCKjZvSjzEjZJCU2170IJ3Qi2yo6fEENrbv6LVnIwb4Ga6C1Xw1W8O07eIMqAzA4ok7ujSGelsJTF5LIaC/ZFG+OTWaWEz39+AaOoitvINnmvq/BNARRANtfrdrvP+2/nH2zRmU7yCkXSV/yDnSVOjXkYYR+WuG8X2G/q3wbIfenBGm60OVMpxchNEfGIyo/Rb4Z/2KIPEN4iqlXpet3QHhWHsXwfQYdMKIeatjTJRJK+KkFbH3ZJyFVWuztTXdWj82WG2afF4UZXYqDpEEpV6afmC56wgN3iqt6whLiZUUFTW8MM39ppSv74d3XbSPj+fP530ipyt3/Q6jCepoOqxO+ycIJgCPEP+PBuGmQf4E2WwGGw==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 21
+  },
+  {
+    "name": "Part 15",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RrCD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/79fbd72380fc8593b827dbc4887c0966a802599b/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/79fbd72380fc8593b827dbc4887c0966a802599b/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/79fbd72380fc8593b827dbc4887c0966a802599b/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/79fbd72380fc8593b827dbc4887c0966a802599b/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "79fbd72380fc8593b827dbc4887c0966a802599b",
+      "href": "https://cad.onshape.com/api/thumbnails/79fbd72380fc8593b827dbc4887c0966a802599b?t=1725433578122"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&643$eJylU9tymzAQ/Rn1pTNmkMzFPGIQDokvVCJp3BePDErMxAaCRRLn67tg7DhOMu20Dwu6ndXu0Tnfhib6UctqNzH5EqWyyp5kGlTFxsWePjGZ3v4tpjdfjvXTIzS9l1uXNOe4QDJXmdrFu1IOBaLHCbfQDWUxvYX0q2yrimq/PEAeo24czqawUZSyEior8jAdEhSmLuYYaxYKHmvprp898yrNoku2cJ6zSs5K7qDHpuY2UYr4FY29iwWdxmE85xJtH6RKVvsSwpQnmqX10W48nayvBvfPq/HFslCq2Mg8hdLttjVz3+DJ2GTEM7iBqD+izGAmszynK0uzNayZGgx7SxRUOJ+4/oUszeHSxgtnf3tH0/eNrO5l4NeXqwc/uvbG1+QqX+jMYYItobIexmiFeYbp6Gb46zFhhMmT23rYhCMWhA0xgHAghGajbFNWWa6Yw20UTiIWTuMDlicoy7dK5Imcio3kGOGzdKbmILdWhV6UkVBKVjnkMZA3i+afFCA1ePayKu6yteR1dScSWZT0RVUiUd0c+sFLjglKs63YLLP7un1NXyjh4gnpVGS+JWeDjoIe1lsSPoLbx8V9RG9jyqbueOHTiE59OvXeisQ2w4N3zQ3aALaIcai5Le5IDlC35UpUKvgEZwKz22cpy6LkzQ9oAZ260aJVAdFPmjk3QwA0gBnYV5rqwMSAjPEsmo1nozkMW9dkgLQAiy2/h/eGOqCOhGH9yFgCclZFebppNE2a/l+BDbSWd+ojmvWdP8FBsISAeF7cGq+e5q+70B4BxWup3Cr5p4y9fgJm6vVTRP4T3/8U37k4cD16tkeY8U5EDIuDUoxjnoN4dEbsjwjinCFIEjTL8qib9l5iMGKeGQsTbS+5htIBCq6tnXRqYzR3hnfO6wLrja3GRVFm22ItFGjsYLOT+vb6NUC/htUmc7SllqKiBks355unOTo2eJu0bg/C8bhjZzjz519ktOG1JXi9TjvTwwDgAvGfNIoXDfI36I/V/g==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 22
+  },
+  {
+    "name": "Part 16",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RyCD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f2d65bc06124d72db9c2024ec5873c9cc570b0e/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f2d65bc06124d72db9c2024ec5873c9cc570b0e/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f2d65bc06124d72db9c2024ec5873c9cc570b0e/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f2d65bc06124d72db9c2024ec5873c9cc570b0e/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "7f2d65bc06124d72db9c2024ec5873c9cc570b0e",
+      "href": "https://cad.onshape.com/api/thumbnails/7f2d65bc06124d72db9c2024ec5873c9cc570b0e?t=1725433577873"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&7a2$eJylVNmW2jgQ/RnNy5yDjyVv+NHYMu00WyR3JuSF40WAT8B2Gzkd8vVTXmjcNMlkZh4EslT3qpZb9cfEQB9rUZ3nBo9RKqrsm0j9qjg62FXnBlPbf5OpzS/H6tCEpjtxckhjxyMkcpnJc3guxSRC9PWDm+gTZSH9DPT77CSLqjseI5dRJwyWC7goSlFFMivyIJ0QFKQO5hgrJvKfa+EcXlzjMc1WH9jGfskqsSy5jZ4bn1uiFPFHGroPG7oIg3DNBTp9FTLZdy4EKU8UTTHQebaYHx7Hu5f97EEW5UlGlewibOPDXRyMMI3pzGAmGzObRSzmI6wqhqKhKtvtpcjT3waZyggbKC6kLI5gZrWgC/S6B7ircx1Rb0o7Ftfu41csBcPbsB3FyK9wPne8B1Eak9jCG7sLs6/Hn0dR7YTv1R/2X73Vkzt7Io/5Ru3dScAVC+0xzzCdfpp8eU7AZ0wGz41wBDYxrMY2hSVgbRULZceyynLJbG6hYL5iwSJ8BfMEZTmkMk/EIjoKjhG+4TMUGzm1LNSiXEVSiioHIh25y9X6ngtCAYmVVbHNDoLX1TZKRFHS77KKEtl/Q0h4yzFBaXaKjnG2q1vleJGMHDwnvWKNAfubqjSJeI9ulYQ1RD+HlC2c2cajK7rw6MIduIljhpM38aXtspQRsS9et+5dEwT5O/FGa/4doAHpPb0IURYlb/4gNdAWzmrTauFuha4vpkh0eXn7ItNUeIppBI41bZgFzfy1pT5I322r+5B4aHU2VL+WwsH29gDjn2i95ydjiDFcrpaz5XQN23ZsZEBuNuDIG12aSr2tItYvZSTQEBijN5dNjbHt/R5aRwexlXfwTDf+kQAahFgg6+9Ojfff1j/OgTWFyh+EdKrkP3KOdAKtPtI1RP43g3afoR8zvuPSmzvCjGgocIZfVdxfmIyQ/khnJH6PIOkN4qqtXtLtuwPCqxrfIZip/hvLMSP2bbNgoozbTknaTvGfzLOwa326tidb+8cGq80kmRVFmZ2KQyRB5JfJMni5azsdhqLeDUVbiZUUFTWMsca+KfrrkPKvH+2E84PZrE/5ZOmtf8LY6Khp4zrt5xxsAB4h/hddhZsG+TcinzHc\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 23
+  },
+  {
+    "name": "Part 17",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "R5CD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/8595d79758d425bfcb7ad8594966d71bd7195457/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/8595d79758d425bfcb7ad8594966d71bd7195457/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/8595d79758d425bfcb7ad8594966d71bd7195457/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/8595d79758d425bfcb7ad8594966d71bd7195457/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "8595d79758d425bfcb7ad8594966d71bd7195457",
+      "href": "https://cad.onshape.com/api/thumbnails/8595d79758d425bfcb7ad8594966d71bd7195457?t=1725433578373"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&839$eJy1VNuSmzgQ/RnlJVWmkLiZR8zFQ8YXIjHZeF9cXIRNxQYGi0ycr98G4zH2OLVTye6DbNHq0906Ot0fJhr63PD6ONdYjFJe59956tXl3sK2PNeo3P3rVG5/GZaHLm664QeLtH4sQrwQuTiGx4pPIuS+fjAdfXFp6H6F8Nv8IMr6ZB4jm7pW6C8XcFBWvI5EXhZ+OiHITy3MMJZ05D033Nq92Npjmgef6Np8yWu+rJiJntuau0ApYo9uaD+s3UXohyvG0eEbF8n2VIKfskRSJQ0dZ4v57nG8ednOHnY8EwcR1eJ0xe6C+HQRSqhCVapRnY6pSSMasxGWJUUaYYJEWb0boUkKqvPNVvAifTdIhzQGikshyj24GR3oDL3sAW6rTEWuM3VPUWyzp0wyJAy5YTuKkVfjYm45D7zSJrGB1+aJmf4JP+55veGe03zafnOCJ3v2RB6LtdyXk0ApJtpilmN3+mXy93MCNWN1kG6EW58UFoeVSSMiw8KSgfJ9VeeFoCYzkD8PqL8IX8EsQXkB5BcJX0R7zjDCN/E0yURWI0q5rIJICF4XEEhF9jJY3SuBS6DKqi6zfMdZU2dRwsvK/SHqKBH9N1yJAD0Epfkh2sf5punE5kQisvCc9CLXBtGvXqUl4i26Ex9WkPs1dOnCmq0dN3AXjruwB2XilGJ+db+sWwYwFZ+r7sq7EAT8HVirTu8OUAN6Dy+cV2XF2j+gBjrJCtadFu6+0CVjhviJl+uMVCGQiioqmJUrFpTxf+WpD4i+nSMePBHMETrsE5WAIbs1YPzGovyiT/qMJAJ+wmWwnC2nK9h2UyqHdHoLTpzRuSHlWwVg/SwB0na/iq4OIzjEsfNeNL6Hpmr0r3B4QGJCQ/ywGrz9vvp59I0paGbHhVUnvxlzpCowJEaqisgfR1DuR+gHlGfZ7s0ZoVo2bA1K5LNy+gMwqb0JtukdRHaDuGitb4Yu7yDgRZ1vEFTX/h9P4CC+bUhMpHHXjUnXjd6TfuRmo05X5iQzf66x3E6rWVlW+aHcRQLa4zy9BplPra1CCDXtgplSLKWobGBUtv6tPF4HoXf56Kao589m/eNMls7qFxENUFw7Kpq0n6WwAXiE2F9uEK5b5D+bqFjZ\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FU6ye9u4GY9Bf9z_10_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 24
+  },
+  {
+    "name": "Part 18",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "R9CD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/c31bbdd6c3fd806668d715287ffd36ddbcacda94/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/c31bbdd6c3fd806668d715287ffd36ddbcacda94/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/c31bbdd6c3fd806668d715287ffd36ddbcacda94/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/c31bbdd6c3fd806668d715287ffd36ddbcacda94/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "c31bbdd6c3fd806668d715287ffd36ddbcacda94",
+      "href": "https://cad.onshape.com/api/thumbnails/c31bbdd6c3fd806668d715287ffd36ddbcacda94?t=1675951221836"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPgzAU/jPHF5MRimOXRwadI8o2T0nMfFk6WrYqAyxF5d9bNuNM9uRDr9/5LufczHx4aqXuEp/tQEitPqSY6+oY3IVu4qNr9xEjHgjV8ONO7VtuVFVG3PCAJN41kna1ZD6sMKJoz0pbzchlHGRplOl6eMaB/j7YEGh0T635QTWm0ufPCYRIgzReLS1Q1VKftGMx8yAWAbG2DnGI64xgnqgsax/Dl8XwNVaHLSG3ta5yVUhaCvYmTXb4VFquajaF977Rk74A9kDTcLGlyzRON0xCcyo954oFk44P+7ZppFlXRVeoUvbLxQlOkeMOszCzMQbCGUhnkDtjUMdaq9JgzsYQJ2uMl+llgEhwfKGixByJi8QKEN8a9dLkD078vmD0L753zcdJOLbjna2izVXmzJlCrkpe0C+jWyGr+udiG+DAnuk63fbEb2Tsr9k=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 25
+  },
+  {
+    "name": "Part 19",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RBDD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6cc455c49252850cf8763be060f127a2bf74f9d7/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6cc455c49252850cf8763be060f127a2bf74f9d7/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6cc455c49252850cf8763be060f127a2bf74f9d7/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6cc455c49252850cf8763be060f127a2bf74f9d7/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "6cc455c49252850cf8763be060f127a2bf74f9d7",
+      "href": "https://cad.onshape.com/api/thumbnails/6cc455c49252850cf8763be060f127a2bf74f9d7?t=1675951225324"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPgzAU/jPHF5MRimOXRwadI8o2T0nMfFk6WrYqAyxF5d9bNuNM9uRDr9/5LufczHx4aqXuEp/tQEitPqSY6+oY3IVu4qNr9xEjHgjV8ONO7VtuVFVG3PCAJN41kna1ZD6sMKJoz0pbzYgwDrI0ynQ9PONAfx9sCDS6p9b8oBpT6fPnBEKkQRqvlhaoaqlP2rGYeRCLgFhbhzjEdUYwT1SWtY/hy2L4GqvDlpDbWle5KiQtBXuTJjt8Ki1XNZvCe9/oSV8Ae6BpuNjSZRqnGyahOZWec8WCSceHfds00qyroitUKfvl4gSnyHGHWZjZGAPhDKQzyJ0xqGOtVWkwZ2OIkzXGy/QyQCQ4vlBRYo7ERWIFiG+NemnyByd+XzD6F9+75uMkHNvxzlbR5ipz5kwhVyUv6JfRrZBV/XOxDXBgz3SdbnviN2amr9o=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 26
+  },
+  {
+    "name": "Part 20",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RFDD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/83b874bd210fae0b4245ad08f48f4a2e7a8d9ebb/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/83b874bd210fae0b4245ad08f48f4a2e7a8d9ebb/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/83b874bd210fae0b4245ad08f48f4a2e7a8d9ebb/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/83b874bd210fae0b4245ad08f48f4a2e7a8d9ebb/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "83b874bd210fae0b4245ad08f48f4a2e7a8d9ebb",
+      "href": "https://cad.onshape.com/api/thumbnails/83b874bd210fae0b4245ad08f48f4a2e7a8d9ebb?t=1675951226819"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPwjAU/jPHFxOWdTIGj7sUWXSAp0sMvpCydlCFbXadyr+3AyMmPPnQ63e+yzk3kQ9PndTHzGcbEFKrDymmuj6Ed7Gb+ejafcSIB0K1/LBR244bVVcJNzwkmXeN5MdGMh8WmFC0Z62tZuIxDrIyyhx7OOJAfx9sCDS5p9Z8p1pT6/PnGGKkYZ4u5haoG6lP2qmIPEhFSKytQxziOiOYZqoousf4ZTZ8TdVuTchto+tS7SWtBHuTpth9Ki0XDZvAe9/oSV8Ae6B5PFvTeZ7mKyahPZWec6WCSceHbde20izr/XGvKtkvF8c4QY4bLOLCxhgIZyCdQekEoA6NVpXBkgWQZktM5/llgEgwuFBRYonERWIFiG+NemnyByd+XzD6F9+75uM4Dux4o0WyuspcOBMoVcX39MvoTsi6+bnYBjiwZ7rM1z3xG2hgr9s=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 27
+  },
+  {
+    "name": "Part 21",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RJDD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e92df5cd74ea864923594e479455b5dc92fd3e3a/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e92df5cd74ea864923594e479455b5dc92fd3e3a/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e92df5cd74ea864923594e479455b5dc92fd3e3a/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/e92df5cd74ea864923594e479455b5dc92fd3e3a/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "e92df5cd74ea864923594e479455b5dc92fd3e3a",
+      "href": "https://cad.onshape.com/api/thumbnails/e92df5cd74ea864923594e479455b5dc92fd3e3a?t=1675951221340"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&220$eJyVUFtPwjAU/jPHFxOaFRiDR9iKLjqGp0sMvpCydlCFbXadyr+3AyMmPPnQ63e+yzk3Mx+eWmWOic83IJXRH0rOTXWYDkIv8dFz+4jTPkjdiMNGb1thdVVGwoopTfrXSHasFfchxYihOyvjNKMBF6BKq+2xg2cC2O+DD4FFd8yZ73RjK3P+HEOIbJrF6cIBVa3MSTuWsz7EckqdLaGEemQE80TnefsYvtwPX2O9W1N6W5uq0HvFSsnflM13n9qotOYTeO8aPelL4A8sC+/XbJHF2YoraE6l51yx5Ir4sG2bRtlltT/udam65eEYJyhwg3mYuxg9SXqK9AoSgD7URpcWCx5AnCwxXmSXASLF4EJFhQVSD6kToL4z6qTpH5z6XcHoX/z+NR/HYeDGO0uj1VXmnEyg0KXYsy9rWqmq+ufiGhDAn9kyW3fEb2oar9w=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 234,
+        "green": 234,
+        "blue": 234
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FMiccuLCZH4jIih_11_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 28
+  },
+  {
+    "name": "Composite part 1",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RLDD",
+    "bodyType": "composite",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b40f39674b0a45a22efa13b81410e14f234b4471/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b40f39674b0a45a22efa13b81410e14f234b4471/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b40f39674b0a45a22efa13b81410e14f234b4471/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b40f39674b0a45a22efa13b81410e14f234b4471/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "b40f39674b0a45a22efa13b81410e14f234b4471",
+      "href": "https://cad.onshape.com/api/thumbnails/b40f39674b0a45a22efa13b81410e14f234b4471?t=1677827274398"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM4Sa$entityTypeBa$EntityTypeS4$BODYSb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S12.15$FxvbpLWlNtrdXwD_12opCreateCompositePartS9$queryTypeS5$DUMMY\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 196,
+        "green": 226,
+        "blue": 243
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FxvbpLWlNtrdXwD_12_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 29
+  },
+  {
+    "name": "Composite part 2",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RMDD",
+    "bodyType": "composite",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ef7b74ac107066f2ab5bd378770cf03f635d2590/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ef7b74ac107066f2ab5bd378770cf03f635d2590/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ef7b74ac107066f2ab5bd378770cf03f635d2590/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/ef7b74ac107066f2ab5bd378770cf03f635d2590/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "ef7b74ac107066f2ab5bd378770cf03f635d2590",
+      "href": "https://cad.onshape.com/api/thumbnails/ef7b74ac107066f2ab5bd378770cf03f635d2590?t=1753013434749"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM4Sa$entityTypeBa$EntityTypeS4$BODYSb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S12.15$FCRc1AoyuQCh1b6_13opCreateCompositePartS9$queryTypeS5$DUMMY\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 248,
+        "green": 135,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FCRc1AoyuQCh1b6_13_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 30
+  },
+  {
+    "name": "Part 22",
+    "state": "IN_PROGRESS",
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "6990166d4eaca73e1958e64f",
+    "partId": "RPDD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6a8c8770f08c2ff1b57bf1ab45a8dab3a56a37b6/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6a8c8770f08c2ff1b57bf1ab45a8dab3a56a37b6/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6a8c8770f08c2ff1b57bf1ab45a8dab3a56a37b6/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/6a8c8770f08c2ff1b57bf1ab45a8dab3a56a37b6/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "6a8c8770f08c2ff1b57bf1ab45a8dab3a56a37b6",
+      "href": "https://cad.onshape.com/api/thumbnails/6a8c8770f08c2ff1b57bf1ab45a8dab3a56a37b6?t=1752507944396"
+    },
+    "microversionId": "479f076ae5f25cf3d1a2f5bb",
+    "partQuery": "query=qCompressed(1.0,\"&1bd$eJx9UMlugzAQ/ZnpsVVIgIQjiwmoZamNlHJCNnaD1SSm4DTN39cEKZdKOc68N2+Zp8CB97MYrplDrCVwOdIjk/sz1VKdIqqpb2XL/0h17QWxVlDgdJvm/lsToRLlEcrDmnigBrmXJ3oYfTtcGGEK4qSlvk5XAQV0H4gNKNoiwqCTo1bDvNxAiJFfpUVuANWL4WaZ8mAJKfctk+bFhfiDHVrqrXa1Ww5x3Vj2RQ6i6I3999TnpsSBvKIqTBqUV2lVEwHjl9BtNydIOWmNUpdsFiS5rJMsl0xprY5TaGxjB7t4jTeYYoZbzMmzMV6BVv0D3IaD+NQPCA6Y53Qa26Fr2gdFVM+kkM3NPIiTbZRFsSvtY+WVP6aZ6tGvHs5cYGZ+SXaorJrp8g91V45M\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "",
+    "metadataMicroversion": "838517eaba063e8a4d31d20c",
+    "appearance": {
+      "color": {
+        "red": 127,
+        "green": 127,
+        "blue": 127
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "defaultColorHash": "FHGDMDF6i4mT9Pv_14_0",
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    },
+    "ordinal": 31
+  }
+]
