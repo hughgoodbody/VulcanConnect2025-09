@@ -111,7 +111,7 @@
       "isCosmetic": false,
       "rangeAndDefault": {
         "btType": "BTQuantityRange-181",
-        "defaultValue": 1,
+        "defaultValue": 100,
         "minValue": 0,
         "maxValue": 100000,
         "location": {
@@ -151,7 +151,7 @@
       "isCosmetic": false,
       "rangeAndDefault": {
         "btType": "BTQuantityRange-181",
-        "defaultValue": 1,
+        "defaultValue": 50,
         "minValue": 0,
         "maxValue": 100000,
         "location": {
