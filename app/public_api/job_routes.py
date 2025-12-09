@@ -74,12 +74,15 @@ def create_job():
 
         # 3. Use encodedId to retrieve BOM
         bom = BomHandler.fetch_bom_for_configuration(onshape_url, encoded_id)
+        filtered_bom = bom["filtered"]
+        dedup_bom_by_source = bom["dedupBySource"]
 
         # 4. Return result
         return jsonify({
             "success": True,
             "encodedId": encoded_id,
-            "bom": bom,
+            "filteredBom": filtered_bom,
+            "dedupBomBySource": dedup_bom_by_source,
             "userOptions": user_options
         }), 200
 
