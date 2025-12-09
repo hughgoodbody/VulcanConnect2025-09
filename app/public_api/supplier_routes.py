@@ -6,7 +6,7 @@ supplier_bp = Blueprint("suppliers", __name__)
 
 SUPPLIER_FILE = "user_data/hugh/SupplierDetails.json"
 
-@supplier_bp.get("/suppliers")
+@supplier_bp.get("/")
 def get_suppliers():
     try:
         with open(SUPPLIER_FILE, "r") as f:
