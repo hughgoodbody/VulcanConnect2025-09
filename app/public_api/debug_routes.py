@@ -32,15 +32,7 @@ def debug_master_part_list():
         filtered_bom = bom["filtered"]
         dedup_bom_by_source = bom["dedupBySource"]
 
-        # 🚨 TEMPORARY: Return BOMs so you can inspect their structure
-        return jsonify({
-            "success": True,
-            "encodedId": encoded_id,
-            "filteredBom_preview": filtered_bom[:5],   # first 5 rows
-            "dedupBom_preview": dedup_bom_by_source[:5],         # first 5 rows
-            "filteredBom_full": filtered_bom,
-            "dedupBom_full": dedup_bom_by_source
-        }), 200
+        
 
         # 3. Build master part list
         master_list = PartListService.build_master_part_list(
@@ -50,13 +42,16 @@ def debug_master_part_list():
             dedup_bom_by_source
         )
 
+        # 🚨 TEMPORARY: Return BOMs so you can inspect their structure
         return jsonify({
             "success": True,
             "encodedId": encoded_id,
-            "filteredBom": filtered_bom,
-            "dedupBomBySource": dedup_bom_by_source,
+            "filteredBom_preview": filtered_bom[:5],   # first 5 rows
+            "dedupBom_preview": dedup_bom_by_source[:5],         # first 5 rows
+            "filteredBom_full": filtered_bom,
+            "dedupBom_full": dedup_bom_by_source,
             "masterPartList": master_list
-        })
+        }), 200
 
     except Exception as e:
         import traceback
