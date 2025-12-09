@@ -2,7 +2,7 @@
 
 from flask import Flask
 from flask_cors import CORS
-from .public_api import config_routes, export_routes, bom_routes, supplier_routes
+from .public_api import config_routes, export_routes, bom_routes, supplier_routes, job_routes
 
 def create_app() -> Flask:
     app = Flask(__name__)
@@ -23,7 +23,8 @@ def create_app() -> Flask:
         config_routes.config_bp,
         url_prefix="/api/config"
     )
-
+    app.register_blueprint(job_routes.job_bp, url_prefix="/api/job")
+    
     app.register_blueprint(
         supplier_routes.supplier_bp,
         url_prefix="/api/suppliers"
