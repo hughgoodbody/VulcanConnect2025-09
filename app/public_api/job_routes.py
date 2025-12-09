@@ -1,6 +1,8 @@
 from flask import Blueprint, request, jsonify
 from app.handlers.config_handler import ConfigHandler
 from app.handlers.bom_handler import BomHandler
+from app.services.part_list_service import PartListService
+
 import traceback
 
 job_bp = Blueprint("job", __name__)
@@ -77,12 +79,16 @@ def create_job():
         filtered_bom = bom["filtered"]
         dedup_bom_by_source = bom["dedupBySource"]
 
+        master_list = PartListService.build_master_part_list(onshape_url, encoded_id, filtered_bom, dedup_bom_by_source)
+
+
         # 4. Return result
         return jsonify({
             "success": True,
             "encodedId": encoded_id,
             "filteredBom": filtered_bom,
             "dedupBomBySource": dedup_bom_by_source,
+            "masterPartList": master_list,
             "userOptions": user_options
         }), 200
 
