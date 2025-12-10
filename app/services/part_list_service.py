@@ -6,7 +6,12 @@ import json
 from typing import Any, Dict, List, Tuple
 
 from app.services.bom_service import get_quantity_header_id
-from app.config.settings import LOCAL_DATA_PATH, DEVELOPMENT_MODE
+from app.config.settings import (
+    LOCAL_DATA_PATH,
+    DEVELOPMENT_MODE,
+    API_VERSION,
+)
+from app.onshape.api_switch import api_or_mock
 
 logger = logging.getLogger(__name__)
 
@@ -16,9 +21,16 @@ class PartListService:
     Build a Master Part List from:
       - BOM (filtered rows)
       - Parts metadata
-      - Body details
-    In DEV mode, parts + bodies are loaded from local JSON via local_manifest.json.
-    In PROD mode, the _fetch_* methods should be wired to the Onshape API.
+      - Per-part bodydetails calls
+
+    In DEV mode:
+      - Parts metadata loaded from local JSON (e.g. via manifest or other mocks)
+      - BodyDetails loaded from LOCAL_DATA_PATH/bodydetails/{partId}.json
+
+    In PROD mode:
+      - Parts metadata should come from real Onshape /parts endpoint (TODO)
+      - BodyDetails fetched per part from:
+          /api/{API_VERSION}/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partId}/bodydetails
     """
 
     # -------------------------------------------------------------------------
@@ -30,42 +42,31 @@ class PartListService:
         encoded_configuration: str,
         bom_dict: Dict[str, Any],
         filtered_bom_rows: List[Dict[str, Any]],
-        dedup_bom_by_source: List[Dict[str, Any]],
+        dedup_bom_by_source: List[Dict[str, Any]],  # currently unused, kept for future optimisation
     ) -> List[Dict[str, Any]]:
         """
-        Build the Master Part List for a given configuration.
+        Build the master part list for a given BOM and configuration.
 
-        - doc_url / encoded_configuration are included for future use
-        - bom_dict is the full BOM JSON from Onshape (or dev mock)
-        - filtered_bom_rows is the BOM after filter_bom_rows()
-        - dedup_bom_by_source is currently unused here, but kept for API parity
+        master key = (documentId, elementId, configuration, partId)
         """
 
         logger.info("Building Master Part List...")
 
         # ---------------------------------------------------------------------
-        # 1) LOAD METADATA + GEOMETRY
+        # 1) LOAD PART METADATA
         # ---------------------------------------------------------------------
         parts_meta = PartListService._fetch_parts_metadata()
-        body_details = PartListService._fetch_body_details()
-
-        # Lookup by (elementId, partId)
         meta_lookup: Dict[Tuple[str, str], Dict[str, Any]] = {}
+
         for p in parts_meta:
             eid = p.get("elementId")
             pid = p.get("partId")
             if eid and pid:
                 meta_lookup[(eid, pid)] = p
 
-        # NOTE: For your current dev body JSON, bodies have no partId field.
-        # We therefore only use bodyDetails for flat pattern body lookup by bodyId.
-        all_bodies: List[Dict[str, Any]] = body_details.get("bodies", [])
-
         # ---------------------------------------------------------------------
-        # 2) PRECOMPUTE SHEET-METAL MAPPING (unflattened -> flattened)
+        # 2) PRECOMPUTE SHEET-METAL RELATIONS (UNFLATTENED <-> FLATTENED)
         # ---------------------------------------------------------------------
-        # For each flattened part metadata: unflattenedPartId tells us which
-        # folded/unflattened part it belongs to.
         unflattened_to_flattened: Dict[Tuple[str, str], Tuple[str, str]] = {}
         flattened_flags: Dict[Tuple[str, str], bool] = {}
 
@@ -76,24 +77,24 @@ class PartListService:
                 continue
 
             key = (eid, pid)
-            is_flattened = bool(p.get("isFlattenedBody"))
-            flattened_flags[key] = is_flattened
+            is_flat = bool(p.get("isFlattenedBody"))
+            flattened_flags[key] = is_flat
 
             unflat_id = p.get("unflattenedPartId")
             if unflat_id:
-                # p is flattened, unflat_id is the folded/real partId
+                # p is flattened; unflat_id is the folded/real partId
                 unflattened_to_flattened[(eid, unflat_id)] = (eid, pid)
 
         # ---------------------------------------------------------------------
-        # 3) PRECOMPUTE QUANTITIES BY MASTER KEY
+        # 3) BUILD QUANTITIES + CONTEXT (INCL. WVM INFO FOR BODYDETAILS CALLS)
         # ---------------------------------------------------------------------
-        # Master key: (documentId, elementId, configuration, partId)
+        # master key: (documentId, elementId, configuration, partId)
         quantity_by_key: Dict[Tuple[str, str, str, str], float] = {}
+        context_by_key: Dict[
+            Tuple[str, str, str, str], Tuple[str, str, str]
+        ] = {}  # key -> (wvmType, wvmId, did)
 
-        # Detect quantity header using BOM headers (preferred)
         quantity_header_id = get_quantity_header_id(bom_dict)
-
-        # If not found, derive from row values (robust numeric heuristic)
         if not quantity_header_id:
             quantity_header_id = PartListService._infer_quantity_header_from_rows(
                 filtered_bom_rows
@@ -101,22 +102,25 @@ class PartListService:
 
         if not quantity_header_id:
             logger.warning(
-                "Quantity header not found—defaulting to 1 per distinct part row."
+                "Quantity header not found; defaulting to 1 per distinct part row."
             )
 
         for row in filtered_bom_rows:
             src = row.get("itemSource", {})
             did = src.get("documentId")
             eid = src.get("elementId")
+            wvm_type = src.get("wvmType")
+            wvm_id = src.get("wvmId")
             cfg = src.get("configuration")
             pid = src.get("partId")
 
-            if not (did and eid and cfg and pid):
+            if not (did and eid and cfg and pid and wvm_type and wvm_id):
                 logger.warning("Skipping BOM row missing identity fields: %s", row)
                 continue
 
             key = (did, eid, cfg, pid)
 
+            # Quantity
             if quantity_header_id:
                 hv = row.get("headerIdToValue", {})
                 val = hv.get(quantity_header_id, 0)
@@ -128,26 +132,46 @@ class PartListService:
 
             quantity_by_key[key] = quantity_by_key.get(key, 0) + qty
 
+            # Context (used for per-part bodydetails)
+            if key not in context_by_key:
+                context_by_key[key] = (wvm_type, wvm_id, did)
+
         # ---------------------------------------------------------------------
-        # 4) BUILD MASTER LIST ENTRIES PER UNIQUE MASTER KEY
+        # 4) PREPARE BODYDETAILS CACHE (PER PART)
+        # ---------------------------------------------------------------------
+        bodydetails_cache: Dict[
+            Tuple[str, str, str, str, str, str], Dict[str, Any]
+        ] = {}
+        # key = (did, eid, wvmType, wvmId, configuration, partId_for_bodydetails)
+
+        # ---------------------------------------------------------------------
+        # 5) BUILD MASTER LIST ENTRIES
         # ---------------------------------------------------------------------
         master_list: List[Dict[str, Any]] = []
 
         for (did, eid, cfg, pid), qty in quantity_by_key.items():
-            meta = meta_lookup.get((eid, pid), {})
-
-            body_type = meta.get("bodyType")
-            is_mesh = meta.get("isMesh")
-
-            # Skip composite parts (placeholder logic per your spec)
-            if body_type == "composite":
+            ctx = context_by_key.get((did, eid, cfg, pid))
+            if not ctx:
                 logger.warning(
-                    "Skipping composite part %s / %s / %s – bodyType=composite",
-                    eid, pid, cfg
+                    "Missing context (wvmType/wvmId) for key %s; skipping.", (did, eid, cfg, pid)
                 )
                 continue
 
-            # Skip mesh or non-solid
+            wvm_type, wvm_id, _ = ctx
+
+            meta = meta_lookup.get((eid, pid), {})
+            body_type = meta.get("bodyType")
+            is_mesh = meta.get("isMesh")
+
+            # --- Skip composites (per your spec) ---
+            if body_type == "composite":
+                logger.warning(
+                    "Skipping composite part %s / %s / %s – bodyType=composite",
+                    eid, pid, cfg,
+                )
+                continue
+
+            # --- Skip mesh/non-solid ---
             if is_mesh is True or (body_type and body_type != "solid"):
                 logger.warning(
                     "Skipping non-solid/mesh part %s / %s / %s – bodyType=%s, isMesh=%s",
@@ -155,44 +179,54 @@ class PartListService:
                 )
                 continue
 
-            # ---------------- SHEET METAL DETECTION + LINKING ----------------
+            # ---------------- SHEET METAL DETECTION + FLATTENED MAPPING ----------------
             sheet_metal = False
             sheet_role = None
-            sheet_id = None
+            sheet_id = None  # flattenedPartId if applicable
 
-            # If this (eid, pid) is an unflattened part that has a flattened twin
+            # Unflattened → flattened mapping from metadata
             if (eid, pid) in unflattened_to_flattened:
                 sheet_metal = True
                 sheet_role = "unflattened"
                 sheet_id = unflattened_to_flattened[(eid, pid)][1]
 
-            # If this part metadata itself is a flattened body
             elif flattened_flags.get((eid, pid), False) or meta.get("unflattenedPartId"):
+                # This is a flattened part
                 sheet_metal = True
                 sheet_role = "flattened"
                 sheet_id = pid
 
-            # If there is a flattened sheet bodyId, collect flat pattern bodies
-            flat_pattern_bodies: List[Dict[str, Any]] = []
-            flat_body_id = None
+            # ---------------- BODYDETAILS PER PART (KEY CHANGE) ----------------
+            # For sheet metal unflattened parts, we want the bodydetails for the
+            # FLATTENED part (sheet_id). Otherwise, use its own partId.
+            if sheet_metal and sheet_role == "unflattened" and sheet_id:
+                partid_for_bodydetails = sheet_id
+            else:
+                partid_for_bodydetails = pid
 
-            if sheet_metal and sheet_role == "unflattened":
-                # Look up the flattened part meta
-                flat_key = unflattened_to_flattened.get((eid, pid))
-                if flat_key:
-                    flat_meta = meta_lookup.get(flat_key)
-                    if flat_meta:
-                        flat_body_id = flat_meta.get("flattenedBodyId")
+            bd_key = (did, eid, wvm_type, wvm_id, cfg, partid_for_bodydetails)
+            bodydetails: Dict[str, Any] = {}
 
-            elif sheet_metal and sheet_role == "flattened":
-                flat_body_id = meta.get("flattenedBodyId")
+            if bd_key in bodydetails_cache:
+                bodydetails = bodydetails_cache[bd_key]
+            else:
+                bodydetails = PartListService._fetch_bodydetails_for_part(
+                    did=did,
+                    wvm_type=wvm_type,
+                    wvm_id=wvm_id,
+                    eid=eid,
+                    configuration=cfg,
+                    part_id=partid_for_bodydetails,
+                )
+                bodydetails_cache[bd_key] = bodydetails
 
-            if flat_body_id:
-                # Filter global bodies list for matching bodyId
-                flat_pattern_bodies = [
-                    b for b in all_bodies if b.get("id") == flat_body_id or b.get("bodyId") == flat_body_id
-                ]
+            if not bodydetails:
+                logger.warning(
+                    "No bodydetails for %s / %s / %s / %s – continuing without geometry.",
+                    did, eid, cfg, partid_for_bodydetails
+                )
 
+            # ---------------- MASTER ENTRY ASSEMBLY ----------------
             entry: Dict[str, Any] = {
                 "documentId": did,
                 "elementId": eid,
@@ -200,22 +234,20 @@ class PartListService:
                 "partId": pid,
                 "quantity": qty,
 
-                # metadata
+                # Metadata
                 "name": meta.get("name"),
                 "partNumber": meta.get("partNumber"),
                 "bodyType": body_type,
                 "isMesh": is_mesh,
 
-                # sheet metal flags
+                # Sheet metal flags
                 "sheetMetal": sheet_metal,
-                "sheetMetalRole": sheet_role,  # 'unflattened' or 'flattened'
-                "sheetMetalId": sheet_id,      # flattened partId
-                "flattenedBodyId": flat_body_id,
-                "flatPatternBodies": flat_pattern_bodies,
+                "sheetMetalRole": sheet_role,    # 'unflattened' or 'flattened' or None
+                "sheetMetalId": sheet_id,        # flattened partId (if any)
 
-                # composite / cut list placeholders
-                "compositePartId": meta.get("compositePartId"),
-                "hasCutList": meta.get("hasCutList", False),
+                # Per-part bodydetails (for geometry checks)
+                # If sheet metal & unflattened, this is the FLATTENED part's bodydetails.
+                "bodyDetails": bodydetails,
             }
 
             master_list.append(entry)
@@ -230,7 +262,6 @@ class PartListService:
     def _safe_numeric(val: Any) -> float:
         """Convert a BOM cell value into a numeric, treating bools as non-quantity."""
         if isinstance(val, bool):
-            # avoid treating True/False as 1/0
             return 0.0
         if isinstance(val, (int, float)):
             return float(val)
@@ -259,28 +290,28 @@ class PartListService:
         if not sums:
             return None
 
-        # headerId with maximum sum is most likely quantity
         best = max(sums.items(), key=lambda kv: kv[1])[0]
         return best
 
     # -------------------------------------------------------------------------
-    # LOAD MOCK PARTS METADATA (DEV) OR REAL DATA (PROD)
+    # PARTS METADATA LOADING
     # -------------------------------------------------------------------------
     @staticmethod
     def _fetch_parts_metadata() -> List[Dict[str, Any]]:
         """
         DEV MODE:
-          - Reads local_manifest.json from LOCAL_DATA_PATH
-          - Loads all 'parts' JSON files and concatenates them.
+          - Load parts metadata from local mocks.
+            (You can keep your existing manifest logic or adapt this.)
 
         PROD MODE:
-          - TODO: call Onshape /parts API using deduped BOM
+          - TODO: Call Onshape /parts API for each deduped PartStudio.
         """
         if not DEVELOPMENT_MODE:
-            # TODO: implement real Onshape calls here
+            # TODO: Real Onshape /parts calls should go here.
             logger.info("PRODUCTION mode: _fetch_parts_metadata not yet implemented.")
             return []
 
+        # For now, expect a manifest listing part metadata files, as discussed earlier.
         manifest_path = os.path.join(LOCAL_DATA_PATH, "local_manifest.json")
         try:
             with open(manifest_path, "r") as f:
@@ -290,7 +321,6 @@ class PartListService:
             return []
 
         all_parts: List[Dict[str, Any]] = []
-
         for filename in manifest.get("parts", []):
             full_path = os.path.join(LOCAL_DATA_PATH, filename)
             try:
@@ -300,55 +330,83 @@ class PartListService:
                         all_parts.extend(data)
                     else:
                         logger.warning(
-                            "Parts file %s did not contain a JSON list; skipping.", filename
+                            "Parts file %s did not contain a JSON list; skipping.",
+                            filename,
                         )
             except Exception as e:
                 logger.error("Failed to load parts file %s: %s", filename, e)
 
-        logger.info("Loaded %d parts metadata entries from local files.", len(all_parts))
+        logger.info("Loaded %d part metadata entries from local files.", len(all_parts))
         return all_parts
 
     # -------------------------------------------------------------------------
-    # LOAD MOCK BODY DETAILS (DEV) OR REAL DATA (PROD)
+    # BODYDETAILS PER PART
     # -------------------------------------------------------------------------
     @staticmethod
-    def _fetch_body_details() -> Dict[str, Any]:
+    def _fetch_bodydetails_for_part(
+        did: str,
+        wvm_type: str,
+        wvm_id: str,
+        eid: str,
+        configuration: str,
+        part_id: str,
+    ) -> Dict[str, Any]:
         """
+        Fetch bodydetails for a single part.
+
         DEV MODE:
-          - Reads local_manifest.json from LOCAL_DATA_PATH
-          - Loads all 'bodies' JSON files and merges them into {"bodies": [...]}
+          - Load from LOCAL_DATA_PATH/bodydetails/{partId}.json
 
         PROD MODE:
-          - TODO: call Onshape /partstudios/.../bodydetails for each deduped PS
+          - GET /api/{API_VERSION}/parts/d/{did}/{wvm_type}/{wvm_id}/e/{eid}/partid/{partId}/bodydetails
+            with ?configuration={configuration}
         """
-        merged = {"bodies": []}
+        if DEVELOPMENT_MODE:
+            # Local JSON mocks
+            bodydetails_dir = os.path.join(LOCAL_DATA_PATH, "bodydetails")
+            filename = f"{part_id}.json"
+            full_path = os.path.join(bodydetails_dir, filename)
 
-        if not DEVELOPMENT_MODE:
-            # TODO: implement real Onshape calls here
-            logger.info("PRODUCTION mode: _fetch_body_details not yet implemented.")
-            return merged
+            if not os.path.exists(full_path):
+                logger.warning(
+                    "Dev bodydetails file not found for partId=%s at %s",
+                    part_id,
+                    full_path,
+                )
+                return {}
 
-        manifest_path = os.path.join(LOCAL_DATA_PATH, "local_manifest.json")
-        try:
-            with open(manifest_path, "r") as f:
-                manifest = json.load(f)
-        except Exception as e:
-            logger.error("Could not load local manifest for bodies: %s", e)
-            return merged
-
-        for filename in manifest.get("bodies", []):
-            full_path = os.path.join(LOCAL_DATA_PATH, filename)
             try:
                 with open(full_path, "r") as f:
                     data = json.load(f)
-                    if isinstance(data, dict):
-                        merged["bodies"].extend(data.get("bodies", []))
-                    else:
-                        logger.warning(
-                            "Body file %s did not contain expected dict; skipping.", filename
-                        )
+                    return data
             except Exception as e:
-                logger.error("Failed to load body file %s: %s", filename, e)
+                logger.error(
+                    "Failed to load dev bodydetails file %s: %s", full_path, e
+                )
+                return {}
 
-        logger.info("Loaded %d bodies from local files.", len(merged["bodies"]))
-        return merged
+        # --- PRODUCTION MODE: Call Onshape API ---
+        path = (
+            f"/api/{API_VERSION}/parts/d/"
+            f"{did}/{wvm_type}/{wvm_id}/e/{eid}/partid/{part_id}/bodydetails"
+        )
+
+        query = {}
+        if configuration:
+            query["configuration"] = configuration
+
+        try:
+            bodydetails = api_or_mock(
+                mock_filename=None,
+                method="GET",
+                path=path,
+                query=query,
+            )
+            return bodydetails or {}
+        except Exception as e:
+            logger.error(
+                "Error fetching bodydetails from Onshape for partId=%s: %s",
+                part_id,
+                e,
+            )
+            return {}
