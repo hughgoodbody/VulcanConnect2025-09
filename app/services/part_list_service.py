@@ -240,6 +240,14 @@ class PartListService:
                 "bodyType": body_type,
                 "isMesh": is_mesh,
 
+                 # --- MATERIAL SUPPORT ---
+                # Standard Onshape material model:
+                "material": meta.get("material"),
+
+                #Thumbnails
+                "thumbnails" : meta.get("thumbnailInfo"),             
+                             
+
                 # Sheet metal flags
                 "sheetMetal": sheet_metal,
                 "sheetMetalRole": sheet_role,    # 'unflattened' or 'flattened' or None
