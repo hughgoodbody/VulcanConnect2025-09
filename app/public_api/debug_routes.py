@@ -38,18 +38,19 @@ def debug_master_part_list():
         master_list = PartListService.build_master_part_list(
             onshape_url,
             encoded_id,
-            filtered_bom,
-            dedup_bom_by_source
+            bom["raw"],                # full BOM dict
+            bom["filtered"],           # filtered rows
+            bom["dedupBySource"]       # deduped rows
         )
 
         # 🚨 TEMPORARY: Return BOMs so you can inspect their structure
         return jsonify({
             "success": True,
             "encodedId": encoded_id,
-            "filteredBom_preview": filtered_bom[:5],   # first 5 rows
-            "dedupBom_preview": dedup_bom_by_source[:5],         # first 5 rows
-            "filteredBom_full": filtered_bom,
-            "dedupBom_full": dedup_bom_by_source,
+            "filteredBom_preview": bom["filtered"][:5],
+            "dedupBom_preview": bom["dedupBySource"][:5],
+            "filteredBom_full": bom["filtered"],
+            "dedupBom_full": bom["dedupBySource"],
             "masterPartList": master_list
         }), 200
 
