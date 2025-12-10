@@ -1,0 +1,15 @@
+{
+  "bom": "t1-bom.json",
+
+  "parts": [
+    "t1-ps1-part.json",
+    "t1-ps2-part.json"
+  ],
+
+  "bodies": [
+    "t1-ps1-body.json",
+    "t1-ps2-body.json"
+  ],
+  "configurations": "1_configurations.json",
+  "encodedConfiguration": "2_encoded_configuration.json"
+}
