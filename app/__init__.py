@@ -31,7 +31,7 @@ def create_app() -> Flask:
     )
 
     app.register_blueprint(
-        material_routes.material_bp,
+        materials_routes.material_bp,
         url_prefix="/api/materials"
     )
 
