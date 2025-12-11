@@ -79,15 +79,15 @@ def create_job():
         filtered_bom = bom["filtered"]
         dedup_bom_by_source = bom["dedupBySource"]
 
-        master_list = PartListService.build_master_part_list(onshape_url, encoded_id, filtered_bom, dedup_bom_by_source)
+        master_list = PartListService.build_master_part_list(onshape_url, encoded_id, bom["filtered"], bom["dedupBySource"])
 
 
         # 4. Return result
         return jsonify({
             "success": True,
             "encodedId": encoded_id,
-            "filteredBom": filtered_bom,
-            "dedupBomBySource": dedup_bom_by_source,
+            "filteredBom": bom["filtered"],
+            "dedupBomBySource": bom["dedupBySource"],
             "masterPartList": master_list,
             "userOptions": user_options
         }), 200
