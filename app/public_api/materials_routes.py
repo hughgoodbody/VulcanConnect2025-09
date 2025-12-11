@@ -4,7 +4,7 @@ import os
 
 material_bp = Blueprint("materials", __name__)
 
-MATERIAL_FILE = "user/data/hugh/Common SFX Materials.json"
+MATERIAL_FILE = "user_data/hugh/Common SFX Materials.json"
 
 @material_bp.get("/")
 def get_materials():
