@@ -300,6 +300,7 @@ class PartListService:
                         body,
                         max_thickness_mm=MAX_LASER_THICKNESS,
                     )
+                    skip_adjacent_perp=is_flattened_geom,     # CORRECT
                     profile_data = analyzer.process()  # dict or False
 
                     if profile_data:
