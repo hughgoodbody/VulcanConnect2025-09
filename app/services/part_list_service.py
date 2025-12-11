@@ -1,5 +1,3 @@
-# app/services/part_list_service.py
-
 import logging
 import os
 import json
@@ -44,11 +42,22 @@ class PartListService:
         bom_dict: Dict[str, Any],
         filtered_bom_rows: List[Dict[str, Any]],
         dedup_bom_by_source: List[Dict[str, Any]],  # currently unused, kept for future optimisation
-    ) -> List[Dict[str, Any]]:
+    ) -> Dict[str, Any]:
         """
         Build the master part list for a given BOM and configuration.
 
         master key = (documentId, elementId, configuration, partId)
+
+        Returns:
+          {
+            "masterList": [...],   # all valid parts with laserProfile attached (if available)
+            "laserOnly": [...],    # only parts where laserProfile.success == True
+            "summary": {
+                "totalParts": int,
+                "laserValid": int,
+                "removed": int
+            }
+          }
         """
 
         logger.info("Building Master Part List...")
@@ -185,23 +194,25 @@ class PartListService:
             sheet_role = None
             sheet_id = None  # flattenedPartId if applicable
 
-            # Unflattened → flattened mapping from metadata
+            # If this (eid, pid) has a flattened sibling, then this is unflattened
             if (eid, pid) in unflattened_to_flattened:
                 sheet_metal = True
                 sheet_role = "unflattened"
-                sheet_id = unflattened_to_flattened[(eid, pid)][1]
+                sheet_id = unflattened_to_flattened[(eid, pid)][1]  # flattened partId
 
             elif flattened_flags.get((eid, pid), False) or meta.get("unflattenedPartId"):
-                # This is a flattened part
+                # This is itself a flattened part
                 sheet_metal = True
                 sheet_role = "flattened"
                 sheet_id = pid
 
             # ---------------- BODYDETAILS PER PART (KEY CHANGE) ----------------
-            # For sheet metal unflattened parts, we want the bodydetails for the
-            # FLATTENED part (sheet_id). Otherwise, use its own partId.
+            # *** IMPORTANT RULE ***
+            # - BOM only ever contains folded/unflattened partId
+            # - For sheet metal, ALWAYS use flattened partId (sheet_id) to fetch bodydetails
+            # - LaserProfileAnalyzer always runs on the flattened geometry
             if sheet_metal and sheet_role == "unflattened" and sheet_id:
-                partid_for_bodydetails = sheet_id
+                partid_for_bodydetails = sheet_id  # flattened partId used for geometry
             else:
                 partid_for_bodydetails = pid
 
@@ -242,112 +253,93 @@ class PartListService:
                 "isMesh": is_mesh,
 
                  # --- MATERIAL SUPPORT ---
-                # Standard Onshape material model:
                 "material": meta.get("material"),
 
-                #Thumbnails
-                "thumbnails" : meta.get("thumbnailInfo"),             
-                             
+                # Thumbnails
+                "thumbnails": meta.get("thumbnailInfo"),
 
-                # Sheet metal flags
+                # Sheet metal flags (BOM row is always folded if sheetMetal=True)
                 "sheetMetal": sheet_metal,
                 "sheetMetalRole": sheet_role,    # 'unflattened' or 'flattened' or None
                 "sheetMetalId": sheet_id,        # flattened partId (if any)
 
                 # Per-part bodydetails (for geometry checks)
-                # If sheet metal & unflattened, this is the FLATTENED part's bodydetails.
+                # For sheet metal & unflattened, this is the FLATTENED part's bodydetails.
                 "bodyDetails": bodydetails,
             }
+
+            # Track which flattened partId was used (if any)
+            flattened_part_id_used = None
+            if sheet_metal and sheet_role == "unflattened" and sheet_id:
+                flattened_part_id_used = sheet_id
+
             # -----------------------------------------------------------------
             # LASER PROFILE ANALYSIS WITH STRUCTURED FAILURE REASONS
             # -----------------------------------------------------------------
-
-            # ---------------------------------------------------------------
-            # SHEET METAL SPECIAL LOGIC (RESTORED FROM ORIGINAL CODE)
-            # ---------------------------------------------------------------
-            
-            # Flattened sheet metal → always valid laser profile
-            if sheet_metal and sheet_role == "flattened":
-                entry["laserProfile"] = {
-                    "success": True,
-                    "reason": None,
-                    "data": {
-                        "isSheetMetal": True,
-                        "note": "Flattened sheet metal treated as valid laser plate"
-                    }
-                }
-                master_list.append(entry)
-                continue
-            
-            # Unflattened sheet metal → not eligible for laser profiling
-            if sheet_metal and sheet_role == "unflattened":
-                entry["laserProfile"] = {
-                    "success": False,
-                    "reason": "Unflattened sheet metal part — cannot laser profile",
-                    "data": None
-                }
-                master_list.append(entry)
-                continue
-
             entry["laserProfile"] = {
                 "success": False,
                 "reason": None,
                 "data": None,
             }
-            
+
             if bodydetails and "bodies" in bodydetails and len(bodydetails["bodies"]) > 0:
-                body = bodydetails["bodies"][0]
+                body = bodydetails["bodies"][0]  # flattened geometry if sheet metal
                 MAX_LASER_THICKNESS = 25.0  # TODO: move to config/UI
-            
+
                 try:
                     analyzer = LaserProfileAnalyzer(body, max_thickness_mm=MAX_LASER_THICKNESS)
                     profile_data = analyzer.process()  # dict or False
-            
+
                     if profile_data:
                         entry["laserProfile"]["success"] = True
                         entry["laserProfile"]["data"] = profile_data
                     else:
                         entry["laserProfile"]["reason"] = "Profile check failed"
-            
+
                 except Exception as e:
                     logger.error(f"Laser profile generation failed for part {pid}: {e}")
                     entry["laserProfile"]["reason"] = f"Exception: {str(e)}"
-            
+
             else:
                 entry["laserProfile"]["reason"] = "No bodyDetails or no bodies found"
+
+            # record which flattened geometry was used for this BOM row
+            entry["flattenedPartIdUsed"] = flattened_part_id_used
 
             master_list.append(entry)
 
         logger.info("Master Part List complete. %d entries.", len(master_list))
+
         # ==========================================================================
         # FINAL PROCESSING: FILTER LASER-ELIGIBLE PARTS + SUMMARY
         # ==========================================================================
-        
         master_list_full = master_list
-        
+
         master_list_laser_only = [
             row for row in master_list_full
             if row["laserProfile"]["success"] is True
         ]
-        
+
         count_full = len(master_list_full)
         count_laser = len(master_list_laser_only)
         count_removed = count_full - count_laser
-        
-        logger.info(f"Laser Profile Summary: {count_laser} valid, {count_removed} removed, {count_full} total")
-        
+
+        logger.info(
+            "Laser Profile Summary: %d valid, %d removed, %d total",
+            count_laser, count_removed, count_full
+        )
+
         summary = {
             "totalParts": count_full,
             "laserValid": count_laser,
             "removed": count_removed
         }
-        
+
         return {
             "masterList": master_list_full,
             "laserOnly": master_list_laser_only,
             "summary": summary,
         }
-
 
     # -------------------------------------------------------------------------
     # QUANTITY SUPPORT
@@ -395,7 +387,6 @@ class PartListService:
         """
         DEV MODE:
           - Load parts metadata from local mocks.
-            (You can keep your existing manifest logic or adapt this.)
 
         PROD MODE:
           - TODO: Call Onshape /parts API for each deduped PartStudio.
@@ -405,7 +396,6 @@ class PartListService:
             logger.info("PRODUCTION mode: _fetch_parts_metadata not yet implemented.")
             return []
 
-        # For now, expect a manifest listing part metadata files, as discussed earlier.
         manifest_path = os.path.join(LOCAL_DATA_PATH, "local_manifest.json")
         try:
             with open(manifest_path, "r") as f:
