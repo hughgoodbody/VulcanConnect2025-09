@@ -4,6 +4,7 @@ import logging
 import os
 import json
 from typing import Any, Dict, List, Tuple
+from app.services.profile_service import LaserProfileAnalyzer
 
 from app.services.bom_service import get_quantity_header_id
 from app.config.settings import (
@@ -257,11 +258,69 @@ class PartListService:
                 # If sheet metal & unflattened, this is the FLATTENED part's bodydetails.
                 "bodyDetails": bodydetails,
             }
+            # -----------------------------------------------------------------
+            # LASER PROFILE ANALYSIS WITH STRUCTURED FAILURE REASONS
+            # -----------------------------------------------------------------
+            
+            entry["laserProfile"] = {
+                "success": False,
+                "reason": None,
+                "data": None,
+            }
+            
+            if bodydetails and "bodies" in bodydetails and len(bodydetails["bodies"]) > 0:
+                body = bodydetails["bodies"][0]
+                MAX_LASER_THICKNESS = 25.0  # TODO: move to config/UI
+            
+                try:
+                    analyzer = LaserProfileAnalyzer(body, max_thickness_mm=MAX_LASER_THICKNESS)
+                    profile_data = analyzer.process()  # dict or False
+            
+                    if profile_data:
+                        entry["laserProfile"]["success"] = True
+                        entry["laserProfile"]["data"] = profile_data
+                    else:
+                        entry["laserProfile"]["reason"] = "Profile check failed"
+            
+                except Exception as e:
+                    logger.error(f"Laser profile generation failed for part {pid}: {e}")
+                    entry["laserProfile"]["reason"] = f"Exception: {str(e)}"
+            
+            else:
+                entry["laserProfile"]["reason"] = "No bodyDetails or no bodies found"
 
             master_list.append(entry)
 
         logger.info("Master Part List complete. %d entries.", len(master_list))
-        return master_list
+        # ==========================================================================
+        # FINAL PROCESSING: FILTER LASER-ELIGIBLE PARTS + SUMMARY
+        # ==========================================================================
+        
+        master_list_full = master_list
+        
+        master_list_laser_only = [
+            row for row in master_list_full
+            if row["laserProfile"]["success"] is True
+        ]
+        
+        count_full = len(master_list_full)
+        count_laser = len(master_list_laser_only)
+        count_removed = count_full - count_laser
+        
+        logger.info(f"Laser Profile Summary: {count_laser} valid, {count_removed} removed, {count_full} total")
+        
+        summary = {
+            "totalParts": count_full,
+            "laserValid": count_laser,
+            "removed": count_removed
+        }
+        
+        return {
+            "masterList": master_list_full,
+            "laserOnly": master_list_laser_only,
+            "summary": summary,
+        }
+
 
     # -------------------------------------------------------------------------
     # QUANTITY SUPPORT
