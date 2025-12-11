@@ -71,7 +71,13 @@ class LaserProfileAnalyzer:
         self.faces = body.get("faces", [])
         self.edges = body.get("edges", [])
         self.max_thickness_m = max_thickness_mm / 1000.0
-
+        """
+        skip_adjacent_perp:
+            True  -> do NOT run adjacency / perpendicular checks (treat as pass).
+                     This is what we want for flattened sheet-metal bodies.
+            False -> run full checks (solid plate behaviour).
+        """
+        self.skip_adjacent_perp = skip_adjacent_perp
         # Pre-index edges by id for speed
         self.edge_index = {e["id"]: e for e in self.edges}
 
@@ -303,10 +309,13 @@ class LaserProfileAnalyzer:
             return False
 
         # Step 5
-        if not self.check_adjacency(f1, f2):
-            return False
-        if not self.check_perpendicular_faces(f1, f2):
-            return False
+        if not self.skip_adjacent_perp:
+            if not self.check_adjacency(f1, f2):
+                return False
+            if not self.check_perpendicular_faces(f1, f2):
+                return False
+        # else: flattened sheet-metal body – adjacency & perpendicular checks bypassed
+
 
         # Step 6
         longest_edge = self.find_longest_edge(f1)
