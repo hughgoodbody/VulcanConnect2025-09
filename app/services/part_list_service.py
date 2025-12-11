@@ -261,7 +261,34 @@ class PartListService:
             # -----------------------------------------------------------------
             # LASER PROFILE ANALYSIS WITH STRUCTURED FAILURE REASONS
             # -----------------------------------------------------------------
+
+            # ---------------------------------------------------------------
+            # SHEET METAL SPECIAL LOGIC (RESTORED FROM ORIGINAL CODE)
+            # ---------------------------------------------------------------
             
+            # Flattened sheet metal → always valid laser profile
+            if sheet_metal and sheet_role == "flattened":
+                entry["laserProfile"] = {
+                    "success": True,
+                    "reason": None,
+                    "data": {
+                        "isSheetMetal": True,
+                        "note": "Flattened sheet metal treated as valid laser plate"
+                    }
+                }
+                master_list.append(entry)
+                continue
+            
+            # Unflattened sheet metal → not eligible for laser profiling
+            if sheet_metal and sheet_role == "unflattened":
+                entry["laserProfile"] = {
+                    "success": False,
+                    "reason": "Unflattened sheet metal part — cannot laser profile",
+                    "data": None
+                }
+                master_list.append(entry)
+                continue
+
             entry["laserProfile"] = {
                 "success": False,
                 "reason": None,
