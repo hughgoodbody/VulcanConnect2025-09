@@ -66,8 +66,8 @@ class LaserProfileAnalyzer:
 
     def __init__(self, body, max_thickness_mm):
         self.body = body
-        self.faces = body["Faces"]
-        self.edges = body["Edges"]
+        self.faces = body["faces"]
+        self.edges = body["edges"]
         self.max_thickness_m = max_thickness_mm / 1000.0
 
         # Pre-index edges by id for speed
