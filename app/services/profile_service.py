@@ -66,10 +66,10 @@ class LaserProfileAnalyzer:
     PARALLEL_TOL = 1e-8
     PERP_TOL = 1e-6
 
-    def __init__(self, body, max_thickness_mm):
+    def __init__(self, body, max_thickness_mm: float):
         self.body = body
-        self.faces = body["faces"]
-        self.edges = body["edges"]
+        self.faces = body.get("faces", [])
+        self.edges = body.get("edges", [])
         self.max_thickness_m = max_thickness_mm / 1000.0
 
         # Pre-index edges by id for speed
@@ -157,7 +157,7 @@ class LaserProfileAnalyzer:
                 n = face_normal(face)
                 # must be perpendicular to both large face normals
                 if (not is_perpendicular(n, n1, self.PERP_TOL) or
-                    not is_perpendicular(n, n2, self.PERP_TOL)):
+                        not is_perpendicular(n, n2, self.PERP_TOL)):
                     return False
 
             # ---------------- CYLINDER ----------------
@@ -189,8 +189,8 @@ class LaserProfileAnalyzer:
 
         linear_longest = None
         nonlinear_longest = None
-        L_lin = 0
-        L_non = 0
+        L_lin = 0.0
+        L_non = 0.0
 
         for eid in edge_ids:
             e = self.edge_index[eid]
@@ -225,64 +225,63 @@ class LaserProfileAnalyzer:
             O[0], O[1], O[2], 1
         ]
         return M
+
     # ======================================================================
     # STEP 8: THUMBNAIL GENERATION
     # ======================================================================
-    
+
     def generate_face_thumbnail(self, face, X_axis, Y_axis, origin):
         """
         Draws a wireframe thumbnail of the face using its edges.
         Returns: Base64 PNG string.
         """
-    
+
         fig, ax = plt.subplots(figsize=(3, 3))
         ax.set_aspect('equal')
         ax.axis('off')
-    
+
         # --- extract edge IDs ---
         edge_ids = self.shared_edge_ids(face)
-    
+
         # --- for each edge, draw its 2D projection ---
         for eid in edge_ids:
             edge = self.edge_index[eid]
             geom = edge["geometry"]
-        
+
             pts3 = []
-        
+
             # 1) If evalPoints exist, use them (best quality)
             if "evalPoints" in geom and geom["evalPoints"]:
                 pts3 = [v(p) for p in geom["evalPoints"]]
-        
+
             # 2) else if both startPoint and endPoint exist → treat as straight line
             elif "startPoint" in geom and "endPoint" in geom:
                 P1 = v(geom["startPoint"])
                 P2 = v(geom["endPoint"])
                 pts3 = [P1, P2]
-        
+
             # 3) else fallback
             else:
-                # Try best effort
                 if "startPoint" in geom:
                     pts3.append(v(geom["startPoint"]))
                 if "endPoint" in geom:
                     pts3.append(v(geom["endPoint"]))
                 if len(pts3) < 2:
                     continue  # cannot render this edge
-        
+
             # Project 3D → 2D
             pts2 = [(dot(p - origin, X_axis), dot(p - origin, Y_axis)) for p in pts3]
-        
+
             ax.plot([p[0] for p in pts2], [p[1] for p in pts2], color='black', linewidth=1)
 
-
-    
         # --- Export to Base64 PNG ---
         buf = BytesIO()
         fig.savefig(buf, format="png", dpi=120, bbox_inches='tight', pad_inches=0.05)
         plt.close(fig)
-    
+
         encoded = base64.b64encode(buf.getvalue()).decode("utf-8")
         return encoded
+
     # ============================================================================
     # MAIN DRIVER
     # ============================================================================
@@ -317,7 +316,7 @@ class LaserProfileAnalyzer:
         # Step 7
         view_matrix = self.create_view_matrix(longest_edge, f1)
 
-        # Step 8
+        # Step 8: thumbnail
         X_axis = normalised(v(longest_edge["geometry"]["startVector"]))
         Z_axis = face_normal(f1)
         Y_axis = normalised(np.cross(X_axis, Z_axis))
