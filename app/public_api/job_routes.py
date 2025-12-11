@@ -79,7 +79,13 @@ def create_job():
         filtered_bom = bom["filtered"]
         dedup_bom_by_source = bom["dedupBySource"]
 
-        master_list = PartListService.build_master_part_list(onshape_url, encoded_id, bom["filtered"], bom["dedupBySource"])
+        master_list = PartListService.build_master_part_list(
+            onshape_url, 
+            encoded_id, 
+            bom["raw"], 
+            bom["filtered"], 
+            bom["dedupBySource"]
+        )
 
 
         # 4. Return result
