@@ -66,7 +66,7 @@ class LaserProfileAnalyzer:
     PARALLEL_TOL = 1e-8
     PERP_TOL = 1e-6
 
-    def __init__(self, body, max_thickness_mm: float):
+    def __init__(self, body, max_thickness_mm: float, skip_adjacent_perp: bool = False):
         self.body = body
         self.faces = body.get("faces", [])
         self.edges = body.get("edges", [])
