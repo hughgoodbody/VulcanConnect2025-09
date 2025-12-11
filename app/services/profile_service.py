@@ -245,60 +245,35 @@ class LaserProfileAnalyzer:
         # --- for each edge, draw its 2D projection ---
         for eid in edge_ids:
             edge = self.edge_index[eid]
-            curve = edge["curve"]
             geom = edge["geometry"]
-    
-            if curve["type"] == "LINE":
-                p1 = v(geom["startPoint"])
-                p2 = v(geom["endPoint"])
-    
-                P1 = np.array([dot(p1 - origin, X_axis), dot(p1 - origin, Y_axis)])
-                P2 = np.array([dot(p2 - origin, X_axis), dot(p2 - origin, Y_axis)])
-    
-                ax.plot([P1[0], P2[0]], [P1[1], P2[1]], color='black', linewidth=1)
-    
-            elif curve["type"] in ("CIRCLE", "ARC"):
-
-                radius = geom["radius"]
+        
+            pts3 = []
+        
+            # 1) If evalPoints exist, use them (best quality)
+            if "evalPoints" in geom and geom["evalPoints"]:
+                pts3 = [v(p) for p in geom["evalPoints"]]
+        
+            # 2) else if both startPoint and endPoint exist → treat as straight line
+            elif "startPoint" in geom and "endPoint" in geom:
                 P1 = v(geom["startPoint"])
                 P2 = v(geom["endPoint"])
-            
-                N = normalised(v(curve["normal"]))
-            
-                # Chord midpoint & direction
-                M = (P1 + P2) / 2
-                d = P2 - P1
-                L = np.linalg.norm(d)
-            
-                if L == 0:
-                    continue  # Degenerate arc
-            
-                # Distance from midpoint to center
-                h = math.sqrt(max(radius**2 - (L/2)**2, 0))
-            
-                # Perpendicular direction in plane
-                perp = np.cross(d, N)
-                perp = normalised(perp)
-            
-                center = M + perp * h   # Pick one side (either works for thumbnail)
-            
-                # Sample arc by angle
-                v1 = normalised(P1 - center)
-                v2 = normalised(P2 - center)
-            
-                # Safest way = interpolate angle along plane
-                steps = 64
-                pts3 = []
-            
-                for i in range(steps + 1):
-                    t = i / steps
-                    # spherical interpolation approximated in plane:
-                    vec = normalised((1 - t) * v1 + t * v2)
-                    pts3.append(center + vec * radius)
-            
-                # Convert to 2D
-                pts2 = [(dot(p - origin, X_axis), dot(p - origin, Y_axis)) for p in pts3]
-                ax.plot([p[0] for p in pts2], [p[1] for p in pts2], color='black', linewidth=1)
+                pts3 = [P1, P2]
+        
+            # 3) else fallback
+            else:
+                # Try best effort
+                if "startPoint" in geom:
+                    pts3.append(v(geom["startPoint"]))
+                if "endPoint" in geom:
+                    pts3.append(v(geom["endPoint"]))
+                if len(pts3) < 2:
+                    continue  # cannot render this edge
+        
+            # Project 3D → 2D
+            pts2 = [(dot(p - origin, X_axis), dot(p - origin, Y_axis)) for p in pts3]
+        
+            ax.plot([p[0] for p in pts2], [p[1] for p in pts2], color='black', linewidth=1)
+
 
     
         # --- Export to Base64 PNG ---
