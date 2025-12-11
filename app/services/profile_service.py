@@ -1,6 +1,8 @@
 import numpy as np
 import math
 import matplotlib.pyplot as plt
+from io import BytesIO
+import base64
 
 
 # ============================================================================
@@ -256,37 +258,48 @@ class LaserProfileAnalyzer:
                 ax.plot([P1[0], P2[0]], [P1[1], P2[1]], color='black', linewidth=1)
     
             elif curve["type"] in ("CIRCLE", "ARC"):
-                center = v(geom["center"])
+
                 radius = geom["radius"]
-    
-                # determine angular range
-                if "startAngle" in geom and "endAngle" in geom:
-                    theta1 = geom["startAngle"]
-                    theta2 = geom["endAngle"]
-                else:
-                    # full circle fallback
-                    theta1 = 0
-                    theta2 = 2 * np.pi
-    
-                theta = np.linspace(theta1, theta2, 64)
-                pts3 = center + radius * (
-                    np.cos(theta)[:, None] * X_axis +
-                    np.sin(theta)[:, None] * Y_axis
-                )
-    
+                P1 = v(geom["startPoint"])
+                P2 = v(geom["endPoint"])
+            
+                N = normalised(v(curve["normal"]))
+            
+                # Chord midpoint & direction
+                M = (P1 + P2) / 2
+                d = P2 - P1
+                L = np.linalg.norm(d)
+            
+                if L == 0:
+                    continue  # Degenerate arc
+            
+                # Distance from midpoint to center
+                h = math.sqrt(max(radius**2 - (L/2)**2, 0))
+            
+                # Perpendicular direction in plane
+                perp = np.cross(d, N)
+                perp = normalised(perp)
+            
+                center = M + perp * h   # Pick one side (either works for thumbnail)
+            
+                # Sample arc by angle
+                v1 = normalised(P1 - center)
+                v2 = normalised(P2 - center)
+            
+                # Safest way = interpolate angle along plane
+                steps = 64
+                pts3 = []
+            
+                for i in range(steps + 1):
+                    t = i / steps
+                    # spherical interpolation approximated in plane:
+                    vec = normalised((1 - t) * v1 + t * v2)
+                    pts3.append(center + vec * radius)
+            
+                # Convert to 2D
                 pts2 = [(dot(p - origin, X_axis), dot(p - origin, Y_axis)) for p in pts3]
-    
                 ax.plot([p[0] for p in pts2], [p[1] for p in pts2], color='black', linewidth=1)
-    
-            else:
-                # fallback for BSpline or unknown types: polyline by sampling
-                if "evalPoints" in geom:
-                    pts3 = [v(p) for p in geom["evalPoints"]]
-                else:
-                    continue
-    
-                pts2 = [(dot(p - origin, X_axis), dot(p - origin, Y_axis)) for p in pts3]
-                ax.plot([p[0] for p in pts2], [p[1] for p in pts2], color='black', linewidth=1)
+
     
         # --- Export to Base64 PNG ---
         buf = BytesIO()
