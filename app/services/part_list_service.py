@@ -286,6 +286,15 @@ class PartListService:
                 body = bodydetails["bodies"][0]
                 MAX_LASER_THICKNESS = 25.0  # mm – could come from UI/config
 
+                # Are we analysing a flattened sheet-metal body?
+                # This is true when:
+                #   - the BOM part is sheet metal
+                #   - we resolved a flattened sheet_id
+                #   - and we actually used sheet_id as partid_for_bodydetails
+                is_flattened_geom = bool(
+                    sheet_metal and sheet_id and partid_for_bodydetails == sheet_id
+                )
+
                 try:
                     analyzer = LaserProfileAnalyzer(
                         body,
