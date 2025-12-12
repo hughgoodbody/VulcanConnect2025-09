@@ -115,7 +115,7 @@ def update_parts():
     global last_updated_parts
     payload = request.json
     last_updated_parts = payload   # 🚀 store full payload
-    #print("Received updated parts:", payload)
+    print("Received updated parts:", payload)
     return jsonify({"status": "ok", "updated": True})
 
 
