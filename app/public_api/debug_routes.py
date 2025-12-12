@@ -5,7 +5,7 @@ from flask import Blueprint, request, jsonify
 from app.handlers.config_handler import ConfigHandler
 from app.handlers.bom_handler import BomHandler
 from app.services.part_list_service import PartListService
-import app.state.memory as memory
+
 
 
 
@@ -64,16 +64,4 @@ def debug_master_part_list():
             "trace": traceback.format_exc()
         }), 500
 
-@debug_bp.get("/updated-parts")
-def debug_updated_parts():
-    """
-    Returns the last payload received by POST /api/job/updateParts.
-    Useful for debugging Elementor table output.
-    """
-    if memory.last_updated_parts is None:
-        return jsonify({"success": False, "message": "No updates have been posted yet"}), 200
 
-    return jsonify({
-        "success": True,
-        "lastUpdatedParts": memory.last_updated_parts
-    }), 200
