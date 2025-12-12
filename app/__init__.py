@@ -44,12 +44,12 @@ def create_app() -> Flask:
     app.register_blueprint(
         bom_routes.bom_bp,
         url_prefix="/api/bom"
-
+    )
     print("=== ROUTES REGISTERED ===")
     for rule in app.url_map.iter_rules():
         print(rule, rule.methods)
     print("==========================")
     
-    )
+    
 
     return app
