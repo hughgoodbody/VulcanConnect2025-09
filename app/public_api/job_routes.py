@@ -109,13 +109,13 @@ def create_job():
 # ----------------------------------------------------------
 # POST /api/job/updateParts
 # ----------------------------------------------------------
-@job_bp.route("/updateParts", methods=["POST", "OPTIONS", "GET"])
+@job_bp.route("/updateParts", methods=["POST"])
 def update_parts():
     if request.method == "OPTIONS":
         return jsonify({"ok": True}), 200
 
     payload = request.json
-    print("Received updated parts:", payload)
+    #print("Received updated parts:", payload)
     return jsonify({"status": "ok", "updated": True})
 
 
