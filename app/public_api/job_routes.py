@@ -2,7 +2,7 @@ from flask import Blueprint, request, jsonify
 from app.handlers.config_handler import ConfigHandler
 from app.handlers.bom_handler import BomHandler
 from app.services.part_list_service import PartListService
-import app.state.memory as memory
+
 
 
 import traceback
@@ -113,8 +113,7 @@ def create_job():
 # ----------------------------------------------------------
 @job_bp.route("/updateParts", methods=["POST"])
 def update_parts():    
-    payload = request.json
-    memory.last_updated_parts = payload   # 🚀 store full payload
+    payload = request.json    
     #print("Received updated parts:", payload)
     return jsonify({"status": "ok", "updated": True})
 
