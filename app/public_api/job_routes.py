@@ -109,7 +109,7 @@ def create_job():
 # ----------------------------------------------------------
 # POST /api/job/updateParts
 # ----------------------------------------------------------
-@job_bp.route("/updateParts", methods=["POST", "OPTIONS"])
+@job_bp.route("/updateParts", methods=["POST", "OPTIONS", "GET"])
 def update_parts():
     if request.method == "OPTIONS":
         return jsonify({"ok": True}), 200
