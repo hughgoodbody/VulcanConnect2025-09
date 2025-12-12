@@ -105,3 +105,13 @@ def create_job():
             "error": str(e),
             "trace": traceback.format_exc()
         }), 500
+
+# ----------------------------------------------------------
+# POST /api/job/updateParts
+# ----------------------------------------------------------
+@job_bp.route("/updateParts", methods=["POST"])
+def update_parts():
+    payload = request.json
+    print("Received updated parts:", payload)
+    return jsonify({"status": "ok", "updated": True})
+
