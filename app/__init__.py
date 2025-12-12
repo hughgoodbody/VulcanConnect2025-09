@@ -24,6 +24,7 @@ def create_app() -> Flask:
         url_prefix="/api/config"
     )
     app.register_blueprint(job_routes.job_bp, url_prefix="/api/job")
+    app.register_blueprint(job_routes.job_bp, url_prefix="/api/job/updateParts")
     
     app.register_blueprint(
         supplier_routes.supplier_bp,
