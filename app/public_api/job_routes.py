@@ -216,3 +216,23 @@ def test_db():
     conn.close()
 
     return {"jobs": count}
+
+@job_bp.route("/result/<job_id>", methods=["GET"])
+def job_result(job_id):
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT result FROM jobs WHERE id=%s",
+        (job_id,)
+    )
+
+    row = cur.fetchone()
+    cur.close()
+    conn.close()
+
+    if not row or not row[0]:
+        return jsonify({"error": "Result not ready"}), 404
+
+    return jsonify(row[0])
