@@ -1,5 +1,7 @@
 import uuid
 from app.db import get_db_connection
+from psycopg2.extras import Json
+
 
 
 def create_job():
@@ -41,7 +43,7 @@ def update_job(job_id, status=None, progress=None, message=None, result=None, er
 
     if result is not None:
         fields.append("result=%s")
-        values.append(result)
+        values.append(Json(result))
 
     if error is not None:
         fields.append("error=%s")
