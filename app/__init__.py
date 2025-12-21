@@ -50,6 +50,5 @@ def create_app() -> Flask:
         #print(rule, rule.methods)
    #print("==========================")
     
-    
 
     return app
