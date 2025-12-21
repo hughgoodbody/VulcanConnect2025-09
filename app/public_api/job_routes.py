@@ -48,11 +48,14 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
         )
 
     except Exception as e:
+        tb = traceback.format_exc()
+        print("JOB FAILED:", tb)
+    
         update_job(
             job_id,
             status="error",
-            message="Job failed",
-            error=str(e)
+            message=str(e),
+            error=tb
         )
 
 
@@ -236,3 +239,34 @@ def job_result(job_id):
         return jsonify({"error": "Result not ready"}), 404
 
     return jsonify(row[0])
+
+@job_bp.route("/status/<job_id>", methods=["GET"])
+def job_status(job_id):
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        """
+        SELECT status, progress, message, error
+        FROM jobs
+        WHERE id=%s
+        """,
+        (job_id,)
+    )
+
+    row = cur.fetchone()
+
+    cur.close()
+    conn.close()
+
+    if not row:
+        return jsonify({"error": "Job not found"}), 404
+
+    return jsonify({
+        "status": row[0],
+        "progress": row[1],
+        "message": row[2],
+        "error": row[3]
+    })
+
