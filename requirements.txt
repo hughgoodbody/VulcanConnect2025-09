@@ -6,3 +6,5 @@ python-dotenv>=1.0.0
 gunicorn
 flask-cors
 matplotlib
+psycopg2-binary
+
