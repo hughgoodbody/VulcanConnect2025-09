@@ -122,7 +122,7 @@ def update_parts():
 # ----------------------------------------------------------
 # Create jobs table - run once
 # ----------------------------------------------------------
-@public_api.route("/api/dev/init-db", methods=["GET"])
+@job_bp.route("/api/dev/init-db", methods=["GET"])
 def init_db():
 
     conn = get_db_connection()
@@ -147,7 +147,7 @@ def init_db():
 
     return {"ok": True, "message": "jobs table ready"}
 
-@public_api.route("/api/dev/test-db", methods=["GET"])
+@job_bp.route("/api/dev/test-db", methods=["GET"])
 def test_db():
 
     conn = get_db_connection()
