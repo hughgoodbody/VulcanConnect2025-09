@@ -2,6 +2,8 @@ from flask import Blueprint, request, jsonify
 from app.handlers.config_handler import ConfigHandler
 from app.handlers.bom_handler import BomHandler
 from app.services.part_list_service import PartListService
+from app.db import get_db_connection
+
 
 
 
@@ -116,5 +118,32 @@ def update_parts():
     payload = request.json    
     #print("Received updated parts:", payload)
     return jsonify({"status": "ok", "updated": True})
+    
+# ----------------------------------------------------------
+# Create jobs table - run once
+# ----------------------------------------------------------
+@public_api.route("/api/dev/init-db", methods=["GET"])
+def init_db():
 
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS jobs (
+            id UUID PRIMARY KEY,
+            status TEXT NOT NULL,
+            progress INT DEFAULT 0,
+            message TEXT,
+            result JSONB,
+            error TEXT,
+            created_at TIMESTAMP DEFAULT now(),
+            updated_at TIMESTAMP DEFAULT now()
+        );
+    """)
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return {"ok": True, "message": "jobs table ready"}
 
