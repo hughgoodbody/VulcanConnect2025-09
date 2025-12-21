@@ -139,11 +139,70 @@ def create_job_endpoint():
 # ----------------------------------------------------------
 # POST /api/job/updateParts
 # ----------------------------------------------------------
-@job_bp.route("/updateParts", methods=["POST"])
-def update_parts():    
-    payload = request.json    
-    #print("Received updated parts:", payload)
-    return jsonify({"status": "ok", "updated": True, "payload": payload})
+@job_bp.route("/updateParts", methods=["POST", "GET"])
+def update_parts():
+
+    if request.method == "POST":
+        payload = request.json
+
+        if not payload:
+            return jsonify({"error": "Missing JSON body"}), 400
+
+        try:
+            conn = get_db_connection()
+            cur = conn.cursor()
+
+            # Always overwrite row id = 1
+            cur.execute(
+                """
+                INSERT INTO job_current (id, payload, updated_at)
+                VALUES (1, %s, NOW())
+                ON CONFLICT (id)
+                DO UPDATE SET
+                    payload = EXCLUDED.payload,
+                    updated_at = NOW();
+                """,
+                (json.dumps(payload),)
+            )
+
+            conn.commit()
+            cur.close()
+            conn.close()
+
+            return jsonify({
+                "status": "ok",
+                "message": "Current job updated"
+            }), 200
+
+        except Exception as e:
+            print("DB ERROR:", e)
+            return jsonify({"error": str(e)}), 500
+
+    # ------------------------
+    # GET: view current job
+    # ------------------------
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+
+        cur.execute(
+            "SELECT payload, updated_at FROM job_current WHERE id = 1;"
+        )
+        row = cur.fetchone()
+
+        cur.close()
+        conn.close()
+
+        if not row:
+            return jsonify({"message": "No job stored yet"}), 200
+
+        return jsonify({
+            "updated_at": row[1],
+            "payload": row[0]
+        }), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 
