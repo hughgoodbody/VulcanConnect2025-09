@@ -143,7 +143,7 @@ def create_job_endpoint():
 def update_parts():    
     payload = request.json    
     #print("Received updated parts:", payload)
-    return jsonify({"status": "ok", "updated": True})
+    return jsonify({"status": "ok", "updated": True, "payload": payload})
 
 
 
