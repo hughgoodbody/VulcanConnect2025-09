@@ -147,3 +147,16 @@ def init_db():
 
     return {"ok": True, "message": "jobs table ready"}
 
+@public_api.route("/api/dev/test-db", methods=["GET"])
+def test_db():
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute("SELECT COUNT(*) FROM jobs;")
+    count = cur.fetchone()[0]
+
+    cur.close()
+    conn.close()
+
+    return {"jobs": count}
