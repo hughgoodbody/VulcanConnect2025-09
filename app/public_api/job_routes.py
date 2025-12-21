@@ -148,34 +148,7 @@ def update_parts():
 
 
 
-@job_bp.route("/status/<job_id>", methods=["GET"])
-def job_status(job_id):
 
-    conn = get_db_connection()
-    cur = conn.cursor()
-
-    cur.execute(
-        """
-        SELECT status, progress, message
-        FROM jobs
-        WHERE id=%s
-        """,
-        (job_id,)
-    )
-
-    row = cur.fetchone()
-
-    cur.close()
-    conn.close()
-
-    if not row:
-        return jsonify({"error": "Job not found"}), 404
-
-    return jsonify({
-        "status": row[0],
-        "progress": row[1],
-        "message": row[2]
-    })
 
     
 # ----------------------------------------------------------
