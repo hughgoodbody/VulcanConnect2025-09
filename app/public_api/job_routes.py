@@ -161,16 +161,12 @@ def init_db():
     cur = conn.cursor()
 
     cur.execute("""
-        CREATE TABLE IF NOT EXISTS jobs (
-            id UUID PRIMARY KEY,
-            status TEXT NOT NULL,
-            progress INT DEFAULT 0,
-            message TEXT,
-            result JSONB,
-            error TEXT,
-            created_at TIMESTAMP DEFAULT now(),
-            updated_at TIMESTAMP DEFAULT now()
+        CREATE TABLE job_current (
+            id INTEGER PRIMARY KEY,
+            updated_at TIMESTAMP DEFAULT NOW(),
+            payload JSONB
         );
+
     """)
 
     conn.commit()
