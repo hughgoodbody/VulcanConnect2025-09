@@ -6,6 +6,7 @@ from app.db import get_db_connection
 from threading import Thread
 from app.services.job_service import create_job, update_job
 import traceback
+import json
 
 job_bp = Blueprint("job", __name__)
 
