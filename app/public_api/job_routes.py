@@ -21,7 +21,7 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
         # 2. Encode configuration (returns dict)
         encoding = ConfigHandler.encode_configuration(onshape_url, parameter_list)
         configuration_string = encoding["encodedId"]  # YES — use this
-        #encoded_id = encoding["encodedId"]
+        encoded_id = encoding["encodedId"]
         query_param = encoding["queryParam"]
         print("CONFIGURATION STRING:", configuration_string)
         print("QUERY PARAM:", query_param)
