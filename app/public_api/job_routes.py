@@ -29,7 +29,7 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
         update_job(job_id, progress=25,
                    message="Fetching BOM")
         print("ENCODED ID BEING SENT TO BOM:", encoded_id)
-        bom = BomHandler.fetch_bom_for_configuration(onshape_url, parameter_list)
+        bom = BomHandler.fetch_bom_for_configuration(onshape_url, encoded_id)
 
 
 
