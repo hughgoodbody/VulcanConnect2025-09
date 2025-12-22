@@ -23,7 +23,7 @@ class BomHandler:
     # FETCH BOM FOR A GIVEN CONFIGURATION
     # --------------------------------------------------------------
     @staticmethod
-    def fetch_bom_for_configuration(doc_url: str, encoded_id: str, query_param: str) -> Dict[str, Any]:
+    def fetch_bom_for_configuration(doc_url: str, configuration_string: str, query_param: str) -> Dict[str, Any]:
         """
         Retrieve BOM for a specific encoded configuration.
 
@@ -39,9 +39,9 @@ class BomHandler:
         )
 
         # Query parameters (configuration-aware)
-        config_value = query_param.split("configuration=", 1)[1]
+        
         query = {
-            "configuration": config_value,
+            "configuration": configuration_string,
             "indented": False,
             "multiLevel": False,
             "generateIfAbsent": True,
