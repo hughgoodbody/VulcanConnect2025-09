@@ -23,7 +23,7 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
         configuration_string = encoding["encodedId"]  # YES — use this
         #encoded_id = encoding["encodedId"]
         query_param = encoding["queryParam"]
-        print("ENCODED ID:", encoded_id)
+        print("CONFIGURATION STRING:", configuration_string)
         print("QUERY PARAM:", query_param)
 
         update_job(job_id, progress=25,
