@@ -14,14 +14,24 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
     try:
         update_job(job_id, status="processing", progress=5,
                    message="Encoding configuration")
-
+        
+        # 1. Convert UI values → Onshape parameters
         parameter_list = build_parameter_list(config_values)
-        encoded_id = ConfigHandler.encode_configuration(onshape_url, parameter_list)
+        
+        # 2. Encode configuration (returns dict)
+        encoding = ConfigHandler.encode_configuration(onshape_url, parameter_list)
+        
+        encoded_id = encoding["encodedId"]
+        query_param = encoding["queryParam"]
+        print("ENCODED ID:", encoded_id)
+        print("QUERY PARAM:", query_param)
 
         update_job(job_id, progress=25,
                    message="Fetching BOM")
 
-        bom = BomHandler.fetch_bom_for_configuration(onshape_url, encoded_id)
+        bom = BomHandler.fetch_bom_for_configuration(onshape_url, encoded_id, query_param)
+
+
 
         update_job(job_id, progress=50,
                    message="Building master part list")
