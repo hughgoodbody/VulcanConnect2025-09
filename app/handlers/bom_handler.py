@@ -23,7 +23,7 @@ class BomHandler:
     # FETCH BOM FOR A GIVEN CONFIGURATION
     # --------------------------------------------------------------
     @staticmethod
-    def fetch_bom_for_configuration(doc_url: str, encoded_id: str, query_param: str) -> Dict[str, Any]:
+    def fetch_bom_for_configuration(doc_url: str, encoded_id: str) -> Dict[str, Any]:
         """
         Retrieve BOM for a specific encoded configuration.
 
