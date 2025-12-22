@@ -24,6 +24,6 @@ def api_or_mock(
 
     # real API call
     onshape = Onshape(stack=API_BASE, logging=False)
-    response = onshape.request(method, path, query=query, body=body)
+    response = onshape.request(method, path, query=query or {}, body=body or {})
     response.raise_for_status()
     return response.json()
