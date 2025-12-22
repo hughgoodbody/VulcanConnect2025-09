@@ -39,9 +39,10 @@ class BomHandler:
 
         # Query parameters (configuration-aware)
         query = {
+            "configuration": query_param.replace("configuration=", ""),
             "indented": False,
             "multiLevel": False,
-            "generateIfAbsent": True            
+            "generateIfAbsent": True,
         }
         # queryParam already includes "configuration=..."
         path = f"{path}?{query_param}"
@@ -69,6 +70,7 @@ class BomHandler:
         # Filter + dedupe
         filtered_rows = filter_bom_rows(raw_bom)
         deduped_rows = dedupe_bom_by_source(filtered_rows)
+        logger.info("BOM query dict: %s", query)
 
         return {
             "raw": raw_bom,
