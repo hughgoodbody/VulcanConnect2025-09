@@ -36,7 +36,8 @@ def build_ui_schema(config_json: Dict[str, Any]) -> Dict[str, Any]:
                 for opt in param.get("options", [])
                 if "option" in opt
             ]
-
+            # IMPORTANT: this is the OPTION TOKEN
+            entry["default"] = param.get("defaultValue")
 
         # BOOLEAN PARAMETERS
         elif type_name.startswith("BTMConfigurationParameterBoolean"):
