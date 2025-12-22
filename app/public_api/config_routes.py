@@ -57,5 +57,21 @@ def encode_configuration():
     if not isinstance(values, dict):
         return jsonify({"error": "Invalid values payload"}), 400
 
-    encoded = EncodingHandler.encode_from_values(doc_url, values)
-    return jsonify({"encodedId": encoded})
+    encoding = EncodingHandler.encode_from_values(doc_url, values)
+    
+    if not isinstance(encoding, dict):
+        return jsonify({
+            "error": "Encoding handler must return both encodedId and queryParam"
+        }), 500
+    
+    if "encodedId" not in encoding or "queryParam" not in encoding:
+        return jsonify({
+            "error": "Encoding response missing encodedId or queryParam",
+            "details": encoding
+        }), 500
+    
+    return jsonify({
+        "encodedId": encoding["encodedId"],
+        "queryParam": encoding["queryParam"]
+    })
+
