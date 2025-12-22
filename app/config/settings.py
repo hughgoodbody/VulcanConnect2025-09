@@ -9,6 +9,7 @@ API_VERSION = os.getenv("API_VERSION", "v12")
 API_BASE = os.getenv("API_BASE", "https://cad.onshape.com")
 ONSHAPE_ACCESS_KEY = os.getenv("ONSHAPE_ACCESS_KEY")
 ONSHAPE_SECRET_KEY = os.getenv("ONSHAPE_SECRET_KEY")
+ONSHAPE_STACK = os.getenv("ONSHAPE_STACK", API_BASE)
 
 
 
