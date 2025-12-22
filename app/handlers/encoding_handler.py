@@ -37,8 +37,13 @@ class EncodingHandler:
             body=body
         )
 
-        encoded = response.get("encodedId")
-        if not encoded:
-            raise RuntimeError("Missing encodedId in response (mock or API).")
-
-        return encoded
+        encoded_id = response.get("encodedId")
+        query_param = response.get("queryParam")
+        
+        if not encoded_id or not query_param:
+            raise RuntimeError("Missing encodedId or queryParam in response.")
+        
+        return {
+            "encodedId": encoded_id,
+            "queryParam": query_param,
+        }
