@@ -14,7 +14,7 @@ from app.config.settings import (
     LOCAL_DATA_PATH,
 )
 from app.services.bom_service import filter_bom_rows, dedupe_bom_by_source
-
+logger = logging.getLogger(__name__)
 
 class BomHandler:
 
@@ -71,7 +71,7 @@ class BomHandler:
         # Filter + dedupe
         filtered_rows = filter_bom_rows(raw_bom)
         deduped_rows = dedupe_bom_by_source(filtered_rows)
-        #logger.info("BOM query dict: %s", query)
+        logger.info("BOM query dict: %s", query)
 
         return {
             "raw": raw_bom,
