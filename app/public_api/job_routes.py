@@ -20,8 +20,8 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
         
         # 2. Encode configuration (returns dict)
         encoding = ConfigHandler.encode_configuration(onshape_url, parameter_list)
-        
-        encoded_id = encoding["encodedId"]
+        configuration_string = encoding["encodedId"]  # YES — use this
+        #encoded_id = encoding["encodedId"]
         query_param = encoding["queryParam"]
         print("ENCODED ID:", encoded_id)
         print("QUERY PARAM:", query_param)
@@ -29,7 +29,7 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
         update_job(job_id, progress=25,
                    message="Fetching BOM")
 
-        bom = BomHandler.fetch_bom_for_configuration(onshape_url, encoded_id, query_param)
+        bom = BomHandler.fetch_bom_for_configuration(onshape_url, configuration_string, query_param)
 
 
 
