@@ -3,6 +3,7 @@
 from typing import Any, Dict
 import json
 import os
+import logging
 
 from app.onshape.parser import parse_url
 from app.onshape.api_switch import api_or_mock
