@@ -51,26 +51,35 @@ class ConfigHandler:
     # ENCODE CONFIGURATION
     # ----------------------------------------------------------------------
     @staticmethod
-    def encode_configuration(doc_url: str, config_payload: List[Dict[str, Any]]) -> str:
+    def encode_configuration(
+        doc_url: str,
+        config_payload: List[Dict[str, Any]]
+    ) -> Dict[str, str]:
         """
-        Encode a set of configuration parameter values into a
-        single Onshape configuration string.
-
+        Encode a set of configuration parameter values into an
+        Onshape configuration encoding.
+    
+        Returns:
+            {
+              "encodedId": "...",
+              "queryParam": "configuration=..."
+            }
+    
         • In DEV MODE → loads local_data/2_encoded_configuration.json
         • In PROD MODE → calls real Onshape API
         """
         if not doc_url:
             raise ValueError("Document URL is empty.")
-
+    
         if not config_payload:
             raise ValueError("Configuration payload is empty.")
-
+    
         did, _wvm_type, _wid, eid = parse_url(doc_url)
         path = f"/api/{API_VERSION}/elements/d/{did}/e/{eid}/configurationencodings"
-
+    
         mock_filename = "2_encoded_configuration.json"
         body = {"parameters": config_payload}
-
+    
         try:
             data = api_or_mock(
                 mock_filename=mock_filename,
@@ -78,17 +87,27 @@ class ConfigHandler:
                 path=path,
                 body=body
             )
-
+    
             encoded_id = data.get("encodedId")
-            if not encoded_id:
-                raise RuntimeError("Missing encodedId in response.")
-
-            logger.info("Configuration encoded (%s mode): %s",
-                        "DEV" if DEVELOPMENT_MODE else "LIVE",
-                        encoded_id)
-
-            return encoded_id
-
+            query_param = data.get("queryParam")
+    
+            if not encoded_id or not query_param:
+                raise RuntimeError(
+                    f"Encoding response missing encodedId or queryParam: {data}"
+                )
+    
+            logger.info(
+                "Configuration encoded (%s mode): %s",
+                "DEV" if DEVELOPMENT_MODE else "LIVE",
+                encoded_id
+            )
+    
+            return {
+                "encodedId": encoded_id,
+                "queryParam": query_param,
+            }
+    
         except Exception:
             logger.exception("Failed to encode configuration.")
             raise
+
