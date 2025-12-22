@@ -3,7 +3,7 @@
 from typing import Any, Dict
 from app.onshape.onshape import Onshape
 from app.utils.mock_loader import load_mock_json
-from app.config.settings import DEVELOPMENT_MODE, CREDS_PATH, API_BASE
+from app.config.settings import DEVELOPMENT_MODE, API_BASE
 
 
 def api_or_mock(
@@ -23,7 +23,7 @@ def api_or_mock(
         return load_mock_json(mock_filename)
 
     # real API call
-    onshape = Onshape(API_BASE, creds=CREDS_PATH, logging=False)
+    onshape = Onshape(stack=API_BASE, logging=False)
     response = onshape.request(method, path, query=query, body=body)
     response.raise_for_status()
     return response.json()
