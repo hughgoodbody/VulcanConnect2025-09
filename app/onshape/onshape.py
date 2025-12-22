@@ -36,46 +36,44 @@ class Onshape():
         - logging (bool, default=True): Turn logging on or off
     '''
 
-    def __init__(self, stack, creds='./creds.json', logging=True):
-        '''
-        Instantiates an instance of the Onshape class. Reads credentials from a JSON file
-        of this format:
 
-            {
-                "http://cad.onshape.com": {
-                    "access_key": "YOUR KEY HERE",
-                    "secret_key": "YOUR KEY HERE"
-                },
-                etc... add new object for each stack to test on
-            }
+    def __init__(self, stack=None, creds=None, logging=True):
+        self._logging = logging
 
-        The creds.json file should be stored in the root project folder; optionally,
-        you can specify the location of a different file.
+        # 1️⃣ Prefer environment variables
+        access_key = os.getenv("ONSHAPE_ACCESS_KEY")
+        secret_key = os.getenv("ONSHAPE_SECRET_KEY")
+        stack_env = os.getenv("ONSHAPE_STACK")
 
-        Args:
-            - stack (str): Base URL
-            - creds (str, default='./creds.json'): Credentials location
-        '''
+        if access_key and secret_key:
+            self._url = stack_env or stack
+            self._access_key = access_key
+            self._secret_key = secret_key.encode("utf-8")
 
-        if not os.path.isfile(creds):
-            raise IOError('%s is not a file' % creds)
+            if not self._url:
+                raise ValueError("ONSHAPE_STACK not defined")
 
-        with open(creds) as f:
-            try:
+            if self._logging:
+                utils.log("Onshape auth loaded from ENV")
+
+            return
+
+        # 2️⃣ Legacy fallback (optional – can remove later)
+        if creds:
+            if not os.path.isfile(creds):
+                raise IOError(f"{creds} is not a file")
+
+            with open(creds) as f:
                 stacks = json.load(f)
                 if stack in stacks:
                     self._url = stack
-                    self._access_key = stacks[stack]['access_key']  # leave as string
-                    self._secret_key = stacks[stack]['secret_key'].encode('utf-8')  # only secret stays bytes
+                    self._access_key = stacks[stack]["access_key"]
+                    self._secret_key = stacks[stack]["secret_key"].encode("utf-8")
+                    return
 
-                    self._logging = logging
-                else:
-                    raise ValueError('specified stack not in file')
-            except TypeError:
-                raise ValueError('%s is not valid json' % creds)
+        raise ValueError("No valid Onshape credentials found")
 
-        if self._logging:
-            utils.log('onshape instance created: url = %s, access key = %s' % (self._url, self._access_key))
+        
 
     def _make_nonce(self):
         '''
