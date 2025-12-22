@@ -38,14 +38,15 @@ class BomHandler:
         )
 
         # Query parameters (configuration-aware)
+        config_value = query_param.split("configuration=", 1)[1]
         query = {
-            "configuration": query_param.replace("configuration=", ""),
+            "configuration": config_value,
             "indented": False,
             "multiLevel": False,
             "generateIfAbsent": True,
         }
         # queryParam already includes "configuration=..."
-        path = f"{path}?{query_param}"
+        logger.info("FINAL BOM QUERY: %s", query)
         mock_filename = None
 
         if DEVELOPMENT_MODE:
