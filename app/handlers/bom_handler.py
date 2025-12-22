@@ -41,10 +41,10 @@ class BomHandler:
         query = {
             "indented": False,
             "multiLevel": False,
-            "generateIfAbsent": True,
-            "configuration": encoded_id,
+            "generateIfAbsent": True            
         }
-
+        # queryParam already includes "configuration=..."
+        path = f"{path}?{query_param}"
         mock_filename = None
 
         if DEVELOPMENT_MODE:
