@@ -24,9 +24,19 @@ def build_ui_schema(config_json: Dict[str, Any]) -> Dict[str, Any]:
         # ENUM PARAMETERS
         if type_name.startswith("BTMConfigurationParameterEnum"):
             entry["type"] = "enum"
+        
+            # IMPORTANT:
+            # - label = optionName (UI)
+            # - value = option (what Onshape expects)
             entry["options"] = [
-                opt.get("optionName", "Unnamed") for opt in param.get("options", [])
+                {
+                    "label": opt.get("optionName", "Unnamed"),
+                    "value": opt.get("option"),
+                }
+                for opt in param.get("options", [])
+                if "option" in opt
             ]
+
 
         # BOOLEAN PARAMETERS
         elif type_name.startswith("BTMConfigurationParameterBoolean"):
