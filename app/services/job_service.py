@@ -1,6 +1,7 @@
 import uuid
 from app.db import get_db_connection
 from psycopg2.extras import Json
+import json
 
 
 
