@@ -152,21 +152,40 @@ def create_job_endpoint():
     if not onshape_url:
         return jsonify({"error": "Missing onshapeUrl"}), 400
 
-    # 1. Create DB job
-    job_id = create_job()
+    # --------------------------------------------------
+    # 1. Rebuild UI schema (authoritative backend source)
+    # --------------------------------------------------
+    try:
+        config_json = ConfigHandler.get_configurations(onshape_url)
+        ui_schema = build_ui_schema(config_json)
+    except Exception as e:
+        return jsonify({
+            "error": "Failed to rebuild configuration schema",
+            "details": str(e)
+        }), 500
 
-    # 2. Start background thread
+    # --------------------------------------------------
+    # 2. Create DB job (persist schema)
+    # --------------------------------------------------
+    job_id = create_job(ui_schema=ui_schema)
+
+    # --------------------------------------------------
+    # 3. Start background thread
+    # --------------------------------------------------
     t = Thread(
         target=run_job_async,
-        args=(job_id, onshape_url, config_values, user_options),
+        args=(job_id, onshape_url, config_values, user_options, ui_schema),
         daemon=True
     )
     t.start()
 
-    # 3. Return immediately
+    # --------------------------------------------------
+    # 4. Return immediately
+    # --------------------------------------------------
     return jsonify({
         "jobId": job_id
     }), 202
+
 
 
 # ----------------------------------------------------------
