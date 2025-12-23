@@ -4,7 +4,7 @@ from psycopg2.extras import Json
 
 
 
-def create_job():
+def create_job(ui_schema=None):
     job_id = str(uuid.uuid4())
 
     conn = get_db_connection()
@@ -12,10 +12,10 @@ def create_job():
 
     cur.execute(
         """
-        INSERT INTO jobs (id, status, progress, message)
-        VALUES (%s, %s, %s, %s)
+        INSERT INTO jobs (id, status, progress, message, ui_schema)
+        VALUES (%s, %s, %s, %s, %s)
         """,
-        (job_id, "queued", 0, "Job queued")
+        (job_id, "queued", 0, "Job queued", json.dumps(ui_schema) if ui_schema else None)
     )
 
     conn.commit()
