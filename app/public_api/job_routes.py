@@ -3,6 +3,7 @@ from app.handlers.config_handler import ConfigHandler
 from app.handlers.bom_handler import BomHandler
 from app.services.part_list_service import PartListService
 from app.db import get_db_connection
+from app.services.configuration_service import build_ui_schema
 from threading import Thread
 from app.services.job_service import create_job, update_job
 import traceback
