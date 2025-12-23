@@ -73,42 +73,49 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
 # ----------------------------------------------------------
 # Utility: convert frontend configValues → Onshape param list
 # ----------------------------------------------------------
-def build_parameter_list(config_values):
+def build_parameter_list(config_values, ui_schema):
+    """
+    Builds parameter list exactly as required by Onshape v12.
+    Mirrors known-working Anvil behavior.
+    """
+
     param_list = []
+
+    # Build lookup so we know parameter types + units
+    schema_by_id = {p["id"]: p for p in ui_schema["parameters"]}
 
     for param_id, value in config_values.items():
 
-        # Quantity values → { "value": 10, "units": "mm" }
-        if isinstance(value, dict) and "value" in value and "units" in value:
-            param_list.append({
-                "parameterId": param_id,
-                "parameterValue": {
-                    "type": "BTMParameterQuantity",
-                    "value": value["value"],
-                    "units": value["units"]
-                }
-            })
+        if value is None:
+            continue
 
-        # Boolean
-        elif isinstance(value, bool):
-            param_list.append({
-                "parameterId": param_id,
-                "parameterValue": value
-            })
+        param = schema_by_id.get(param_id)
+        if not param:
+            continue
 
-        # Numeric
-        elif isinstance(value, (int, float)):
-            param_list.append({
-                "parameterId": param_id,
-                "parameterValue": value
-            })
+        ptype = param["type"]
 
-        # Enum / String
+        # ENUM / LIST → option token (string)
+        if ptype == "enum":
+            param_value = str(value)
+
+        # BOOLEAN → "true" / "false"
+        elif ptype == "boolean":
+            param_value = "true" if value else "false"
+
+        # QUANTITY → "10*mm"  (CRITICAL) - Make sure that the units come from the units indicated in the UI
+        elif ptype == "quantity":
+            units = param.get("units", "mm")
+            param_value = f"{value}*{units}"
+
+        # FALLBACK → string
         else:
-            param_list.append({
-                "parameterId": param_id,
-                "parameterValue": str(value)
-            })
+            param_value = str(value)
+
+        param_list.append({
+            "parameterId": param_id,
+            "parameterValue": param_value
+        })
 
     return param_list
 
