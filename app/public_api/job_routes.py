@@ -10,31 +10,45 @@ import json
 
 job_bp = Blueprint("job", __name__)
 
-def run_job_async(job_id, onshape_url, config_values, user_options):
+def run_job_async(job_id, onshape_url, config_values, user_options, ui_schema):
     try:
-        update_job(job_id, status="processing", progress=5,
-                   message="Encoding configuration")
-        
-        # 1. Convert UI values → Onshape parameters
-        parameter_list = build_parameter_list(config_values)
-        
-        # 2. Encode configuration (returns dict)
-        encoding = ConfigHandler.encode_configuration(onshape_url, parameter_list)
-        configuration_string = encoding["encodedId"]  # YES — use this
-        encoded_id = encoding["encodedId"]
-        query_param = encoding["queryParam"]
-        print("CONFIGURATION STRING:", configuration_string)
-        print("QUERY PARAM:", query_param)
+        update_job(
+            job_id,
+            status="processing",
+            progress=5,
+            message="Encoding configuration"
+        )
 
-        update_job(job_id, progress=25,
-                   message="Fetching BOM")
+        # 1. Convert UI values → v12-compliant Onshape parameters
+        parameter_list = build_parameter_list(config_values, ui_schema)
+
+        print("ENCODE PARAMS:", parameter_list)
+
+        # 2. Encode configuration (RETURNS STRING)
+        encoded_id = ConfigHandler.encode_configuration(
+            onshape_url,
+            parameter_list
+        )
+
         print("ENCODED ID BEING SENT TO BOM:", encoded_id)
-        bom = BomHandler.fetch_bom_for_configuration(onshape_url, encoded_id)
 
+        update_job(
+            job_id,
+            progress=25,
+            message="Fetching BOM"
+        )
 
+        # 3. Fetch BOM using v12 encoded configuration
+        bom = BomHandler.fetch_bom_for_configuration(
+            onshape_url,
+            encoded_id
+        )
 
-        update_job(job_id, progress=50,
-                   message="Building master part list")
+        update_job(
+            job_id,
+            progress=50,
+            message="Building master part list"
+        )
 
         master_list = PartListService.build_master_part_list(
             onshape_url,
@@ -61,13 +75,14 @@ def run_job_async(job_id, onshape_url, config_values, user_options):
     except Exception as e:
         tb = traceback.format_exc()
         print("JOB FAILED:", tb)
-    
+
         update_job(
             job_id,
             status="error",
             message=str(e),
             error=tb
         )
+
 
 
 # ----------------------------------------------------------
