@@ -1,11 +1,16 @@
 # app/__init__.py
-
+import logging
 from flask import Flask
 from flask_cors import CORS
 from .public_api import config_routes, export_routes, bom_routes, supplier_routes, job_routes, debug_routes, materials_routes
 
 def create_app() -> Flask:
     app = Flask(__name__)
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        handlers=[logging.StreamHandler(sys.stdout)]
+    )
     # Allow WP/Elementor frontend to call /api/*
     CORS(app, resources={r"/api/*": {"origins": "*"}})
     
