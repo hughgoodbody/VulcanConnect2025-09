@@ -49,3 +49,28 @@ def export_zip():
 
     zip_bytes = ExportHandler.export_step_zip(doc_url, configuration)
     return bytes_to_download_response(zip_bytes, "model.zip", "application/zip")
+
+
+# -----------------------------------------------------------
+# POST → Return ZIP Containing DXF Files
+# -----------------------------------------------------------
+
+@export_bp.post("/dxf-zip")
+def export_dxf_zip():
+    """
+    Request body:
+      {
+        "url": "...",
+        "payload": { ...same shape as current.json... }
+      }
+    Returns supplier-grouped DXFs as a zip.
+    """
+    data = request.get_json(force=True) or {}
+    doc_url = data.get("url", "")
+    payload = data.get("payload") or {}
+
+    if not doc_url:
+        return {"error": "Missing URL"}, 400
+
+    zip_bytes = ExportHandler.export_dxf_zip(doc_url, payload)
+    return bytes_to_download_response(zip_bytes, "dxfs_by_supplier.zip", "application/zip")

@@ -4,6 +4,7 @@ from typing import Optional, Dict
 from app.services.step_export_service import export_step
 from app.services.zip_export_service import create_zip
 from app.config.settings import DEVELOPMENT_MODE
+from app.services.dxf_export_service import export_supplier_grouped_dxf_zip  # NEW
 
 
 class ExportHandler:
@@ -29,4 +30,9 @@ class ExportHandler:
         step_bytes = export_step(doc_url, configuration)
         files: Dict[str, bytes] = {"model.step": step_bytes}
 
+        return create_zip(files)
+    
+    @staticmethod
+    def export_dxf_zip(doc_url: str, parts_payload: Dict) -> bytes:
+        files = export_supplier_grouped_dxf_zip(doc_url, parts_payload)
         return create_zip(files)
