@@ -1,0 +1,1541 @@
+[
+  {
+    "name": "Laser Block",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "F5sX1v9qfyf0xv2_0_0",
+    "ordinal": 0,
+    "referencingConfiguredPartNodeIds": [
+      "KE0LESq3yGePHKWC"
+    ],
+    "isMesh": false,
+    "description": "Square Block",
+    "revision": null,
+    "partNumber": "HG-456",
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JHD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f78516b901ad4384946500764c80614176b64d94/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f78516b901ad4384946500764c80614176b64d94/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f78516b901ad4384946500764c80614176b64d94/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f78516b901ad4384946500764c80614176b64d94/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "f78516b901ad4384946500764c80614176b64d94",
+      "href": "https://cad.onshape.com/api/thumbnails/f78516b901ad4384946500764c80614176b64d94?t=1765284884734"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "customProperties": {
+      "5cb0870bbd9fb41783fdeac8": "LGM Engineering",
+      "5cb087518b508716ef66a773": "Trumpf",
+      "5978843f64cb81102458423e": "B25"
+    },
+    "partQuery": "query=qCompressed(1.0,\"&2cd$eJx9kltzgjAQhf/M9rEOQVF55BKVtgImqPWJCSQq44VbpPLvCzLTlw48Jt/ZczabfTM12DxEUa81ilTgScluUXJ6MJmkd5tJZqC1+p8EdSYoGoNHnKXjGl+hjX3s2ti1DlSHtEhOyZ1dSyO2lMaYgbjLRNZtlckA/x3oBLC9xDSCc1LKtOgu52ARbASO5zYgzUTxinS4qYLDDUQRGk1hQayxpX/QzRw7O7oIlZ+kEF7WpOftc15GHOgnDqxViN3ACQ5UQHkRMj53DTicxo3RcncNxn5+2fq1F6VSpre2ZzIhGpmSGZkTRiISE07fkToag0yzAT6BqzjKAYEGzWzOfYoYsK/y7XVd7k0x6xON3pvJG6vq4dn2xa8qvTevlWowiGfDWO/DnbWi3vkpt+cbI2d9PioajHlhHcjEmjbrYHr2oVNYUffVOiy08htVen6sj8qzUkMlzfBTFg8uSNTsFt1jPwjbwl8nzNuD\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "COMPRESSIVE_YIELD_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Compressive Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Compressive yield strength"
+        },
+        {
+          "name": "YOUNGS_MODULUS",
+          "value": "2E+11",
+          "type": "REAL",
+          "displayName": "Young's Modulus",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Young's modulus"
+        },
+        {
+          "name": "TENSILE_YIELD_STRENGTH",
+          "value": "275000000",
+          "type": "REAL",
+          "displayName": "Tensile Yield Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Tensile yield strength"
+        },
+        {
+          "name": "DENS",
+          "value": "7800",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        },
+        {
+          "name": "ULTIMATE_COMPRESSIVE_STRENGTH",
+          "value": "0",
+          "type": "REAL",
+          "displayName": "Ultimate Compressive Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate compressive strength"
+        },
+        {
+          "name": "POISSONS_RATIO",
+          "value": "0.29",
+          "type": "REAL",
+          "displayName": "Poisson's Ratio",
+          "units": "",
+          "category": "Physical",
+          "description": "Poisson's ratio"
+        },
+        {
+          "name": "ULTIMATE_TENSILE_STRENGTH",
+          "value": "560000000",
+          "type": "REAL",
+          "displayName": "Ultimate Tensile Strength",
+          "units": "Pa",
+          "category": "Physical",
+          "description": "Ultimate tensile strength"
+        }
+      ],
+      "id": "ws9U6r6lbIlEry8Y",
+      "displayName": "S275JR (1.0044)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "ca767f66065e81b0ffe206be",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "683c8a51ac4281f0055b8176"
+      }
+    },
+    "partIdentity": "b175bcc28cec1f99c105b34c",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 95,
+        "green": 167,
+        "blue": 61
+      },
+      "isGenerated": false,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "5cb0870bbd9fb41783fdeac8": 3,
+      "5cb087518b508716ef66a773": 3,
+      "57f3fb8efa3416c06701d60f": 3,
+      "57f3fb8efa3416c06701d615": 3,
+      "5978843f64cb81102458423e": 3,
+      "57f3fb8efa3416c06701d60d": 3,
+      "57f3fb8efa3416c06701d60e": 3,
+      "57f3fb8efa3416c06701d60c": 3
+    }
+  },
+  {
+    "name": "Laser Cylinder",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "F5sX1v9qfyf0xv2_0_1",
+    "ordinal": 1,
+    "referencingConfiguredPartNodeIds": [
+      "UtGMoNk5y3plDtPv"
+    ],
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": "HG-PT-641",
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JHH",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f181102581328de2e37e1ffcc5caaeb2c665fa91/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f181102581328de2e37e1ffcc5caaeb2c665fa91/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f181102581328de2e37e1ffcc5caaeb2c665fa91/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/f181102581328de2e37e1ffcc5caaeb2c665fa91/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "f181102581328de2e37e1ffcc5caaeb2c665fa91",
+      "href": "https://cad.onshape.com/api/thumbnails/f181102581328de2e37e1ffcc5caaeb2c665fa91?t=1765284883716"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "customProperties": {
+      "5f40b4801b7a3c14ed01c59b": "false"
+    },
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA2C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.6$FRC3C9JSQ8EIVSF_0wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc$9w4Sje3aPm0vC0M5R4R5R6R7R8RaRbRcRdSc$W6gWJhvCKL1xR4C6S4$BODYR6R7R8CbA1S11.9$F5sX1v9qfyf0xv2_0opExtrudeRbSa$SWEPT_BODY\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "7850",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "Steel",
+      "displayName": "Steel",
+      "libraryName": "Onshape Material Library",
+      "libraryReference": {
+        "versionId": "e5f4d4179f72bd4f4b3dd9dd",
+        "elementId": "6bbab304a1f64e7d640a2d7d",
+        "documentId": "2718281828459eacfeeda11f",
+        "elementMicroversionId": "b56c88b327e82f2e2f9e1019"
+      }
+    },
+    "partIdentity": "4725f2cf6e496adcb7138d7a",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 95,
+        "green": 167,
+        "blue": 61
+      },
+      "isGenerated": false,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60f": 4,
+      "57f3fb8efa3416c06701d60d": 3,
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60c": 3,
+      "5f40b4801b7a3c14ed01c59b": 3
+    }
+  },
+  {
+    "name": "Pocket Block",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FGQ66TXgFrGh1IT_2_0",
+    "ordinal": 2,
+    "referencingConfiguredPartNodeIds": [
+      "/IVMq2txtC2Ltuqq"
+    ],
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": "HG-PT-642",
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JKD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/85461b83fcfb4d0d45e4c1a1ea03fe71870987d5/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/85461b83fcfb4d0d45e4c1a1ea03fe71870987d5/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/85461b83fcfb4d0d45e4c1a1ea03fe71870987d5/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/85461b83fcfb4d0d45e4c1a1ea03fe71870987d5/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "85461b83fcfb4d0d45e4c1a1ea03fe71870987d5",
+      "href": "https://cad.onshape.com/api/thumbnails/85461b83fcfb4d0d45e4c1a1ea03fe71870987d5?t=1765284882817"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"&1bb$eJx9UMlugzAQ/ZnpsVFNgCZHFkOsNJDaVtuckMEuWE0wAUdt/r4QpF4q5TjzZt72EHrwelH9decx5IDUgziVur4Iq00bCysCtHP+I/zaKYaWkFOSkix4KWK8x1mMs+jA1mB6XetWHIfAjZ5GYgGqtdpep69QAP4bmAs4TjErodGDNf28XEFEccBJno2A6VR/kyQydIDIADGEFj4k67ZiLNBc8CRHQeF8617l3ah+nuLciCSwLebRpsAZJ/zAFAxfylbNbIBIVo1E+M3n7Xkj63TblsZac5o8U5d61KfPdEUFLWlFJXtEzmIJ1nR3cBeO6tPeOfBg7Kax1I38MXyYx4f5KCrnYGtI0lff5x910qcNIrxwTId/bH+RipZjk+wd73kxPf4CkaeOKg==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "7850",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "Steel",
+      "displayName": "Steel",
+      "libraryName": "Onshape Material Library",
+      "libraryReference": {
+        "versionId": "e5f4d4179f72bd4f4b3dd9dd",
+        "elementId": "6bbab304a1f64e7d640a2d7d",
+        "documentId": "2718281828459eacfeeda11f",
+        "elementMicroversionId": "b56c88b327e82f2e2f9e1019"
+      }
+    },
+    "partIdentity": "704c39366401d23937c4afc4",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 255,
+        "green": 0,
+        "blue": 0
+      },
+      "isGenerated": false,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60f": 4,
+      "57f3fb8efa3416c06701d60d": 3,
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60c": 3
+    }
+  },
+  {
+    "name": "Sheet Metal Bracket",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FrIheG7vgfuChvI_3_0",
+    "ordinal": 3,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": "SMPN002",
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JSD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2a3d0ac77deb65ff45b898b86c46667d67e6f1e5/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2a3d0ac77deb65ff45b898b86c46667d67e6f1e5/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2a3d0ac77deb65ff45b898b86c46667d67e6f1e5/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/2a3d0ac77deb65ff45b898b86c46667d67e6f1e5/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "2a3d0ac77deb65ff45b898b86c46667d67e6f1e5",
+      "href": "https://cad.onshape.com/api/thumbnails/2a3d0ac77deb65ff45b898b86c46667d67e6f1e5?t=1765284884863"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"&1e0$eJxlkNtvgjAYxf+Zby9LRiwMlUcuRZtN0BZjeCIVqjReYAV07K8fl2Ux21MvX8/vnNMnx4RNI1S7MtkeMqHkTWS+Ki7uZGXSiY36lSEdMlnxy14eG17L4urxmttopf+fRG0pGDIgpGRBAvs98fAaBx4O3JhZUCh5lFd+rn7AHMS1lnXbqxwO+PfAXgF7C9xlymVVF2q8nINLsR2RMOgGRSnUYEkyRweS2YghpE3BX04v8VTWBz9vrPiQGHepRFh27h990QGUAXvDkbtMcBCRKGYCqpOo03wMQDKWwv5W2huUf5lCt6jpzrpEvu1iOqNzarnp6DbTLPAVycVidjseGje/kcQQn7VqMlGUeNzQtOvJdngdJQNhhDmhFz/AXpCp7TWk6XDn53OUy/Qkrs+G9yAeFCZF/I/MgrQo210nq7rXKbCtw7pW2/6fvgGnJJtX\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "7850",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "Steel",
+      "displayName": "Steel",
+      "libraryName": "Onshape Material Library",
+      "libraryReference": {
+        "versionId": "e5f4d4179f72bd4f4b3dd9dd",
+        "elementId": "6bbab304a1f64e7d640a2d7d",
+        "documentId": "2718281828459eacfeeda11f",
+        "elementMicroversionId": "b56c88b327e82f2e2f9e1019"
+      }
+    },
+    "partIdentity": "f01af33cdcb43a3faf2e4f78",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": false,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60f": 3,
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 3,
+      "57f3fb8efa3416c06701d60c": 3
+    }
+  },
+  {
+    "name": "Bend line 1",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "",
+    "ordinal": 4,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JXD",
+    "bodyType": "wire",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/f295162bc71328aa50212511d6bdb361587946ca/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/f295162bc71328aa50212511d6bdb361587946ca/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/f295162bc71328aa50212511d6bdb361587946ca/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/f295162bc71328aa50212511d6bdb361587946ca/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "f295162bc71328aa50212511d6bdb361587946ca",
+      "href": "https://cad.onshape.com/api/thumbnails/f295162bc71328aa50212511d6bdb361587946ca?t=1765354710781"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5Sb$derivedFromA1C0M5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS6$VERTEXSb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.6$FH6mY6itfFhu9Yf_3wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc.5$7mKnccV7QVqdstartR5C7S4$EDGER7R8R9CcA1S11.7.9$FrIheG7vgfuChvI_3extrudeopExtrudeRcSa$SWEPT_EDGER5C7S4$BODYR7R8R9CcA1S-17.c$centerLineOpRcSc$DERIVED_BODY\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    }
+  },
+  {
+    "name": "Sheet Metal Bracket",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "unflattenedPartId": "JSD",
+    "defaultColorHash": "FrIheG7vgfuChvI_3_0",
+    "ordinal": 5,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": "SMPN002",
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JYD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/9bfa1698c1e506f49d4e669b27d288141485afce/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/9bfa1698c1e506f49d4e669b27d288141485afce/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/9bfa1698c1e506f49d4e669b27d288141485afce/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/9bfa1698c1e506f49d4e669b27d288141485afce/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "9bfa1698c1e506f49d4e669b27d288141485afce",
+      "href": "https://cad.onshape.com/api/thumbnails/9bfa1698c1e506f49d4e669b27d288141485afce?t=1765284882308"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"&219$eJxlUF1vgjAU/TN3L0tGLEyFRyhFm03QlsXwRApUaabC+NC5X78KZlm2t9N7ej7uffCmsOllc12Z3IGPG4qvtfSccXrDHE0BR4wRvo5Cn4aLlIZp8OrG3Ia2zwYNnqymPINCNuosi6CpjrcJs1w0MMiEQrXimKl9LzpVnXzRCRfpzH/MmGhBxOiChu5r6pM1CX0S4kQXrBq1VydxaO/GAuSpU93YWQD5efBnIP6C6E6larvqvokNmBE3plGoiaqWzRBJC88EWriII2TMIFjOjslMdbug7J1kl1oX1cioZhNeAH8hMV6mJIxpnHAJ7bvs8nKMpQXPITvX7gaVX1NpOszGme4RuJgwwTKWYzQZQ+aGA0FDS7mYn/e7Hpdnmlrys2v6QlY1GYEOFMC3ZB2ng8Xo5kV+8tvtCdlGZiDDhIs4HOJS5e/y9Gj5v9SDxGYo/6tzIK/q61brWv09B/7mcb3Y2+1A38ezrcw=\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "7850",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "Steel",
+      "displayName": "Steel",
+      "libraryName": "Onshape Material Library",
+      "libraryReference": {
+        "versionId": "e5f4d4179f72bd4f4b3dd9dd",
+        "elementId": "6bbab304a1f64e7d640a2d7d",
+        "documentId": "2718281828459eacfeeda11f",
+        "elementMicroversionId": "b56c88b327e82f2e2f9e1019"
+      }
+    },
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": true,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": false,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 3,
+      "57f3fb8efa3416c06701d60c": 3,
+      "57f3fb8efa3416c06701d60f": 3
+    }
+  },
+  {
+    "name": "Part 5",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "F9MCGzFpzevFHk6_4_0",
+    "ordinal": 6,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": "HG-00345",
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JmD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5399ce0b1435f2c52cd0bc34d55f9cf53d8a4e07/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5399ce0b1435f2c52cd0bc34d55f9cf53d8a4e07/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5399ce0b1435f2c52cd0bc34d55f9cf53d8a4e07/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5399ce0b1435f2c52cd0bc34d55f9cf53d8a4e07/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "5399ce0b1435f2c52cd0bc34d55f9cf53d8a4e07",
+      "href": "https://cad.onshape.com/api/thumbnails/5399ce0b1435f2c52cd0bc34d55f9cf53d8a4e07?t=1765284884605"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"&1bf$eJx1kFtzgjAQhf9M+toRiqiPMYTLyEUTaosvTCCpZlCgELT46wsy05eOj7v77dlz9mU9B7tONH0wp5oOuGzZJZPHjilZlRZTDGqB/n8S97Wg2huIiOd4IfRTC29xaOEQJXQFqkYeZcnOLTTQbBBmQJRKqn7cWjOA/wpqAGw5mGbgJFtVNVNzCRDBMPaicBhUtWgeJz2+1oHHoUY17dUEtsoq91bulsHehLN7atxkI6J6uP49xnkIcUA3OEZuisPYixMqQFsIlZ8mAx6nOTjbb8fui0PHR/3olRhkTkyyIEvCSEZyMkIb2C8S8l6f6V5/CvnULA65H+UBkk+hYnu4EPfGP68MEwOZwwPWkZVMHMqmcCtgrwLk3O36Lq62W5ipUdX4RzUdFyQbvkk/8DZOx8Vfq+yRjw==\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "2700",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "Aluminum",
+      "displayName": "Aluminum",
+      "libraryName": "Onshape Material Library",
+      "libraryReference": {
+        "versionId": "e5f4d4179f72bd4f4b3dd9dd",
+        "elementId": "6bbab304a1f64e7d640a2d7d",
+        "documentId": "2718281828459eacfeeda11f",
+        "elementMicroversionId": "b56c88b327e82f2e2f9e1019"
+      }
+    },
+    "partIdentity": "3e395381b7f80446cf0a421b",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 196,
+        "green": 226,
+        "blue": 243
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60f": 3,
+      "57f3fb8efa3416c06701d60d": 0,
+      "57f3fb8efa3416c06701d615": 3
+    }
+  },
+  {
+    "name": "Part 6",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FB3TNm0gOlhhzpm_5_0",
+    "ordinal": 7,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JpD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f4245ee0e738ba35fca61f3bb512e28873355aa/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f4245ee0e738ba35fca61f3bb512e28873355aa/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f4245ee0e738ba35fca61f3bb512e28873355aa/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/7f4245ee0e738ba35fca61f3bb512e28873355aa/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "7f4245ee0e738ba35fca61f3bb512e28873355aa",
+      "href": "https://cad.onshape.com/api/thumbnails/7f4245ee0e738ba35fca61f3bb512e28873355aa?t=1765284885122"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.6$Fk0c05QkcvmFprM_5wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc$kKTCeWxAqZJkR4C6S4$BODYR6R7R8CbA1S11.9$FB3TNm0gOlhhzpm_5opExtrudeRbSa$SWEPT_BODY\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "2810",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "WqDmU69plujx1HZq",
+      "displayName": "Aluminum - 7075",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "d6228e78770dbeac5ee8f71d",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "6eac7184e9172e9c80aca876"
+      }
+    },
+    "partIdentity": "98612e9ad9991413985ea1ef",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 248,
+        "green": 135,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    }
+  },
+  {
+    "name": "Part 7",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FB3TNm0gOlhhzpm_5_1",
+    "ordinal": 8,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JpH",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b3248f53d3bbaa0b18fd24a5af06dbf997321705/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b3248f53d3bbaa0b18fd24a5af06dbf997321705/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b3248f53d3bbaa0b18fd24a5af06dbf997321705/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/b3248f53d3bbaa0b18fd24a5af06dbf997321705/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "b3248f53d3bbaa0b18fd24a5af06dbf997321705",
+      "href": "https://cad.onshape.com/api/thumbnails/b3248f53d3bbaa0b18fd24a5af06dbf997321705?t=1765284884348"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.6$Fk0c05QkcvmFprM_5wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc$aikzTDCZnqkJR4C6S4$BODYR6R7R8CbA1S11.9$FB3TNm0gOlhhzpm_5opExtrudeRbSa$SWEPT_BODY\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "1356",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "xYvYt6u9ipxPbLZe",
+      "displayName": "Acetal (Delrin)",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "d6228e78770dbeac5ee8f71d",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "6eac7184e9172e9c80aca876"
+      }
+    },
+    "partIdentity": "68133fe762b02e14737c7020",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 127,
+        "green": 127,
+        "blue": 127
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    }
+  },
+  {
+    "name": "Part 8",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FholIB54iceGWU2_5_0",
+    "ordinal": 9,
+    "referencingConfiguredPartNodeIds": [
+      "3qtHBaBg1wLAEvgv"
+    ],
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "JtD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5e6f3f22fea1d4e401011b7460a8fa826cc045fd/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5e6f3f22fea1d4e401011b7460a8fa826cc045fd/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5e6f3f22fea1d4e401011b7460a8fa826cc045fd/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/5e6f3f22fea1d4e401011b7460a8fa826cc045fd/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "5e6f3f22fea1d4e401011b7460a8fa826cc045fd",
+      "href": "https://cad.onshape.com/api/thumbnails/5e6f3f22fea1d4e401011b7460a8fa826cc045fd?t=1765284884993"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"&1bb$eJx9UMluwjAQ/ZnpsagJMcsxi0ktIAE7FeIU2bFLrAIOiaOWv69DpF4qcZx5M297iRDse9Xet4h5Pkjd8YvQp55bba4Jtzz0tv5/pLg3inlTyClJSRZuygTvcJbgLD6yJZhWn/SVn7swiN8cMQd1tdreh6+IA/4bWAA4STETUOvOmnZcLiCmOCxInjnANKp9SBIZ+UBk6DHPm8xgJfPNbSn1Zi8M06pE37pVeePUb0OcB5EEtsZF/F7irCDFkSnovpSt6tEAkaxyRB2p5x1ap/2aXYSx1lwGzzSgiM7onC4op4JWVLJXz59MwZrmCR7AWX3aJwcIXDe1pUE8c+GjPDmOR7EYgy1hVZsziVCgK5UePvwSmQb/2LaXigrXJDvgXVEOj780eY8K\",id);",
+    "material": {
+      "properties": [
+        {
+          "name": "DENS",
+          "value": "2700",
+          "type": "REAL",
+          "displayName": "Density",
+          "units": "kg/m^3",
+          "category": "Physical",
+          "description": "Density"
+        }
+      ],
+      "id": "GQ4ttagzvMZlEi1S",
+      "displayName": "Aluminium - 6063",
+      "libraryName": "Common SFX Materials",
+      "libraryReference": {
+        "versionId": "d6228e78770dbeac5ee8f71d",
+        "elementId": "2335880ba0008e0ed01e8a07",
+        "documentId": "81e33fccf396569c09b88d8f",
+        "elementMicroversionId": "6eac7184e9172e9c80aca876"
+      }
+    },
+    "partIdentity": "b96346b35c0cc26df9721963",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 248,
+        "green": 135,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d615": 3,
+      "57f3fb8efa3416c06701d60d": 0
+    }
+  },
+  {
+    "name": "Sphere",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FUvf6i9bnGkWlLE_7_0",
+    "ordinal": 10,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "J2D",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/93920bb9ce934dd3281e26a8ce9f128d7623f1f0/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/93920bb9ce934dd3281e26a8ce9f128d7623f1f0/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/93920bb9ce934dd3281e26a8ce9f128d7623f1f0/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/93920bb9ce934dd3281e26a8ce9f128d7623f1f0/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "93920bb9ce934dd3281e26a8ce9f128d7623f1f0",
+      "href": "https://cad.onshape.com/api/thumbnails/93920bb9ce934dd3281e26a8ce9f128d7623f1f0?t=1765284884476"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA2C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.6$FToZX5kGvXZTH0R_7wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc$GhaWEqBpjnaJC0M5R4R5R6R7R8RaRbRcRdSc$ziMSi9dzpI13R4C6S4$BODYR6R7R8CbA1S11.9$FUvf6i9bnGkWlLE_7opRevolveRbSa$SWEPT_BODY\",id);",
+    "partIdentity": "b3a52d604dbfc3e583547275",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 250,
+        "green": 182,
+        "blue": 1
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 3
+    }
+  },
+  {
+    "name": "Cone",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FaS7rLvMYOvJDNd_8_0",
+    "ordinal": 11,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "J3D",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/17a10d991d4650798ac654b68b452d824d31ddfb/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/17a10d991d4650798ac654b68b452d824d31ddfb/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/17a10d991d4650798ac654b68b452d824d31ddfb/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/17a10d991d4650798ac654b68b452d824d31ddfb/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "17a10d991d4650798ac654b68b452d824d31ddfb",
+      "href": "https://cad.onshape.com/api/thumbnails/17a10d991d4650798ac654b68b452d824d31ddfb?t=1765284883845"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA3C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.6$FToZX5kGvXZTH0R_7wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc$Z3JC8xNvR35PC0M5R4R5R6R7R8RaRbRcRdSc$YJEv9ymErd5JC0M5R4R5R6R7R8RaRbRcRdSc$IwrEPGRVB7czR4C6S4$BODYR6R7R8CbA1S11.9$FaS7rLvMYOvJDNd_8opRevolveRbSa$SWEPT_BODY\",id);",
+    "partIdentity": "394e471a063e1f86a135a038",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 3
+    }
+  },
+  {
+    "name": "Spline",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "F1vioxNw1xoRkF9_9_0",
+    "ordinal": 12,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "J4D",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/827b2e322f7d5909a970bf9d4de301da9bd0e573/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/827b2e322f7d5909a970bf9d4de301da9bd0e573/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/827b2e322f7d5909a970bf9d4de301da9bd0e573/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/827b2e322f7d5909a970bf9d4de301da9bd0e573/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "827b2e322f7d5909a970bf9d4de301da9bd0e573",
+      "href": "https://cad.onshape.com/api/thumbnails/827b2e322f7d5909a970bf9d4de301da9bd0e573?t=1765284882436"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA3C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.6$FToZX5kGvXZTH0R_7wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc$hC9cfZ2EkmGHC0M5R4R5R6R7R8RaRbRcRdSc$ySW7I37DkQT7C0M5R4R5R6R7R8RaRbRcRdSc$0fGFY4KoR36VR4C6S4$BODYR6R7R8CbA1S11.9$F1vioxNw1xoRkF9_9opRevolveRbSa$SWEPT_BODY\",id);",
+    "partIdentity": "7a403c8c58f9074e663d0224",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 165,
+        "green": 165,
+        "blue": 165
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 3
+    }
+  },
+  {
+    "name": "Part 12",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "FPjgamPSBG0pm3C_10_0",
+    "ordinal": 13,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "RDBD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/96a97414b47fced09b8f3f6c18f6f95d4c739f24/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/96a97414b47fced09b8f3f6c18f6f95d4c739f24/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/96a97414b47fced09b8f3f6c18f6f95d4c739f24/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/96a97414b47fced09b8f3f6c18f6f95d4c739f24/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "96a97414b47fced09b8f3f6c18f6f95d4c739f24",
+      "href": "https://cad.onshape.com/api/thumbnails/96a97414b47fced09b8f3f6c18f6f95d4c739f24?t=1765284883454"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "customProperties": {
+      "5f40b4801b7a3c14ed01c59b": "false"
+    },
+    "partQuery": "query=qCompressed(1.0,\"&1e7$eJxlkFtvgjAYhv/Mt5slIxZk6CWU4poNdC3GeGUqbbRTgRWc+u9XYFnMdtXD1+c99CHy4f2szC31+RakMvpLycRUJzxKfTYKUbdy5ILUjTht9e4sWl2VsWhFiFL3/yS/1YojD+aMzmgWvm1isiBZTDK85lOojN7pUhybH2EBqmx1e+uoSAD5PfAxkHhGbKa9btrKDJcTwIyEOZ1ndlDVyvSWVEYuUBkim8Z5hmRxKeUSZyt/QvhSbNDooo2a19b+s2vaK0ngryTHLxuS5TRfcwXNQbXFfkhAJS8cD2hzTZPxQdbeeNtWNfNxYHMlISYsYBM2xcXgGThT6/qxE6cFj2aj+uRh66qurTlLVdVk2LDC1uUrssg3vcSgFs3j9Z3aEwqcrYMcFy7ieMz3ujio8tGL7+Ce8BkSf7ApFFV9W1mssa8L4MuI227L7ru+AU8snK0=\",id);",
+    "partIdentity": "309d343622e33276d0fc6f35",
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "5f40b4801b7a3c14ed01c59b": 3
+    }
+  },
+  {
+    "name": "Bend line 2",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "defaultColorHash": "",
+    "ordinal": 14,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "RIBD",
+    "bodyType": "wire",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "70x40",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/11fc45367cb63c764a22cad12790007422ddfe64/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/11fc45367cb63c764a22cad12790007422ddfe64/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/11fc45367cb63c764a22cad12790007422ddfe64/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "600x340",
+          "sheetName": null,
+          "href": "https://cad.onshape.com/api/thumbnails/11fc45367cb63c764a22cad12790007422ddfe64/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": null,
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "11fc45367cb63c764a22cad12790007422ddfe64",
+      "href": "https://cad.onshape.com/api/thumbnails/11fc45367cb63c764a22cad12790007422ddfe64?t=1765354710781"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "partQuery": "query=qCompressed(1.0,\"%B5$QueryM5Sb$derivedFromA1C0M5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS6$VERTEXSb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S12.6$FPwndUCNW58ESUa_10wireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdSc.3.5$IsxMF4kdp34btopstartR5C7S4$EDGER7R8R9CcA1S12.7.9$FPjgamPSBG0pm3C_10extrudeopExtrudeRcSa$SWEPT_EDGER5C7S4$BODYR7R8R9CcA1S-18.c$centerLineOpRcSc$DERIVED_BODY\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": false,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 157,
+        "green": 207,
+        "blue": 237
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0
+    }
+  },
+  {
+    "name": "Part 12",
+    "state": "IN_PROGRESS",
+    "metadataMicroversion": "6a0c6a57f04a134e2e6ff9b9",
+    "unflattenedPartId": "RDBD",
+    "defaultColorHash": "FPjgamPSBG0pm3C_10_0",
+    "ordinal": 15,
+    "isMesh": false,
+    "description": null,
+    "revision": null,
+    "partNumber": null,
+    "elementId": "220b5d1c0c6d1c7e82258320",
+    "partId": "RJBD",
+    "bodyType": "solid",
+    "thumbnailInfo": {
+      "sizes": [
+        {
+          "size": "600x340",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/0f28044b891fcf2836353f782c4518b0984a8ead/s/600x340",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x170",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/0f28044b891fcf2836353f782c4518b0984a8ead/s/300x170",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "70x40",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/0f28044b891fcf2836353f782c4518b0984a8ead/s/70x40",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        },
+        {
+          "size": "300x300",
+          "sheetName": "",
+          "href": "https://cad.onshape.com/api/thumbnails/0f28044b891fcf2836353f782c4518b0984a8ead/s/300x300",
+          "mediaType": "image/png",
+          "uniqueId": "",
+          "viewOrientation": "",
+          "renderMode": ""
+        }
+      ],
+      "secondarySizes": [],
+      "id": "0f28044b891fcf2836353f782c4518b0984a8ead",
+      "href": "https://cad.onshape.com/api/thumbnails/0f28044b891fcf2836353f782c4518b0984a8ead?t=1765284883198"
+    },
+    "microversionId": "0a210029ff7f0c1865bf2729",
+    "customProperties": {
+      "5f40b4801b7a3c14ed01c59b": "false"
+    },
+    "partQuery": "query=qCompressed(1.0,\"&220$eJxlkFFvgjAUhf/M3cuSESq64SOU4prNwlqM8YkU2minAgOc89+vglmW7e323p7znXvvwhm8nXR7WU7EHD6uVXZpdDgfu9daoBnghHMi0oRFlC1yyvL4NciED92pGDTYXc5EAUq35lOruK2P1w73AjRM0ASU6eSxMNuT7E1dRbKXAbLMf5OR6EHC6YKy4DWPSEpYRBje2IB1a7amkofuZixBV73px8wSyM9DTIFEC2Iz7UzX17dNfMCcBBlNmB3UjW4HJFXhBKgKkE3jPEKcniu1wmw984lYyRy5Z9PqpOGuUCBeSIafc8Iymm2Ehm6v+3I3cqkSpeMB7b6W8XSvGm9a9HXDfVzYNHGACZe84CVG7oh6cuYW9r6Vx1SEC7c5etjC9FffnpSuGzIWFitBrEma5YPHaBcm0ea33QOSTuEgZwJneThkO1PudXXvRb/Ug8TnqPyrm0NZN5e11XX2ewliFQq73up6p28Dzq9w\",id);",
+    "partIdentity": null,
+    "meshState": "NO_MESH",
+    "isHidden": false,
+    "configurationId": "QYJAAAA=",
+    "isFlattenedBody": true,
+    "thumbnailConfigurationId": "config_default",
+    "appearance": {
+      "color": {
+        "red": 59,
+        "green": 97,
+        "blue": 180
+      },
+      "isGenerated": true,
+      "opacity": 255
+    },
+    "propertySourceTypes": {
+      "57f3fb8efa3416c06701d60d": 0,
+      "5f40b4801b7a3c14ed01c59b": 3
+    }
+  }
+]

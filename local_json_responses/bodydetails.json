@@ -1,0 +1,74 @@
+{
+  "bodies": [
+    {
+      "bodyId": "RBBT",
+      "partId": "RBBT",
+      "type": "SOLID",
+      "surfaceArea": 0.00123,
+      "volume": 0.00045,
+      "centroid": [0.10, -0.84, 0.07],
+      "boundingBox": {
+        "minCorner": [-0.90, -1.01, 0.02],
+        "maxCorner": [-0.79, -0.79, 0.11]
+      },
+      "sheetMetal": null
+    },
+    {
+      "bodyId": "JWD",
+      "partId": "JWD",
+      "type": "SOLID",
+      "surfaceArea": 0.00119,
+      "volume": 0.00040,
+      "centroid": [-0.28, -0.59, -0.24],
+      "boundingBox": {
+        "minCorner": [-0.28, -0.59, -0.36],
+        "maxCorner": [-0.24, -0.54, -0.24]
+      },
+      "sheetMetal": null
+    },
+    {
+      "bodyId": "RPDD",
+      "partId": "RPDD",
+      "type": "SHEETMETAL",
+      "surfaceArea": 0.00350,
+      "volume": 0.00021,
+      "centroid": [0.05, 0.03, 0.00],
+      "boundingBox": {
+        "minCorner": [0.00, 0.00, 0.00],
+        "maxCorner": [0.20, 0.15, 0.003]
+      },
+      "sheetMetal": {
+        "thickness": 0.003,
+        "bendCount": 4
+      }
+    },
+    {
+      "bodyId": "RMDD",
+      "partId": "RMDD",
+      "type": "COMPOSITE",
+      "surfaceArea": 0.01000,
+      "volume": 0.00500,
+      "centroid": [0.00, 0.00, 0.00],
+      "boundingBox": {
+        "minCorner": [-0.30, -0.60, -0.36],
+        "maxCorner": [0.30, 0.60, 0.36]
+      },
+      "sheetMetal": null,
+      "constituentBodyIds": ["JVD", "JVL", "JWD", "RPDD"]
+    },
+    {
+      "bodyId": "RLDD",
+      "partId": "RLDD",
+      "type": "COMPOSITE",
+      "surfaceArea": 0.00800,
+      "volume": 0.00400,
+      "centroid": [0.00, 0.40, 0.00],
+      "boundingBox": {
+        "minCorner": [-0.25, 0.30, -0.01],
+        "maxCorner": [0.25, 0.50, 0.01]
+      },
+      "sheetMetal": null,
+      "constituentBodyIds": ["RBCD", "RFCD", "RJCD", "RNCD", "RkCD", "RrCD", "RyCD", "R5CD", "R9CD", "RBDD", "RFDD", "RJDD"]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: vulcanconnect-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app.main:app --timeout 120 --workers 2    
+    disk:
+      name: local_json
+      mountPath: /opt/render/local_json

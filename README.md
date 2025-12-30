@@ -1,3 +1,18 @@
-This is what was working locall from USB drive.
+Production-ready OnshapeApp skeleton.
+Regenerate modules individually.
 
-Now moving to web host
+# Onshape Configuration Web App
+
+Python backend (Flask) running on cPanel, fronted by WordPress + Elementor.
+
+- Paste an Onshape URL in Elementor.
+- Backend fetches configuration definition.
+- Frontend renders enum/boolean/quantity controls.
+- Backend can encode configurations, export STEP, ZIP bundles, and fetch BOMs.
+
+
+Manually set up by me, not the codex generated version
+Development / Production switch for JSON data
+
+
+

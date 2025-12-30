@@ -1,0 +1,964 @@
+[
+ {
+   "Category": "Ceramic",
+   "Name": "Concrete",
+   "Density [kg": {
+      "m^3]": 2300
+   },
+   "Poisson's Ratio": 0.2,
+   "Young's Modulus [Pa]": 30000000000,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 87000000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Composite",
+   "Name": "Carbon fiber epoxy (61%)",
+   "Density [kg": {
+      "m^3]": 1600
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Composite",
+   "Name": "Foamcore",
+   "Density [kg": {
+      "m^3]": 663
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Composite",
+   "Name": "FR-4",
+   "Density [kg": {
+      "m^3]": 1850
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Composite",
+   "Name": "Glass-filled epoxy (35%)",
+   "Density [kg": {
+      "m^3]": 1900
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Composite",
+   "Name": "Glass-filled nylon (35%)",
+   "Density [kg": {
+      "m^3]": 1600
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Composite",
+   "Name": "Glass-filled polyester (35%)",
+   "Density [kg": {
+      "m^3]": 2000
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Composite",
+   "Name": "Kevlar epoxy (53%)",
+   "Density [kg": {
+      "m^3]": 1350
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Glass",
+   "Name": "Glass",
+   "Density [kg": {
+      "m^3]": 2500
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 356",
+   "Density [kg": {
+      "m^3]": 2685
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 70300000000,
+   "Tensile Yield Strength [Pa]": 138000000,
+   "Ultimate Tensile Strength [Pa]": 207000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 380",
+   "Density [kg": {
+      "m^3]": 2768
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 71000000000,
+   "Tensile Yield Strength [Pa]": 159000000,
+   "Ultimate Tensile Strength [Pa]": 317000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 1060",
+   "Density [kg": {
+      "m^3]": 2700
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 68900000000,
+   "Tensile Yield Strength [Pa]": 62000000,
+   "Ultimate Tensile Strength [Pa]": 82700000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 1100",
+   "Density [kg": {
+      "m^3]": 2720
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 68900000000,
+   "Tensile Yield Strength [Pa]": 75000000,
+   "Ultimate Tensile Strength [Pa]": 130000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 2024",
+   "Density [kg": {
+      "m^3]": 2780
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 72400000000,
+   "Tensile Yield Strength [Pa]": 435000000,
+   "Ultimate Tensile Strength [Pa]": 407000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 5052",
+   "Density [kg": {
+      "m^3]": 2680
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 70300000000,
+   "Tensile Yield Strength [Pa]": 241000000,
+   "Ultimate Tensile Strength [Pa]": 276000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 6061",
+   "Density [kg": {
+      "m^3]": 2720
+   },
+   "Poisson's Ratio": 0.35,
+   "Young's Modulus [Pa]": 68900000000,
+   "Tensile Yield Strength [Pa]": 241000000,
+   "Ultimate Tensile Strength [Pa]": 290000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 7050",
+   "Density [kg": {
+      "m^3]": 2800
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 71700000000,
+   "Tensile Yield Strength [Pa]": 469000000,
+   "Ultimate Tensile Strength [Pa]": 524000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 7075",
+   "Density [kg": {
+      "m^3]": 2810
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 71700000000,
+   "Tensile Yield Strength [Pa]": 455000000,
+   "Ultimate Tensile Strength [Pa]": 531000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminum - 7178",
+   "Density [kg": {
+      "m^3]": 2830
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 71700000000,
+   "Tensile Yield Strength [Pa]": 538000000,
+   "Ultimate Tensile Strength [Pa]": 607000000,
+   "Compressive Yield Strength [Pa]": 530000000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminium - 6063",
+   "Density [kg": {
+      "m^3]": 2700
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 68900000000,
+   "Tensile Yield Strength [Pa]": 214000000,
+   "Ultimate Tensile Strength [Pa]": 241000000,
+   "Compressive Yield Strength [Pa]": 276000000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Aluminium - 5251",
+   "Density [kg": {
+      "m^3]": 2690
+   },
+   "Poisson's Ratio": 0.33,
+   "Young's Modulus [Pa]": 68900000000,
+   "Tensile Yield Strength [Pa]": 165000000,
+   "Ultimate Tensile Strength [Pa]": 210000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Brass 60/40",
+   "Density [kg": {
+      "m^3]": 8520
+   },
+   "Poisson's Ratio": 0.35,
+   "Young's Modulus [Pa]": 105000000000,
+   "Tensile Yield Strength [Pa]": 140000000,
+   "Ultimate Tensile Strength [Pa]": 360000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Lead",
+   "Density [kg": {
+      "m^3]": 11349
+   },
+   "Poisson's Ratio": 0.42,
+   "Young's Modulus [Pa]": 14000000000,
+   "Tensile Yield Strength [Pa]": 5500000,
+   "Ultimate Tensile Strength [Pa]": 18000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Phosphor bronze",
+   "Density [kg": {
+      "m^3]": 8900
+   },
+   "Poisson's Ratio": 0.34,
+   "Young's Modulus [Pa]": 110000000000,
+   "Tensile Yield Strength [Pa]": 165000000,
+   "Ultimate Tensile Strength [Pa]": 379000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Stainless Steel 304",
+   "Density [kg": {
+      "m^3]": 8030
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 193000000000,
+   "Tensile Yield Strength [Pa]": 207000000,
+   "Ultimate Tensile Strength [Pa]": 517000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Stainless Steel 316",
+   "Density [kg": {
+      "m^3]": 7990
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 193000000000,
+   "Tensile Yield Strength [Pa]": 207000000,
+   "Ultimate Tensile Strength [Pa]": 517000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Stainless Steel 440C",
+   "Density [kg": {
+      "m^3]": 7800
+   },
+   "Poisson's Ratio": 0.283,
+   "Young's Modulus [Pa]": 204000000000,
+   "Tensile Yield Strength [Pa]": 1900000000,
+   "Ultimate Tensile Strength [Pa]": 1970000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Steel Class 8.8",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.3,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 640000000,
+   "Ultimate Tensile Strength [Pa]": 800000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Steel Class 10.9",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.3,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 940000000,
+   "Ultimate Tensile Strength [Pa]": 1040000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Steel Class 12.9",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.3,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 1100000000,
+   "Ultimate Tensile Strength [Pa]": 1220000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Steel 4340",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 192000000000,
+   "Tensile Yield Strength [Pa]": 470000000,
+   "Ultimate Tensile Strength [Pa]": 745000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Steel 1010",
+   "Density [kg": {
+      "m^3]": 7870
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 200000000000,
+   "Tensile Yield Strength [Pa]": 180000000,
+   "Ultimate Tensile Strength [Pa]": 325000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Steel 4130",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 205000000000,
+   "Tensile Yield Strength [Pa]": 435000000,
+   "Ultimate Tensile Strength [Pa]": 670000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "Steel 8620",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 205000000000,
+   "Tensile Yield Strength [Pa]": 393000000,
+   "Ultimate Tensile Strength [Pa]": 669000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "EN8 -080M40",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 200000000000,
+   "Tensile Yield Strength [Pa]": 415000000,
+   "Ultimate Tensile Strength [Pa]": 620000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "EN8D -080A42",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 310000000,
+   "Ultimate Tensile Strength [Pa]": 610000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "CR4",
+   "Density [kg": {
+      "m^3]": 7800
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 200000000000,
+   "Tensile Yield Strength [Pa]": 220000000,
+   "Ultimate Tensile Strength [Pa]": 310000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "C45",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 310000000,
+   "Ultimate Tensile Strength [Pa]": 610000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "EN3B - 070M20",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 215000000,
+   "Ultimate Tensile Strength [Pa]": 430000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "EN19",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 2100000000000,
+   "Tensile Yield Strength [Pa]": 550000000,
+   "Ultimate Tensile Strength [Pa]": 850000000,
+   "Compressive Yield Strength [Pa]": 600000000,
+   "Ultimate Compressive Strength [Pa]": 900000000
+},
+ {
+   "Category": "Metal",
+   "Name": "EN24T -817M40T",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 650000000,
+   "Ultimate Tensile Strength [Pa]": 850000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "EN24Z -817M40Z",
+   "Density [kg": {
+      "m^3]": 7850
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 210000000000,
+   "Tensile Yield Strength [Pa]": 1235000000,
+   "Ultimate Tensile Strength [Pa]": 1550000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "S275JR (1.0044)",
+   "Density [kg": {
+      "m^3]": 7800
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 200000000000,
+   "Tensile Yield Strength [Pa]": 275000000,
+   "Ultimate Tensile Strength [Pa]": 560000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "S235JR (1.0037)",
+   "Density [kg": {
+      "m^3]": 7800
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 200000000000,
+   "Tensile Yield Strength [Pa]": 235000000,
+   "Ultimate Tensile Strength [Pa]": 470000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "S355JR (1.0045)",
+   "Density [kg": {
+      "m^3]": 7800
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 200000000000,
+   "Tensile Yield Strength [Pa]": 355000000,
+   "Ultimate Tensile Strength [Pa]": 630000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Metal",
+   "Name": "E220 (1.0215)",
+   "Density [kg": {
+      "m^3]": 7800
+   },
+   "Poisson's Ratio": 0.29,
+   "Young's Modulus [Pa]": 200000000000,
+   "Tensile Yield Strength [Pa]": 220000000,
+   "Ultimate Tensile Strength [Pa]": 310000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "ABS",
+   "Density [kg": {
+      "m^3]": 1052
+   },
+   "Poisson's Ratio": 0.364,
+   "Young's Modulus [Pa]": 2310000000,
+   "Tensile Yield Strength [Pa]": 44800000,
+   "Ultimate Tensile Strength [Pa]": 40400000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Acetal (Delrin)",
+   "Density [kg": {
+      "m^3]": 1356
+   },
+   "Poisson's Ratio": 0.363,
+   "Young's Modulus [Pa]": 2660000000,
+   "Tensile Yield Strength [Pa]": 59500000,
+   "Ultimate Tensile Strength [Pa]": 57600000,
+   "Compressive Yield Strength [Pa]": 60100000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Acrylic",
+   "Density [kg": {
+      "m^3]": 1163
+   },
+   "Poisson's Ratio": 0.35,
+   "Young's Modulus [Pa]": 2940000000,
+   "Tensile Yield Strength [Pa]": 60500000,
+   "Ultimate Tensile Strength [Pa]": 64900000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "GPPS",
+   "Density [kg": {
+      "m^3]": 1041
+   },
+   "Poisson's Ratio": 0.4,
+   "Young's Modulus [Pa]": 2900000000,
+   "Tensile Yield Strength [Pa]": 32500000,
+   "Ultimate Tensile Strength [Pa]": 44000000,
+   "Compressive Yield Strength [Pa]": 90000000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "HDPE (High-Density Polyethylene)",
+   "Density [kg": {
+      "m^3]": 941
+   },
+   "Poisson's Ratio": 0.46,
+   "Young's Modulus [Pa]": 959000000,
+   "Tensile Yield Strength [Pa]": 25900000,
+   "Ultimate Tensile Strength [Pa]": 26900000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Nylon",
+   "Density [kg": {
+      "m^3]": 1180
+   },
+   "Poisson's Ratio": 0.39,
+   "Young's Modulus [Pa]": 2950000000,
+   "Tensile Yield Strength [Pa]": 71700000,
+   "Ultimate Tensile Strength [Pa]": 75200000,
+   "Compressive Yield Strength [Pa]": 66800000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "PET",
+   "Density [kg": {
+      "m^3]": 1380
+   },
+   "Poisson's Ratio": 0.37,
+   "Young's Modulus [Pa]": 3140000000,
+   "Tensile Yield Strength [Pa]": 61800000,
+   "Ultimate Tensile Strength [Pa]": 44400000,
+   "Compressive Yield Strength [Pa]": 50600000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "PETG",
+   "Density [kg": {
+      "m^3]": 1301
+   },
+   "Poisson's Ratio": 0.4,
+   "Young's Modulus [Pa]": 2590000000,
+   "Tensile Yield Strength [Pa]": 47300000,
+   "Ultimate Tensile Strength [Pa]": 40600000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Phenolic",
+   "Density [kg": {
+      "m^3]": 1600
+   },
+   "Poisson's Ratio": 0.24,
+   "Young's Modulus [Pa]": 7000000000,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 53200000,
+   "Compressive Yield Strength [Pa]": 206000000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Polycarbonate",
+   "Density [kg": {
+      "m^3]": 1190
+   },
+   "Poisson's Ratio": 0.37,
+   "Young's Modulus [Pa]": 2360000000,
+   "Tensile Yield Strength [Pa]": 63300000,
+   "Ultimate Tensile Strength [Pa]": 66200000,
+   "Compressive Yield Strength [Pa]": 65700000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Polyester",
+   "Density [kg": {
+      "m^3]": 1390
+   },
+   "Poisson's Ratio": 0.3,
+   "Young's Modulus [Pa]": 4030000000,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 51800000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Polypropylene",
+   "Density [kg": {
+      "m^3]": 913
+   },
+   "Poisson's Ratio": 0.43,
+   "Young's Modulus [Pa]": 1470000000,
+   "Tensile Yield Strength [Pa]": 32600000,
+   "Ultimate Tensile Strength [Pa]": 74600000,
+   "Compressive Yield Strength [Pa]": 10000000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Polystyrene, High-Impact",
+   "Density [kg": {
+      "m^3]": 1100
+   },
+   "Poisson's Ratio": 0.41,
+   "Young's Modulus [Pa]": 1900000000,
+   "Tensile Yield Strength [Pa]": 19300000,
+   "Ultimate Tensile Strength [Pa]": 32000000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Polyurethane",
+   "Density [kg": {
+      "m^3]": 1200
+   },
+   "Poisson's Ratio": 0.41,
+   "Young's Modulus [Pa]": 167000000,
+   "Tensile Yield Strength [Pa]": 12900000,
+   "Ultimate Tensile Strength [Pa]": 23600000,
+   "Compressive Yield Strength [Pa]": 414000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "PTFE",
+   "Density [kg": {
+      "m^3]": 2200
+   },
+   "Poisson's Ratio": 0.46,
+   "Young's Modulus [Pa]": 599000000,
+   "Tensile Yield Strength [Pa]": 131000000,
+   "Ultimate Tensile Strength [Pa]": 25600000,
+   "Compressive Yield Strength [Pa]": 7310000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "PVC",
+   "Density [kg": {
+      "m^3]": 1467
+   },
+   "Poisson's Ratio": 0.4,
+   "Young's Modulus [Pa]": 2800000000,
+   "Tensile Yield Strength [Pa]": 42600000,
+   "Ultimate Tensile Strength [Pa]": 23400000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "Teflon",
+   "Density [kg": {
+      "m^3]": 2159
+   },
+   "Poisson's Ratio": 0.46,
+   "Young's Modulus [Pa]": 599000000,
+   "Tensile Yield Strength [Pa]": 131000000,
+   "Ultimate Tensile Strength [Pa]": 25600000,
+   "Compressive Yield Strength [Pa]": 7310000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "PLA",
+   "Density [kg": {
+      "m^3]": 1250
+   },
+   "Poisson's Ratio": 0.39,
+   "Young's Modulus [Pa]": 2340000000,
+   "Tensile Yield Strength [Pa]": 40000000,
+   "Ultimate Tensile Strength [Pa]": 64500000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "PC/ABS",
+   "Density [kg": {
+      "m^3]": 1100
+   },
+   "Poisson's Ratio": 0.353,
+   "Young's Modulus [Pa]": 2640000000,
+   "Tensile Yield Strength [Pa]": 56400000,
+   "Ultimate Tensile Strength [Pa]": 54700000,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "ABS M30",
+   "Density [kg": {
+      "m^3]": 1040
+   },
+   "Poisson's Ratio": 0.35,
+   "Young's Modulus [Pa]": 2300000000,
+   "Tensile Yield Strength [Pa]": 30000000,
+   "Ultimate Tensile Strength [Pa]": 25000000,
+   "Compressive Yield Strength [Pa]": 90000000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Rubber",
+   "Name": "Neoprene",
+   "Density [kg": {
+      "m^3]": 1384
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Rubber",
+   "Name": "Silicone Rubber",
+   "Density [kg": {
+      "m^3]": 1100
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Wood",
+   "Name": "Balsa",
+   "Density [kg": {
+      "m^3]": 160
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Wood, Composite",
+   "Name": "Medium Density Fiberboard (MDF)",
+   "Density [kg": {
+      "m^3]": 710
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Wood, Composite",
+   "Name": "High Density Fiberboard (HDF)",
+   "Density [kg": {
+      "m^3]": 880
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Plastic",
+   "Name": "UHMWPE",
+   "Density [kg": {
+      "m^3]": 945
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 700000000,
+   "Tensile Yield Strength [Pa]": 21700000,
+   "Ultimate Tensile Strength [Pa]": 57200000,
+   "Compressive Yield Strength [Pa]": 16660000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Pastic",
+   "Name": "Expanded Polystyrene",
+   "Density [kg": {
+      "m^3]": 40
+   },
+   "Poisson's Ratio": 0.085,
+   "Young's Modulus [Pa]": 484000000,
+   "Tensile Yield Strength [Pa]": 48000,
+   "Ultimate Tensile Strength [Pa]": 450000,
+   "Compressive Yield Strength [Pa]": 468000,
+   "Ultimate Compressive Strength [Pa]": 0
+},
+ {
+   "Category": "Wood",
+   "Name": "Plywood",
+   "Density [kg": {
+      "m^3]": 700
+   },
+   "Poisson's Ratio": 0,
+   "Young's Modulus [Pa]": 0,
+   "Tensile Yield Strength [Pa]": 0,
+   "Ultimate Tensile Strength [Pa]": 0,
+   "Compressive Yield Strength [Pa]": 0,
+   "Ultimate Compressive Strength [Pa]": 0
+}
+]

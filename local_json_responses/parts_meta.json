@@ -1,0 +1,65 @@
+[
+  {
+    "partId": "RBBT",
+    "name": "Part 8",
+    "isSheetMetal": false,
+    "flattenedBodyId": null,
+    "unflattenedPartId": null,
+    "compositePartId": null,
+    "hasCutList": false
+  },
+  {
+    "partId": "JWD",
+    "name": "Part 5",
+    "isSheetMetal": false,
+    "flattenedBodyId": null,
+    "unflattenedPartId": null,
+    "compositePartId": null,
+    "hasCutList": false
+  },
+  {
+    "partId": "RMDD",
+    "name": "Composite part 2",
+    "isSheetMetal": false,
+    "flattenedBodyId": null,
+    "unflattenedPartId": null,
+    "compositePartId": "RLDD",
+    "hasCutList": true
+  },
+  {
+    "partId": "RLDD",
+    "name": "Composite part 1",
+    "isSheetMetal": false,
+    "flattenedBodyId": null,
+    "unflattenedPartId": null,
+    "compositePartId": null,
+    "hasCutList": true
+  },
+  {
+    "partId": "RPDD",
+    "name": "Sheet metal flat",
+    "isSheetMetal": true,
+    "flattenedBodyId": null,
+    "unflattenedPartId": "RBBT",
+    "compositePartId": null,
+    "hasCutList": false
+  },
+  {
+    "partId": "JVD",
+    "name": "Component JVD",
+    "isSheetMetal": false,
+    "flattenedBodyId": null,
+    "unflattenedPartId": null,
+    "compositePartId": "RMDD",
+    "hasCutList": false
+  },
+  {
+    "partId": "JVL",
+    "name": "Component JVL",
+    "isSheetMetal": false,
+    "flattenedBodyId": null,
+    "unflattenedPartId": null,
+    "compositePartId": "RMDD",
+    "hasCutList": false
+  }
+]

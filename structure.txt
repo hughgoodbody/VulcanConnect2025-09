@@ -1,0 +1,54 @@
+OnshapeApp/
+│
+├── passenger_wsgi.py
+├── requirements.txt
+├── runtime.txt
+├── README.md
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   │
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── feature_namespaces.py
+│   │
+│   ├── onshape/
+│   │   ├── __init__.py
+│   │   ├── onshape_api.py     # your original Onshape class goes here
+│   │   ├── parser.py
+│   │
+│   ├── handlers/
+│   │   ├── __init__.py
+│   │   ├── config_handler.py
+│   │   ├── encoding_handler.py
+│   │   ├── bom_handler.py
+│   │   ├── export_handler.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── configuration_service.py
+│   │   ├── encoding_service.py
+│   │   ├── geometry_service.py
+│   │   ├── step_export_service.py
+│   │   ├── zip_export_service.py
+│   │   ├── bom_service.py
+│   │
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── validators.py
+│   │   ├── logging.py
+│   │   ├── file_ops.py
+│   │
+│   ├── public_api/
+│       ├── __init__.py
+│       ├── config_routes.py
+│       ├── export_routes.py
+│       ├── bom_routes.py
+│
+└── static/
+    ├── js/
+    │   ├── config-widget.js
+    │   ├── export-widget.js
+    └── (you can add CSS etc later)
