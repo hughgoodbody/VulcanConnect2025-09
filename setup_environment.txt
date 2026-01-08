@@ -16,3 +16,20 @@ C:\Users\Hugh\Python_venvs\laptop_onshape_venv\Scripts\Activate.ps1
 
 #Paste this to enable the venv on WORKSTATION1
 C:\Users\Hugh\Python_venvs\workstation1_venv\Scripts\Activate.ps1
+
+
+#----------------------------------------------------------------
+#----------------------------------------------------------------
+#HOW TO USE VIRTUAL ENVIRONMENTS
+#----------------------------------------------------------------
+#----------------------------------------------------------------
+
+#Create virtual environment - do once
+python -m venv NAME_OF_VIRTUAL_ENVIRONMENT
+NAME_OF_VIRTUAL_ENVIRONMENT\Scripts\activate
+
+#Paste this to enable the venv
+C:\Users\Hugh\Python_venvs\NAME_OF_VIRTUAL_ENVIRONMENT\Scripts\Activate.ps1
+
+#Install requirements packages
+pip install -r requirements.txt
